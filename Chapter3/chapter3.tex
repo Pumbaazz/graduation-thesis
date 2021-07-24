@@ -1,0 +1,123 @@
+\chapter{Thu Thập Dữ Liệu - Scraping Data}
+\label{Chapter3}
+
+\section{Quy trình thực hiện Scraping Data}
+Ở chương này, vấn đề cần phân tích là công việc đầu tiên cần phải làm trước tiên để bắt đầu cho các công việc sau này. Việc thu thập dữ liệu(\textbf{Scraping data})\cite{Scraping} là bước đầu tiên trong mô hình của hệ thống.
+
+Dưới đây mà mô hình hoạt động của công việc Scarping data:
+\begin{figure*}[htp]
+	\centering
+	\includegraphics[scale=0.5]{images/scraping_schema}
+	\caption{Sơ đồ hoạt động của Scraping data từ website}
+	\label{fig:scraping_data_1}
+\end{figure*}
+\pagebreak
+
+Qua các bước trong sơ đồ, ta thấy được rằng việc thu thập dữ liệu này là một vòng lặp hoạt động bóc tách các văn bản có trong một file HTML, cụ thể là:
+
+\begin{itemize}
+	\item File HTML chứa danh sách câu hỏi, mô tả của câu hỏi, thời gian trả lời câu hỏi
+	\item File HTML chứa thông tin câu hỏi, mô tả câu hỏi, câu trả lời cho câu hỏi
+\end{itemize}
+\hfill
+
+Qua tìm kiếm và lựa chọn thì nhóm quyết định sẽ tiến hành Scraping data ở website cung cấp dịch vụ hỏi đáp, cung cấp thông tin về pháp luật là \textbf{Thư viện Pháp Luật}\cite{ThuVien} để tiến hành lấy dữ liệu về câu hỏi và trả lời làm bộ dữ liệu chính cho đồ án.
+
+\section{Chi tiết về dữ liệu}
+
+Sau khi thống nhất về dữ liệu tiến hành thu thập, nhóm đưa ra bảng kiểu dữ liệu sau:
+
+\begin{table*}[htp]
+	\centering
+	\label{tab:data-type-table}
+	\begin{tabular}{|l|l|}
+		\hline
+		Tên thuộc tính & Kiểu dữ liệu \\ \hline
+		Question       & text         \\ \hline
+		Answer         & text         \\ \hline
+		Date-asked     & text         \\ \hline
+	\end{tabular}
+	\caption{Bảng kiểu dữ liệu thu thập}
+\end{table*}
+	
+Tiếp đến ta cần phải phân tích file HTML chứa danh sách các câu hỏi, việc cần làm là tìm ra được các Title của các câu hỏi ở đâu và URL dẫn đến trang chứa thông tin câu trả lời. Ở đây, nhóm đã tìm ra được thông tin chứa câu hỏi cũng như câu trả lời nằm ở trong các tag HTML là:
+\begin{itemize}
+	\item Câu hỏi : class 'tieu-de'
+	\item Ngày hỏi câu hỏi: span 'ngayhoi'
+	\item Câu trả lời: div 'cautraloi'
+\end{itemize}
+
+\begin{figure*}[htp]
+	\centering
+	\includegraphics*[scale=0.3]{images/hoidapphapluat}
+	\caption{Giao diện trang web Hỏi đáp pháp luật}
+	\label{fig:hoidapphapluat}
+\end{figure*}
+
+Qua giao diện của website thì các câu hỏi sẽ hiển thị ở dạng danh sách các câu hỏi, chia thành rất nhiều trang.
+
+Để có thể lấy được data từ các câu hỏi khác nhau, ta cần phải lấy được thông tin của một thành phần nữa đó là URL của câu hỏi. Và URL này cũng được lấy bằng cách bóc tách dữ liệu từ file HTML của một trang. Sau khi có được Soup của 1 trang danh sách câu hỏi, ta cần tìm trong Soup đấy thông tin của \textit{\textbf{parent-item}} block, vì từ trong các block này sẽ chứ thông tin câu hỏi được hỏi và chứ cả URL dẫn tới trang chứa câu trả lời cho câu hỏi này.
+
+\begin{figure*}[htp]
+	\centering
+	\includegraphics[scale=0.7]{images/parent_item}
+	\caption{Một block parent-item}
+	\label{fig:block-parent-item}
+\end{figure*}
+
+Khi mở mã nguồn của trang và tìm tới đoạn của các parent-item thì ta sẽ thấy được thông tin của URL dẫn đến từng trang riêng biệt chứ thông tin của từng câu hỏi và câu trả lời như sau:
+\pagebreak
+
+\begin{figure*}[htp]
+	\centering
+	\includegraphics[scale=0.8]{images/detail_parent_item}
+	\caption{Chi tiết bên trong mã nguồn parent-item}
+	\label{fig:detail-parent-item}
+\end{figure*}
+
+Vậy nên, để lấy được thông tin của các URL của từng câu hỏi thì ta tiến hành tìm các \textbf{\textit{href}} trong class \textbf{\textit{tieu-de}}
+\begin{lstlisting}[language=python]
+	parent_element=soup.find_all('div', class_='parent-item')
+	for element in parent_element:
+	link = 'https://hoidap.thuvienphapluat.vn' + str(element.a['href'])
+\end{lstlisting}
+
+Sau khi có được URL của từng câu hỏi rồi, chúng ta sẽ tiếp tục việc lấy dữ liệu của câu hỏi, câu trả lời, ngày hỏi của từng câu hỏi qua các thẻ tag tieu-de, ngayhoi, cautraloi trong từng URL đã lấy được ở trên. Sau đây là đoạn mã nguồn lấy thông tin của các thành phân trên.
+\begin{lstlisting}[language=Python]
+	if(get_page2.status_code == 200):
+		title = element.find('a', class_='tieu-de').h4.text
+		soup2 = BeautifulSoup(get_page2.text, 'lxml')
+		div_answer = soup2.find_all('div', class_='cautraloi')
+		div_date_asked = element.find('span', class_='ngayhoi')
+\end{lstlisting}
+
+Sau khi kiểm tra URL có sẵn sàng hay không bằng cách kiểm tra status\_code của respond từ server website, nếu bằng 200 thì thực hiện các bước tiếp theo là tìm các thẻ tag câu hỏi, câu trả lời và ngày hỏi trong file HTML.
+
+Sau đấy thì cần lưu lại từng cặp câu hỏi và câu trả lời vào trong file CSV. Lý do nhóm chọn sử dụng file CSV là để lưu xuống file những đoạn text data rất nhanh, định dạng cấu trúc file dễ dàng hơn so với file JSON.
+
+Vì các bước công việc trên là để thực hiện lấy toàn bộ text data từ 1 trang của 1 câu hỏi, vậy nên để 
+
+Sau đấy từ file CSV convert sang file cấu trúc JSON để có thể thuận tiện hơn trong việc gửi lại dữ liệu lên website.
+
+\begin{lstlisting}[language=python]
+ with open('/home/lan1', mode='a', newline='', encoding='utf-8') as f:
+	f = csv.DictWriter(f, fieldnames=csv_columns)
+	f.writerow({'Question': title,
+		'Answer': p_ans.text,
+		'Date-asked':div_date_asked.text})
+\end{lstlisting}
+
+Vì các công việc trên là chỉ có lấy thông tin của 1 trang, vậy nên ta cần phải lặp lại các thao táo trên cho hết tất cả các trang có chứa thông tin cần lấy, ở đây nhóm đã lọc ra được có tất cả 12383 trang có chứa đầy đủ các thông tin mà chúng ta cần thu thập, vậy nên cần phải lặp lại 12383 lần để thu thập đầy đủ thông tin.
+\begin{lstlisting}[language=python]
+	for page_number in range(1, 12384):
+	URL = 'https://hoidap.thuvienphapluat.vn/tim-theo-tu-van.html?page=' + str(page_number)
+	try:
+		get_page = requests.get(URL, timeout=30)
+		soup=BeautifulSoup(get_page.text, 'lxml')
+\end{lstlisting}
+\section{Kết quả}
+Sau khi thực hiện xong việc Scraping data, kết quả thu được là \textbf{232321} cặp câu hỏi và câu trả lời, có ngày tháng được hỏi ở hai định dạng dữ liệu là CSV và JSON.
+
+Dữ liệu ban đầu thu thập về là ở định dạng file CSV nhưng vì lý do cần phải xử lý định dạng lại cấu trúc hiển thị dữ liệu trên website nên nhóm đã chuyển đổi định dạng của file CSV sang file JSON. 
+
+Qua đó, nhóm đã giải quyết xong được bài toán đầu tiên cần phải giải quyết trong các bàn toán nhỏ cần phải giải để có hoàn thành được hệ thống.

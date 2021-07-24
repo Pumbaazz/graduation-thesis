@@ -1,0 +1,81 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Lời cảm ơn}{1}{Doc-Start}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Nhận xét của giáo viên hướng dẫn}{1}{chapter*.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Nhận xét của giáo viên phản biện}{1}{chapter*.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Đề cương chi tiết}{1}{chapter*.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Mục lục}{1}{chapter*.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}MỞ ĐẦU}{1}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Giới thiệu chung}{1}{section.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Mục tiêu đề tài}{2}{section.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Nội dung của đồ án}{3}{section.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}KHẢO SÁT HIỆN TRẠNG}{4}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Công Nghệ Sử Dụng}{4}{section.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}Thư viện BeautifulSoup}{4}{subsection.2.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.2}Phân tách từ bằng Python Vietnamese Toolkit}{5}{subsection.2.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.3}Mô hình Transformer}{7}{subsection.2.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.4}Mô hình BERT}{9}{subsection.2.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.5}Sentence-transformer}{10}{subsection.2.1.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.6}Mô hình PhoBERT}{11}{subsection.2.1.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.7}Pre-trained model SimCSE}{12}{subsection.2.1.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.8}Elastic Search}{12}{subsection.2.1.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.9}Web Framework: Flask Framework}{14}{subsection.2.1.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Bài Toán Liên Quan}{16}{section.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Mô Tả Hệ Thống}{17}{section.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Thu Thập Dữ Liệu - Scraping Data}{19}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Quy trình thực hiện Scraping Data}{19}{section.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Chi tiết về dữ liệu}{20}{section.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Kết quả}{23}{section.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Kiến trúc phần Back-end}{24}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Xử lý dữ liệu thu thập}{24}{section.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}Phân loại từ trong câu hỏi}{25}{subsection.4.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.2}Mã hoá dữ liệu từ dataset}{26}{subsection.4.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.3}Lưu dữ liệu đã mã hoá vào Elastic Search}{30}{subsection.4.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.4}Kết quả}{32}{subsection.4.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Xử lý câu hỏi từ người dùng}{33}{section.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}Tính toán mức độ tương đồng ngữ nghĩa giữa các câu}{34}{subsection.4.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.2}Trả về kết quả sau khi so sánh}{36}{subsection.4.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Kiến trúc phần Front-end}{37}{chapter.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Tạo Web server bằng Flask}{37}{section.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Parse dữ liệu từ dữ liệu trả về từ Back-end}{38}{section.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Kết luận}{40}{chapter.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Tài liệu tham khảo}{41}{chapter.6}%

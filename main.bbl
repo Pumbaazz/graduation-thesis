@@ -1,0 +1,300 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{SimCSE_VNMESE}{online}{}
+    \name{author}{1}{}{%
+      {{hash=D}{%
+         family={DatCanCote},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{D1}
+    \strng{fullhash}{D1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{SimCSE phát triển cho ngôn ngữ tiếng Việt}
+    \verb{url}
+    \verb https://github.com/DatCanCode/sentence-transformers
+    \endverb
+  \endentry
+
+  \entry{ES}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{title}{Elastic Search}
+    \verb{url}
+    \verb https://viblo.asia/p/elasticsearch-la-gi-1Je5E8RmlnL
+    \endverb
+    \field{year}{2021}
+  \endentry
+
+  \entry{gao2021simcse}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GT}{%
+         family={Gao},
+         familyi={G\bibinitperiod},
+         given={Tianyu},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=YX}{%
+         family={Yao},
+         familyi={Y\bibinitperiod},
+         given={Xingcheng},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=CD}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Danqi},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GTYXCD1}
+    \strng{fullhash}{GTYXCD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{{SimCSE}: Simple Contrastive Learning of Sentence Embeddings}
+    \field{journaltitle}{arXiv preprint arXiv:2104.08821}
+    \field{year}{2021}
+  \endentry
+
+  \entry{MeasureSimilarityGoogle}{article}{}
+    \name{author}{1}{}{%
+      {{hash=G}{%
+         family={Google},
+         familyi={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{G1}
+    \strng{fullhash}{G1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{Measuring Similarity from Embeddings}
+    \verb{url}
+    \verb https://developers.google.com/machine-learning/clustering/similarit
+    \verb y/measuring-similarity
+    \endverb
+  \endentry
+
+  \entry{Scraping}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{title}{Kĩ thuật Scraping webpages}
+    \verb{url}
+    \verb https://code.tutsplus.com/vi/tutorials/scraping-webpages-in-python-
+    \verb with-beautiful-soup-the-basics--cms-28211
+    \endverb
+    \field{year}{2020}
+  \endentry
+
+  \entry{PhoBERT}{article}{}
+    \name{author}{2}{}{%
+      {{hash=NDQ}{%
+         family={Nguyen},
+         familyi={N\bibinitperiod},
+         given={Dat\bibnamedelima Quoc},
+         giveni={D\bibinitperiod\bibinitdelim Q\bibinitperiod},
+      }}%
+      {{hash=NAT}{%
+         family={Nguyen},
+         familyi={N\bibinitperiod},
+         given={Anh\bibnamedelima Tuan},
+         giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NDQNAT1}
+    \strng{fullhash}{NDQNAT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{title}{{PhoBERT: Pre-trained language models for Vietnamese}}
+    \verb{url}
+    \verb https://arxiv.org/abs/2003.00744
+    \endverb
+    \field{journaltitle}{Findings of EMNLP}
+    \field{year}{2020}
+  \endentry
+
+  \entry{sentencetransformer}{article}{}
+    \name{author}{1}{}{%
+      {{hash=NROS}{%
+         family={Nils\bibnamedelima Reimers},
+         familyi={N\bibinitperiod\bibinitdelim R\bibinitperiod},
+         given={Omar\bibnamedelima Sanseviero},
+         giveni={O\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NROS1}
+    \strng{fullhash}{NROS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{title}{Sentence transformer}
+    \verb{url}
+    \verb https://huggingface.co/blog/sentence-transformers-in-the-hub
+    \endverb
+    \field{year}{2020}
+  \endentry
+
+  \entry{PhoBERT_VNMESE}{online}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={Online},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{{PhoBERT online}}
+    \verb{url}
+    \verb https://viblo.asia/p/bert-roberta-phobert-bertweet-ung-dung-state-o
+    \verb f-the-art-pre-trained-model-cho-bai-toan-phan-loai-van-ban-4P856PEW
+    \verb ZY3
+    \endverb
+    \field{year}{2021}
+  \endentry
+
+  \entry{ThuVien}{online}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={{Online}},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O2}
+    \strng{fullhash}{O2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{Thư viện Hỏi Đáp Pháp Luật}
+    \verb{url}
+    \verb https://hoidap.thuvienphapluat.vn
+    \endverb
+  \endentry
+
+  \entry{transformer}{online}{}
+    \name{author}{1}{}{%
+      {{hash=o}{%
+         family={{online}},
+         familyi={o\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{o1}
+    \strng{fullhash}{o1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{Tìm hiểu mô hình Transformer}
+    \verb{url}
+    \verb https://pbcquoc.github.io/transformer/
+    \endverb
+    \field{year}{2021}
+  \endentry
+
+  \entry{FlaskAPIWeb}{online}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={{Online}},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O2}
+    \strng{fullhash}{O2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{Xây dựng Web API với Flask}
+    \verb{url}
+    \verb https://vimentor.com/vi/lesson/5-xay-dung-web-api-voi-flask
+    \endverb
+    \field{year}{2021}
+  \endentry
+
+  \entry{pyvi}{article}{}
+    \name{author}{1}{}{%
+      {{hash=TVT}{%
+         family={Tran},
+         familyi={T\bibinitperiod},
+         given={Viet\bibnamedelima Trung},
+         giveni={V\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TVT1}
+    \strng{fullhash}{TVT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{{Python Vietnamese Toolkit}}
+    \verb{url}
+    \verb https://github.com/trungtv/pyvi
+    \endverb
+    \field{year}{2021}
+  \endentry
+
+  \entry{TransformerModel}{article}{}
+    \name{author}{2}{}{%
+      {{hash=ZHPXDL}{%
+         family={Zhiheng\bibnamedelima Huang},
+         familyi={Z\bibinitperiod\bibinitdelim H\bibinitperiod},
+         suffix={Davis\bibnamedelima Liang},
+         suffixi={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+         given={Peng\bibnamedelima Xu},
+         giveni={P\bibinitperiod\bibinitdelim X\bibinitperiod},
+      }}%
+      {{hash=XB}{%
+         family={Xiang},
+         familyi={X\bibinitperiod},
+         given={Bing},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZHDLPXXB1}
+    \strng{fullhash}{ZHDLPXXB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{title}{Improve Transformer Models with Better Relative Position
+  Embeddings}
+    \verb{url}
+    \verb https://arxiv.org/abs/2009.13658
+    \endverb
+    \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
+  \endentry
+\enddatalist
+\endinput

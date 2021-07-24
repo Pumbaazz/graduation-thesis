@@ -1,0 +1,77 @@
+\chapter{Kiến trúc phần Front-end}
+Ở chương này, nội dung trình bày sẽ là về kiến trúc xử lý thông tin trả về từ phía Back-end hệ thống đã xử lý xong các thao tác và trả ra kết quả các câu trả lời chính xác hoặc là có mức độ tương đồng nhiều nhất so với câu hỏi của người dùng đã nhập vào trong hệ thống.
+
+Sau đây là sơ đồ quy trình của hệ thống khi đưa dữ liệu từ Back-end lên lại phía Front-end cho người dùng:
+\begin{figure*}[htp]
+\centering
+\includegraphics[scale=0.7]{images/WebStructure}
+\end{figure*}
+\section{Tạo Web server bằng Flask}
+
+\textbf{WSGI Server} (Giao diện cổng máy chủ Web): ứng dụng Flask hoạt động trên máy chủ WSGI , và đây là cách thức mà máy chủ web giao tiếp với ứng dụng. 
+
+\textbf{WSGI Server} là máy chủ kích hoạt ứng dụng Web và việc truyền thông tin, với chức năng gọi lại cho ứng dụng. Mỗi khi nhận được Request từ các client HTTP đến ứng dụng, ứng dụng đó sẽ được gọi bởi \textbf{WSGI Server}. 
+
+Việc xử lý yêu cầu (Request) sẽ diễn ra ở phía ứng dụng Web, sau đó ứng dụng sẽ gọi lại WSGI Server để trả lại kết quả được Request đến client.
+
+
+ Request dữ liệu: Khi Website request URL đến ứng dụng thông qua phương thức \textbf{POST}:
+	\begin{lstlisting}
+		app.route('/', methods=['GET', 'POST'])
+		def index():
+			if request.method == 'POST':
+			raw_text = request.form['rawtext']
+			results = search(raw_text)
+			return render_template("results.html",results=results, raw_text=raw_text)
+			else:
+			return render_template("index.html")
+	\end{lstlisting}
+	Ứng dụng sẽ lấy dữ liệu nhập được từ HTML template truyền vào biến raw\_text thông qua hàm request.form:
+	
+	raw\_text = request.form['rawtext']
+	
+	Ứng dụng sẽ gọi hàm search được import từ utils.py để thực hiện việc tìm kết quả để lưu vào biến results
+	
+	Biến results và raw\_text sẽ được truyền vào hàm render\_template để gọi render cùng với HTML template
+
+\section{Parse dữ liệu từ dữ liệu trả về từ Back-end}
+Respond dữ liệu từ Back End lên Front End:
+	 
+Template Engine: jinja2
+
+Với việc sử dụng jinja2 là một template engine, ta có thể hiển thị dễ dàng các biến results và raw\_text đã được truyền vào trước đó bởi hàm render\_template bằng cách gọi trực tiếp trong các HTML template:
+
+\begin{lstlisting}
+	<p class="input" style="...">Cau hoi da nhap: "{{raw\_text}}"</p>
+	<p class="input" style="...">{{results[0][1]}}</p>
+\end{lstlisting}
+
+Kết quả nhận được là: 
+
+\includegraphics{images/res1}
+
+Jinja2 còn có thể dùng để viết ra các hàm để xử lý dữ liệu được đổ vào Website:
+
+\begin{lstlisting}
+	{% if results != null %}
+		{{answer(answer=results[0][2])}}
+	{% endif %}		
+\end{lstlisting}
+
+Kết quả nhận được là: 
+
+
+\includegraphics{images/res2}
+
+\begin{lstlisting}
+	{% for para in results if para[0] != 1 %}
+		{{group_QA(data_id = para[0] - 1,
+				question = para[1],
+				answer = para[2])}}
+		{% endfor %
+\end{lstlisting}
+
+Kết quả nhận được là: 
+
+
+\includegraphics{images/final}
