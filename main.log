@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.12)  23 JUL 2021 22:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.12)  25 JUL 2021 15:14
 entering extended mode
 **./main.tex
 (main.tex
@@ -1675,12 +1675,12 @@ Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 202.
 
-[35]) [36]
+[35]) [36] [37]
 \openout2 = `Chapter5/chapter5.aux'.
 
  (Chapter5/chapter5.tex
 Chương 5.
-<images/WebStructure.png, id=591, 1064.97874pt x 332.24126pt>
+<images/WebStructure.png, id=595, 1064.97874pt x 332.24126pt>
 File: images/WebStructure.png Graphic file (type png)
 <use images/WebStructure.png>
 Package pdftex.def Info: images/WebStructure.png  used on input line 7.
@@ -1690,13 +1690,13 @@ Overfull \hbox (290.23593pt too wide) in paragraph at lines 7--8
  [][] 
  []
 
-[37
+[38
 
 
 
 
  <./images/WebStructure.png>]
-<images/res1.png, id=597, 469.755pt x 45.16875pt>
+<images/res1.png, id=601, 469.755pt x 45.16875pt>
 File: images/res1.png Graphic file (type png)
 <use images/res1.png>
 Package pdftex.def Info: images/res1.png  used on input line 51.
@@ -1706,8 +1706,8 @@ Overfull \hbox (35.6595pt too wide) in paragraph at lines 51--52
 [][] 
  []
 
-[38 <./images/res1.png>]
-<images/res2.png, id=616, 469.755pt x 126.4725pt>
+[39 <./images/res1.png>]
+<images/res2.png, id=620, 469.755pt x 126.4725pt>
 File: images/res2.png Graphic file (type png)
 <use images/res2.png>
 Package pdftex.def Info: images/res2.png  used on input line 64.
@@ -1717,7 +1717,7 @@ Overfull \hbox (35.6595pt too wide) in paragraph at lines 64--65
 [][] 
  []
 
-<images/final.png, id=617, 469.755pt x 298.86656pt>
+<images/final.png, id=621, 469.755pt x 298.86656pt>
 File: images/final.png Graphic file (type png)
 <use images/final.png>
 Package pdftex.def Info: images/final.png  used on input line 77.
@@ -1727,12 +1727,12 @@ Overfull \hbox (35.6595pt too wide) in paragraph at lines 77--179
 [][] 
  []
 
-[39 <./images/res2.png> <./images/final.png>]
+[40 <./images/res2.png> <./images/final.png>]
 \openout2 = `Chapter6/chapter6.aux'.
 
  (Chapter6/chapter6.tex
 Chương 6.
-) [40
+) [41
 
 
 
@@ -1779,7 +1779,7 @@ mr/m/n/14.4 . 2021. \T5/cmr/m/sc/14.4 url\T5/cmr/m/n/14.4 : []$\T5/cmtt/m/n/14.
 4 https : / / pbcquoc .
  []
 
-[41
+[42
 
 
 
@@ -1790,7 +1790,7 @@ m/n/14.4 . 2021. \T5/cmr/m/sc/14.4 url\T5/cmr/m/n/14.4 : []$\T5/cmtt/m/n/14.4 h
 ttps : / / vimentor .
  []
 
-[42] (main.aux (Appendix/thanks.aux) (Appendix/nhanxetgiaovienhuongdan.aux)
+[43] (main.aux (Appendix/thanks.aux) (Appendix/nhanxetgiaovienhuongdan.aux)
 (Appendix/nhanxetgiaovienphanbien.aux) (Appendix/decuong.aux)
 (Chapter1/chapter1.aux) (Chapter2/chapter2.aux) (Chapter3/chapter3.aux)
 (Chapter4/chapter4.aux) (Chapter5/chapter5.aux) (Chapter6/chapter6.aux))
@@ -1804,8 +1804,8 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31029 strings out of 478864
- 571226 string characters out of 2848660
+ 31030 strings out of 478864
+ 571233 string characters out of 2848660
  1345328 words of memory out of 3000000
  48144 multiletter control sequences out of 15000+600000
  418933 words of font info for 51 fonts, out of 8000000 for 9000
@@ -1833,9 +1833,9 @@ r/vnr12.pfb><C:/Users/nguyn/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr
 vnr6.pfb><C:/Users/nguyn/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vn
 ti12.pfb><C:/Users/nguyn/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vn
 tt12.pfb>
-Output written on main.pdf (51 pages, 1703098 bytes).
+Output written on main.pdf (52 pages, 1703977 bytes).
 PDF statistics:
- 808 PDF objects out of 1000 (max. 8388607)
- 220 named destinations out of 1000 (max. 500000)
+ 812 PDF objects out of 1000 (max. 8388607)
+ 221 named destinations out of 1000 (max. 500000)
  469 words of extra memory for PDF output out of 10000 (max. 10000000)
 

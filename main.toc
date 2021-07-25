@@ -70,12 +70,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.2}Trả về kết quả sau khi so sánh}{36}{subsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Kiến trúc phần Front-end}{37}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Kiến trúc phần Front-end}{38}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Tạo Web server bằng Flask}{37}{section.5.1}%
+\contentsline {section}{\numberline {5.1}Tạo Web server bằng Flask}{38}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Parse dữ liệu từ dữ liệu trả về từ Back-end}{38}{section.5.2}%
+\contentsline {section}{\numberline {5.2}Parse dữ liệu từ dữ liệu trả về từ Back-end}{39}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Kết luận}{40}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Kết luận}{41}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Tài liệu tham khảo}{41}{chapter.6}%
+\contentsline {chapter}{Tài liệu tham khảo}{42}{chapter.6}%
