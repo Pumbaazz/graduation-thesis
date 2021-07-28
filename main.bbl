@@ -163,18 +163,9 @@
   \endentry
 
   \entry{PhoBERT_VNMESE}{online}{}
-    \name{author}{1}{}{%
-      {{hash=O}{%
-         family={Online},
-         familyi={O\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{O1}
-    \strng{fullhash}{O1}
-    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{O}
-    \field{sortinithash}{O}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
     \field{title}{{PhoBERT online}}
     \verb{url}
     \verb https://viblo.asia/p/bert-roberta-phobert-bertweet-ung-dung-state-o
@@ -185,18 +176,9 @@
   \endentry
 
   \entry{ThuVien}{online}{}
-    \name{author}{1}{}{%
-      {{hash=O}{%
-         family={{Online}},
-         familyi={O\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{O2}
-    \strng{fullhash}{O2}
-    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{O}
-    \field{sortinithash}{O}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
     \field{title}{Thư viện Hỏi Đáp Pháp Luật}
     \verb{url}
     \verb https://hoidap.thuvienphapluat.vn
@@ -204,41 +186,12 @@
   \endentry
 
   \entry{transformer}{online}{}
-    \name{author}{1}{}{%
-      {{hash=o}{%
-         family={{online}},
-         familyi={o\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{o1}
-    \strng{fullhash}{o1}
-    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{O}
-    \field{sortinithash}{O}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
     \field{title}{Tìm hiểu mô hình Transformer}
     \verb{url}
     \verb https://pbcquoc.github.io/transformer/
-    \endverb
-    \field{year}{2021}
-  \endentry
-
-  \entry{FlaskAPIWeb}{online}{}
-    \name{author}{1}{}{%
-      {{hash=O}{%
-         family={{Online}},
-         familyi={O\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{O2}
-    \strng{fullhash}{O2}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{O}
-    \field{sortinithash}{O}
-    \field{title}{Xây dựng Web API với Flask}
-    \verb{url}
-    \verb https://vimentor.com/vi/lesson/5-xay-dung-web-api-voi-flask
     \endverb
     \field{year}{2021}
   \endentry
@@ -261,6 +214,30 @@
     \field{title}{{Python Vietnamese Toolkit}}
     \verb{url}
     \verb https://github.com/trungtv/pyvi
+    \endverb
+    \field{year}{2021}
+  \endentry
+
+  \entry{train_data}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{Translate to Vi Semantic Textual Similarity 2012-2017
+  Dataset}
+    \verb{url}
+    \verb https://github.com/DatCanCode/sentence-transformers/tree/master/exa
+    \verb mples/datasets/stsbenchmark
+    \endverb
+    \field{year}{2021}
+  \endentry
+
+  \entry{FlaskAPIWeb}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{X}
+    \field{sortinithash}{X}
+    \field{title}{Xây dựng Web API với Flask}
+    \verb{url}
+    \verb https://vimentor.com/vi/lesson/5-xay-dung-web-api-voi-flask
     \endverb
     \field{year}{2021}
   \endentry
