@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.12)  28 JUL 2021 18:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.12)  29 JUL 2021 09:45
 entering extended mode
 **./main.tex
 (main.tex
@@ -1378,7 +1378,7 @@ l.52 \end{titlepage}
 same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.53 ...rline {3.9}Elasticsearch}{14}{section.3.9}
+l.51 ...Định nghĩa PyVi}{13}{subsection.3.3.1}
                                                   % [1
 
 
@@ -1387,23 +1387,23 @@ l.53 ...rline {3.9}Elasticsearch}{14}{section.3.9}
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.123 ...Tài liệu tham khảo}{55}{section.7.2}
+l.123 ...{5.2.4}Kết quả}{56}{subsection.5.2.4}
                                                   % [2])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [3] (main.lof)
+ [3] (main.lof [4
+
+])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
 
-[4
-
-] (main.lot)
+[5] (main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [5
+ [6
 
 ]
 \openout2 = `Chapter1/chapter1.aux'.
@@ -1435,100 +1435,209 @@ l.172 \include{Chapter1/chapter1}
 
  (Chapter2/chapter2.tex
 Chương 2.
-)pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has
- been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.174 \include{Chapter2/chapter2}
-                                  [4
+l.19 \section
+             {Kết quả khảo sát} [4
 
 
 
 
 ]
-\openout2 = `Chapter3/chapter3.aux'.
+<images/survey1.png, id=476, 469.755pt x 197.757pt>
+File: images/survey1.png Graphic file (type png)
+<use images/survey1.png>
+Package pdftex.def Info: images/survey1.png  used on input line 24.
+(pdftex.def)             Requested size: 469.75386pt x 197.75652pt.
 
- (Chapter3/chapter3.tex
-Chương 3.
+Overfull \hbox (14.50975pt too wide) in paragraph at lines 24--25
+ [][] 
+ []
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.28 
-      [5
+l.30 ...�n hoạt động trong lĩnh vực nào?}
+                                                   [5pdfTeX warning (ext4): des
+tination with the same identifier (name{figure.2.1}) has been already used, dup
+licate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.30 ...�n hoạt động trong lĩnh vực nào?}
+                                                   <./images/survey1.png>]
+<images/survey2.png, id=482, 469.755pt x 223.38pt>
+File: images/survey2.png Graphic file (type png)
+<use images/survey2.png>
+Package pdftex.def Info: images/survey2.png  used on input line 33.
+(pdftex.def)             Requested size: 469.75386pt x 223.37944pt.
+
+Overfull \hbox (14.50975pt too wide) in paragraph at lines 33--34
+ [][] 
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.40 ...��n đề liên quan đến luật pháp?}
+                                                   [6pdfTeX warning (ext4): des
+tination with the same identifier (name{figure.2.2}) has been already used, dup
+licate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.40 ...��n đề liên quan đến luật pháp?}
+                                                   <./images/survey2.png>]
+<images/survey3.png, id=488, 469.755pt x 197.757pt>
+File: images/survey3.png Graphic file (type png)
+<use images/survey3.png>
+Package pdftex.def Info: images/survey3.png  used on input line 43.
+(pdftex.def)             Requested size: 469.75386pt x 197.75652pt.
+
+Overfull \hbox (14.50975pt too wide) in paragraph at lines 43--44
+ [][] 
+ []
+
+[7pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.50 ...thức nào để tra cứu pháp luật?}
+                                                   <./images/survey3.png>]
+<images/survey4.png, id=494, 469.755pt x 223.38pt>
+File: images/survey4.png Graphic file (type png)
+<use images/survey4.png>
+Package pdftex.def Info: images/survey4.png  used on input line 54.
+(pdftex.def)             Requested size: 469.75386pt x 223.37944pt.
+
+Overfull \hbox (14.50975pt too wide) in paragraph at lines 54--55
+ [][] 
+ []
+
+[8pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.61 ... cứu trên trang web pháp luật nào?}
+                                                   <./images/survey4.png>]
+<images/survey5.png, id=500, 469.755pt x 223.38pt>
+File: images/survey5.png Graphic file (type png)
+<use images/survey5.png>
+Package pdftex.def Info: images/survey5.png  used on input line 65.
+(pdftex.def)             Requested size: 469.75386pt x 223.37944pt.
+
+Overfull \hbox (14.50975pt too wide) in paragraph at lines 65--66
+ [][] 
+ []
+
+[9pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.72 ...�ng khi sử dụng các trang web trên?}
+                                                   <./images/survey5.png>]
+<images/survey6.png, id=506, 469.755pt x 197.757pt>
+File: images/survey6.png Graphic file (type png)
+<use images/survey6.png>
+Package pdftex.def Info: images/survey6.png  used on input line 75.
+(pdftex.def)             Requested size: 469.75386pt x 197.75652pt.
+
+Overfull \hbox (14.50975pt too wide) in paragraph at lines 75--76
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+ []
+
+) [10pdfTeX warning (ext4): destination with the same identifier (name{figure.2
+.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.174 \include{Chapter2/chapter2}
+                                  <./images/survey6.png>]
+\openout2 = `Chapter3/chapter3.aux'.
+
+
+(Chapter3/chapter3.tex
+Chương 3.
+[11
 
 
 
 
-] [6]
-<images/pyvi_segment.png, id=427, 626.34pt x 291.0875pt>
+] [12]
+<images/pyvi_segment.png, id=530, 626.34pt x 291.0875pt>
 File: images/pyvi_segment.png Graphic file (type png)
 <use images/pyvi_segment.png>
 Package pdftex.def Info: images/pyvi_segment.png  used on input line 74.
 (pdftex.def)             Requested size: 438.435pt x 203.75984pt.
- [7pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
-}) has been already used, duplicate ignored
+ [13pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.79 \subsection
                 {Tính năng chính của PyVi} <./images/pyvi_segment.png>]
-<images/pyvi_demo_code.png, id=435, 496.85625pt x 225.84375pt>
+<images/pyvi_demo_code.png, id=536, 496.85625pt x 225.84375pt>
 File: images/pyvi_demo_code.png Graphic file (type png)
 <use images/pyvi_demo_code.png>
 Package pdftex.def Info: images/pyvi_demo_code.png  used on input line 84.
 (pdftex.def)             Requested size: 422.3298pt x 191.96808pt.
-<images/segment1.png, id=436, 569.12625pt x 54.2025pt>
+<images/segment1.png, id=537, 569.12625pt x 54.2025pt>
 File: images/segment1.png Graphic file (type png)
 <use images/segment1.png>
 Package pdftex.def Info: images/segment1.png  used on input line 93.
 (pdftex.def)             Requested size: 398.38567pt x 37.94148pt.
-<images/segment2.png, id=437, 571.38469pt x 76.03406pt>
+<images/segment2.png, id=538, 571.38469pt x 76.03406pt>
 File: images/segment2.png Graphic file (type png)
 <use images/segment2.png>
 Package pdftex.def Info: images/segment2.png  used on input line 97.
 (pdftex.def)             Requested size: 399.96655pt x 53.22346pt.
-<images/segment3.png, id=438, 571.38469pt x 54.9553pt>
+<images/segment3.png, id=539, 571.38469pt x 54.9553pt>
 File: images/segment3.png Graphic file (type png)
 <use images/segment3.png>
 Package pdftex.def Info: images/segment3.png  used on input line 101.
 (pdftex.def)             Requested size: 399.96655pt x 38.46843pt.
-<images/segment4.png, id=439, 573.64313pt x 55.70813pt>
+<images/segment4.png, id=540, 573.64313pt x 55.70813pt>
 File: images/segment4.png Graphic file (type png)
 <use images/segment4.png>
 Package pdftex.def Info: images/segment4.png  used on input line 105.
 (pdftex.def)             Requested size: 401.54745pt x 38.9954pt.
 
-[8 <./images/pyvi_demo_code.png> <./images/segment1.png> <./images/segment2.png
-> <./images/segment3.png> <./images/segment4.png>] [9]
-<images/transformer_schema.jpg, id=453, 986.68625pt x 930.47626pt>
+[14 <./images/pyvi_demo_code.png> <./images/segment1.png> <./images/segment2.pn
+g> <./images/segment3.png> <./images/segment4.png>] [15]
+<images/transformer_schema.jpg, id=554, 986.68625pt x 930.47626pt>
 File: images/transformer_schema.jpg Graphic file (type jpg)
 <use images/transformer_schema.jpg>
 Package pdftex.def Info: images/transformer_schema.jpg  used on input line 122.
 
 (pdftex.def)             Requested size: 312.97581pt x 341.43124pt.
- [10pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+ [16pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.130 
        <./images/transformer_schema.jpg>]
-<images/bert-base-and-large.jpg, id=458, 2672.98625pt x 1040.88875pt>
+<images/bert-base-and-large.jpg, id=559, 2672.98625pt x 1040.88875pt>
 File: images/bert-base-and-large.jpg Graphic file (type jpg)
 <use images/bert-base-and-large.jpg>
 Package pdftex.def Info: images/bert-base-and-large.jpg  used on input line 149
 .
 (pdftex.def)             Requested size: 267.31429pt x 104.09497pt.
-<images/encode_bert.png, id=459, 401.5pt x 551.05875pt>
+<images/encode_bert.png, id=560, 401.5pt x 551.05875pt>
 File: images/encode_bert.png Graphic file (type png)
 <use images/encode_bert.png>
 Package pdftex.def Info: images/encode_bert.png  used on input line 157.
 (pdftex.def)             Requested size: 199.16928pt x 273.3677pt.
- [11pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+ [17pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.161 
-       <./images/bert-base-and-large.jpg>] [12pdfTeX warning (ext4): destinatio
+       <./images/bert-base-and-large.jpg>] [18pdfTeX warning (ext4): destinatio
 n with the same identifier (name{figure.3.4}) has been already used, duplicate 
 ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1538,35 +1647,35 @@ l.170
 (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-[13] [14] [15]
-<images/Flask_Logo.png, id=507, 281.05pt x 210.7875pt>
+[19] [20] [21]
+<images/Flask_Logo.png, id=608, 281.05pt x 210.7875pt>
 File: images/Flask_Logo.png Graphic file (type png)
 <use images/Flask_Logo.png>
 Package pdftex.def Info: images/Flask_Logo.png  used on input line 256.
 (pdftex.def)             Requested size: 281.0493pt x 210.78699pt.
- [16] [17pdfTeX warning (ext4): destination with the same identifier (name{figu
+ [22] [23pdfTeX warning (ext4): destination with the same identifier (name{figu
 re.3.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.273     \end{itemize}
-                        <./images/Flask_Logo.png>] [18] [19]
-<images/system1_e.png, id=547, 504.88625pt x 630.355pt>
+                        <./images/Flask_Logo.png>] [24] [25]
+<images/system1_e.png, id=648, 504.88625pt x 630.355pt>
 File: images/system1_e.png Graphic file (type png)
 <use images/system1_e.png>
 Package pdftex.def Info: images/system1_e.png  used on input line 331.
 (pdftex.def)             Requested size: 403.90953pt x 504.28468pt.
- [20pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+ [26pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.336 
        <./images/system1_e.png>]
-<images/usecasemodel.png, id=553, 462.22687pt x 113.67468pt>
+<images/usecasemodel.png, id=654, 462.22687pt x 113.67468pt>
 File: images/usecasemodel.png Graphic file (type png)
 <use images/usecasemodel.png>
 Package pdftex.def Info: images/usecasemodel.png  used on input line 353.
 (pdftex.def)             Requested size: 369.782pt x 90.93985pt.
- [21] [22pdfTeX warning (ext4): destination with the same identifier (name{figu
+ [27] [28pdfTeX warning (ext4): destination with the same identifier (name{figu
 re.3.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1591,13 +1700,13 @@ LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 4
 (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-<images/elasticsearch1.png, id=564, 469.4265pt x 245.3895pt>
+<images/elasticsearch1.png, id=665, 469.4265pt x 245.3895pt>
 File: images/elasticsearch1.png Graphic file (type png)
 <use images/elasticsearch1.png>
 Package pdftex.def Info: images/elasticsearch1.png  used on input line 436.
 (pdftex.def)             Requested size: 328.5963pt x 171.77147pt.
 
-[23pdfTeX warning (ext4): destination with the same identifier (name{table.3.3}
+[29pdfTeX warning (ext4): destination with the same identifier (name{table.3.3}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1616,12 +1725,12 @@ has been already used, duplicate ignored
 l.445 M
        ở trình duyệt truy cập: \url{http://localhost:9200/} để ki�...
  <./images/elasticsearch1.png>]
-<images/elasticsearch2.png, id=572, 426.84468pt x 280.04625pt>
+<images/elasticsearch2.png, id=673, 426.84468pt x 280.04625pt>
 File: images/elasticsearch2.png Graphic file (type png)
 <use images/elasticsearch2.png>
 Package pdftex.def Info: images/elasticsearch2.png  used on input line 449.
 (pdftex.def)             Requested size: 341.47621pt x 224.0373pt.
- [24pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+ [30pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1631,44 +1740,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 510--511
 
  []
 
-) [25]
+) [31]
 \openout2 = `Chapter4/chapter4.aux'.
 
  (Chapter4/chapter4.tex
 Chương 4.
-<images/scraping_schema.png, id=606, 669.16667pt x 669.16667pt>
+<images/scraping_schema.png, id=707, 669.16667pt x 669.16667pt>
 File: images/scraping_schema.png Graphic file (type png)
 <use images/scraping_schema.png>
 Package pdftex.def Info: images/scraping_schema.png  used on input line 11.
 (pdftex.def)             Requested size: 334.58252pt x 334.58252pt.
-[26
+[32
 
 
 
 
-] [27pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+] [33pdfTeX warning (ext4): destination with the same identifier (name{figure.4
 .1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.16 
       <./images/scraping_schema.png>]
-<images/hoidapphapluat.png, id=617, 1445.4pt x 689.57625pt>
+<images/hoidapphapluat.png, id=718, 1445.4pt x 689.57625pt>
 File: images/hoidapphapluat.png Graphic file (type png)
 <use images/hoidapphapluat.png>
 Package pdftex.def Info: images/hoidapphapluat.png  used on input line 53.
 (pdftex.def)             Requested size: 433.62335pt x 206.87447pt.
- [28pdfTeX warning (ext4): destination with the same identifier (name{table.4.1
+ [34pdfTeX warning (ext4): destination with the same identifier (name{table.4.1
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.61 
      ]
-<images/parent_item.png, id=624, 581.17125pt x 134.00063pt>
+<images/parent_item.png, id=725, 581.17125pt x 134.00063pt>
 File: images/parent_item.png Graphic file (type png)
 <use images/parent_item.png>
 Package pdftex.def Info: images/parent_item.png  used on input line 64.
 (pdftex.def)             Requested size: 406.8171pt x 93.79977pt.
- [29pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [35pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1679,45 +1788,45 @@ l.71
                                                   \__shipout_drop_firstpage_...
 l.71 
       <./images/hoidapphapluat.png> <./images/parent_item.png>]
-<images/detail_parent_item.png, id=633, 499.11469pt x 104.64093pt>
+<images/detail_parent_item.png, id=734, 499.11469pt x 104.64093pt>
 File: images/detail_parent_item.png Graphic file (type png)
 <use images/detail_parent_item.png>
 Package pdftex.def Info: images/detail_parent_item.png  used on input line 74.
 (pdftex.def)             Requested size: 399.29228pt x 83.71283pt.
- [30pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [36pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.112 \begin{lstlisting}[language=python]
                                           <./images/detail_parent_item.png>])
-[31]
+[37]
 \openout2 = `Chapter5/chapter5.aux'.
 
  (Chapter5/chapter5.tex
 Chương 5.
-[32
+[38
 
 
 
 
 ]
-<images/elasticsearch_e.png, id=671, 892.33376pt x 496.85625pt>
+<images/elasticsearch_e.png, id=772, 892.33376pt x 496.85625pt>
 File: images/elasticsearch_e.png Graphic file (type png)
 <use images/elasticsearch_e.png>
 Package pdftex.def Info: images/elasticsearch_e.png  used on input line 16.
 (pdftex.def)             Requested size: 455.24759pt x 199.17111pt.
- [33pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [39pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.28 \begin{lstlisting}
                         <./images/elasticsearch_e.png>]
-<images/tokenize.png, id=677, 384.6872pt x 60.225pt>
+<images/tokenize.png, id=778, 384.6872pt x 60.225pt>
 File: images/tokenize.png Graphic file (type png)
 <use images/tokenize.png>
 Package pdftex.def Info: images/tokenize.png  used on input line 36.
 (pdftex.def)             Requested size: 307.75017pt x 48.18005pt.
- [34pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [40pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1727,7 +1836,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
-<images/encoding_graph.png, id=686, 587.19376pt x 230.8625pt>
+<images/encoding_graph.png, id=787, 587.19376pt x 230.8625pt>
 File: images/encoding_graph.png Graphic file (type png)
 <use images/encoding_graph.png>
 Package pdftex.def Info: images/encoding_graph.png  used on input line 49.
@@ -1737,7 +1846,7 @@ Overfull \hbox (14.51154pt too wide) in paragraph at lines 49--50
  [][] 
  []
 
-<images/position.jpg, id=687, 285.31593pt x 251.43938pt>
+<images/position.jpg, id=788, 285.31593pt x 251.43938pt>
 File: images/position.jpg Graphic file (type jpg)
 <use images/position.jpg>
 Package pdftex.def Info: images/position.jpg  used on input line 60.
@@ -1747,7 +1856,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-[35pdfTeX warning (ext4): destination with the same identifier (name{figure.5.3
+[41pdfTeX warning (ext4): destination with the same identifier (name{figure.5.3
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1757,7 +1866,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
-[36pdfTeX warning (ext4): destination with the same identifier (name{figure.5.4
+[42pdfTeX warning (ext4): destination with the same identifier (name{figure.5.4
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1767,7 +1876,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
-<images/matrix_encode.jpg, id=702, 469.755pt x 350.05782pt>
+<images/matrix_encode.jpg, id=804, 469.755pt x 350.05782pt>
 File: images/matrix_encode.jpg Graphic file (type jpg)
 <use images/matrix_encode.jpg>
 Package pdftex.def Info: images/matrix_encode.jpg  used on input line 95.
@@ -1777,12 +1886,12 @@ Overfull \hbox (14.50975pt too wide) in paragraph at lines 95--96
  [][] 
  []
 
-[37] [38pdfTeX warning (ext4): destination with the same identifier (name{figur
+[43] [44pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.5.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.108 
-       <./images/matrix_encode.jpg>] [39pdfTeX warning (ext4): destination with
+       <./images/matrix_encode.jpg>] [45pdfTeX warning (ext4): destination with
  the same identifier (name{table.5.1}) has been already used, duplicate ignored
 
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1792,44 +1901,44 @@ l.139 �
 ]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 141.
- (SourceCode/index.json) [40]
-<images/elastic_search_result.png, id=752, 781.41937pt x 776.9025pt>
+ (SourceCode/index.json) [46]
+<images/elastic_search_result.png, id=853, 781.41937pt x 776.9025pt>
 File: images/elastic_search_result.png Graphic file (type png)
 <use images/elastic_search_result.png>
 Package pdftex.def Info: images/elastic_search_result.png  used on input line 1
 58.
 (pdftex.def)             Requested size: 455.24411pt x 452.61903pt.
- [41 <./images/elastic_search_result.png>]
-<images/asking.png, id=760, 399.4925pt x 587.19376pt>
+ [47 <./images/elastic_search_result.png>]
+<images/asking.png, id=861, 399.4925pt x 587.19376pt>
 File: images/asking.png Graphic file (type png)
 <use images/asking.png>
 Package pdftex.def Info: images/asking.png  used on input line 166.
 (pdftex.def)             Requested size: 341.43306pt x 501.87668pt.
 
-[42pdfTeX warning (ext4): destination with the same identifier (name{figure.5.6
+[48pdfTeX warning (ext4): destination with the same identifier (name{figure.5.6
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.171 C
        âu hỏi của người dùng sau khi nhập vào từ giao diện w...
- <./images/asking.png>] [43]
+ <./images/asking.png>] [49]
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 202.
 
-[44] [45]
-<images/model_manual.png, id=794, 848.16875pt x 546.04pt>
+[50] [51]
+<images/model_manual.png, id=895, 848.16875pt x 546.04pt>
 File: images/model_manual.png Graphic file (type png)
 <use images/model_manual.png>
 Package pdftex.def Info: images/model_manual.png  used on input line 252.
 (pdftex.def)             Requested size: 424.08333pt x 273.01933pt.
-<images/sts_train_data.png, id=796, 337.26pt x 184.43906pt>
+<images/sts_train_data.png, id=897, 337.26pt x 184.43906pt>
 File: images/sts_train_data.png Graphic file (type png)
 <use images/sts_train_data.png>
 Package pdftex.def Info: images/sts_train_data.png  used on input line 267.
 (pdftex.def)             Requested size: 337.25917pt x 184.4386pt.
-<images/law-train-data.png, id=797, 705.38531pt x 288.3272pt>
+<images/law-train-data.png, id=898, 705.38531pt x 288.3272pt>
 File: images/law-train-data.png Graphic file (type png)
 <use images/law-train-data.png>
 Package pdftex.def Info: images/law-train-data.png  used on input line 274.
@@ -1839,17 +1948,17 @@ Overfull \hbox (38.52225pt too wide) in paragraph at lines 274--275
  [][] 
  []
 
-<images/inside_model.png, id=799, 263.48438pt x 299.61937pt>
+<images/inside_model.png, id=900, 263.48438pt x 299.61937pt>
 File: images/inside_model.png Graphic file (type png)
 <use images/inside_model.png>
 Package pdftex.def Info: images/inside_model.png  used on input line 282.
 (pdftex.def)             Requested size: 210.78777pt x 239.69582pt.
-[46pdfTeX warning (ext4): destination with the same identifier (name{figure.5.7
+[52pdfTeX warning (ext4): destination with the same identifier (name{figure.5.7
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.288 
-       <./images/model_manual.png>] [47pdfTeX warning (ext4): destination with 
+       <./images/model_manual.png>] [53pdfTeX warning (ext4): destination with 
 the same identifier (name{figure.5.8}) has been already used, duplicate ignored
 
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1860,29 +1969,29 @@ l.288
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.288 
-       <./images/sts_train_data.png> <./images/law-train-data.png>] [48pdfTeX w
+       <./images/sts_train_data.png> <./images/law-train-data.png>] [54pdfTeX w
 arning (ext4): destination with the same identifier (name{figure.5.10}) has bee
 n already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.306 
-       <./images/inside_model.png>]) [49]
+       <./images/inside_model.png>]) [55]
 \openout2 = `Chapter6/chapter6.aux'.
 
  (Chapter6/chapter6.tex
 Chương 6.
-<images/WebStructure.png, id=832, 1064.97874pt x 332.24126pt>
+<images/WebStructure.png, id=933, 1064.97874pt x 332.24126pt>
 File: images/WebStructure.png Graphic file (type png)
 <use images/WebStructure.png>
 Package pdftex.def Info: images/WebStructure.png  used on input line 8.
 (pdftex.def)             Requested size: 425.98395pt x 132.89413pt.
-[50
+[56
 
 
 
 
  <./images/WebStructure.png>]
-<images/res1.png, id=838, 469.755pt x 45.16875pt>
+<images/res1.png, id=939, 469.755pt x 45.16875pt>
 File: images/res1.png Graphic file (type png)
 <use images/res1.png>
 Package pdftex.def Info: images/res1.png  used on input line 52.
@@ -1892,7 +2001,7 @@ Overfull \hbox (35.6595pt too wide) in paragraph at lines 52--53
 [][] 
  []
 
-<images/res2.png, id=839, 469.755pt x 126.4725pt>
+<images/res2.png, id=940, 469.755pt x 126.4725pt>
 File: images/res2.png Graphic file (type png)
 <use images/res2.png>
 Package pdftex.def Info: images/res2.png  used on input line 65.
@@ -1902,8 +2011,8 @@ Overfull \hbox (35.6595pt too wide) in paragraph at lines 65--66
 [][] 
  []
 
-[51 <./images/res1.png>]
-<images/final.png, id=862, 469.755pt x 298.86656pt>
+[57 <./images/res1.png>]
+<images/final.png, id=963, 469.755pt x 298.86656pt>
 File: images/final.png Graphic file (type png)
 <use images/final.png>
 Package pdftex.def Info: images/final.png  used on input line 78.
@@ -1913,17 +2022,17 @@ Overfull \hbox (35.6595pt too wide) in paragraph at lines 78--182
 [][] 
  []
 
-[52 <./images/res2.png> <./images/final.png>]
+[58 <./images/res2.png> <./images/final.png>]
 \openout2 = `Chapter7/Chapter7.aux'.
 
  (Chapter7/Chapter7.tex
 Chương 7.
-[53
+[59
 
 
 
 
-]) [54]
+]) [60]
 
 Package biblatex Warning: Name format 'last-first' deprecated.
 (biblatex)                Please use 'family-given' instead.
@@ -1961,10 +2070,10 @@ Overfull \hbox (0.23653pt too wide) in paragraph at lines 194--194
  Dataset\T5/cmr/m/n/14.4 . 2021.
  []
 
-[55
+[61
 
 
-] [56] (main.aux (Appendix/thanks.aux) (Appendix/nhanxetgiaovienhuongdan.aux) (
+] [62] (main.aux (Appendix/thanks.aux) (Appendix/nhanxetgiaovienhuongdan.aux) (
 Appendix/nhanxetgiaovienphanbien.aux) (Appendix/decuong.aux)
 (Chapter1/chapter1.aux) (Chapter2/chapter2.aux) (Chapter3/chapter3.aux)
 (Chapter4/chapter4.aux) (Chapter5/chapter5.aux) (Chapter6/chapter6.aux)
@@ -1973,16 +2082,16 @@ Appendix/nhanxetgiaovienphanbien.aux) (Appendix/decuong.aux)
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 764B065A462BF99EEBE2AC549712169C;10614.
+(rerunfilecheck)             Checksum: 92D6EAF2F6F1283CD8DA40DB591848D1;13263.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31403 strings out of 478864
- 577822 string characters out of 2848660
- 1351232 words of memory out of 3000000
- 48405 multiletter control sequences out of 15000+600000
+ 31505 strings out of 478864
+ 579706 string characters out of 2848660
+ 1353395 words of memory out of 3000000
+ 48480 multiletter control sequences out of 15000+600000
  419313 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,15n,83p,1876b,1811s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2009,9 +2118,9 @@ ex/vnr/vnr17.pfb><C:/Users/nguyn/AppData/Local/Programs/MiKTeX/fonts/type1/vnte
 x/vnr/vnr6.pfb><C:/Users/nguyn/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/
 vnr/vnti12.pfb><C:/Users/nguyn/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/
 vnr/vntt12.pfb>
-Output written on main.pdf (68 pages, 1996889 bytes).
+Output written on main.pdf (75 pages, 2445002 bytes).
 PDF statistics:
- 1074 PDF objects out of 1200 (max. 8388607)
- 310 named destinations out of 1000 (max. 500000)
- 640 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1181 PDF objects out of 1200 (max. 8388607)
+ 331 named destinations out of 1000 (max. 500000)
+ 742 words of extra memory for PDF output out of 10000 (max. 10000000)
 

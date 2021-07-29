@@ -4,57 +4,69 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Thống kê đối tượng đang là sinh viên hoặc đã đi làm }}{5}{figure.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Minh hoạ tách từ bằng PyVi}}{7}{figure.3.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Thống kê đối tượng đang hoạt động trong lĩnh vực nào}}{6}{figure.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Mô hình tổng quát của cấu trúc của Transformer}}{10}{figure.3.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Thống kê đối tượng có gặp những vấn đề liên quan đến pháp luật không?}}{7}{figure.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Kích thước của 2 dạng BERT}}{11}{figure.3.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Thống kê về phương thức nào của người dùng dùng để tra cứu pháp luật}}{8}{figure.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Encode BERT}}{12}{figure.3.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Thống kê các trang web mà người dùng sử dụng để tra cứu thông tin luật pháp}}{9}{figure.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Flask logo}}{17}{figure.3.5}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Mô tả hệ thống}}{20}{figure.3.6}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Mô hình usecase}}{22}{figure.3.7}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Giao diện tải về Elastic search}}{23}{figure.3.8}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Trả về kết quả là Elastic search được cài đặt thành công và đang hoạt động}}{24}{figure.3.9}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Thống kê mức độ hài lòng khi sử dụng các trang web trên}}{10}{figure.2.6}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Sơ đồ hoạt động của Scraping data từ website}}{27}{figure.4.1}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Minh hoạ tách từ bằng PyVi}}{13}{figure.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Giao diện trang web Hỏi đáp pháp luật}}{29}{figure.4.2}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Mô hình tổng quát của cấu trúc của Transformer}}{16}{figure.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Một block parent-item}}{29}{figure.4.3}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Kích thước của 2 dạng BERT}}{17}{figure.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Chi tiết bên trong mã nguồn parent-item}}{30}{figure.4.4}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Encode BERT}}{18}{figure.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Flask logo}}{23}{figure.3.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Mô tả hệ thống}}{26}{figure.3.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Mô hình usecase}}{28}{figure.3.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Giao diện tải về Elastic search}}{29}{figure.3.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Trả về kết quả là Elastic search được cài đặt thành công và đang hoạt động}}{30}{figure.3.9}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Quy trình lưu dữ liệu xuống Elastic Search}}{33}{figure.5.1}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Sơ đồ hoạt động của Scraping data từ website}}{33}{figure.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Tokenize một câu hỏi từ dataset}}{34}{figure.5.2}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Giao diện trang web Hỏi đáp pháp luật}}{35}{figure.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Quy trình thực hiện Encoding question}}{35}{figure.5.3}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Một block parent-item}}{35}{figure.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Encoders Input}}{36}{figure.5.4}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Chi tiết bên trong mã nguồn parent-item}}{36}{figure.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Ma trân mã hoá dữ liệu của BERT\cite {transformer}}}{38}{figure.5.5}%
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Quy trình xử lý câu hỏi từ người dùng}}{42}{figure.5.6}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Quy trình lưu dữ liệu xuống Elastic Search}}{39}{figure.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Mô hình train trên dữ liệu Pháp luật}}{46}{figure.5.7}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Tokenize một câu hỏi từ dataset}}{40}{figure.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Bộ dữ liệu Semantic Textual Similarity}}{47}{figure.5.8}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Quy trình thực hiện Encoding question}}{41}{figure.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Bộ dữ liệu gán nhãn thủ công}}{47}{figure.5.9}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Encoders Input}}{42}{figure.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Bên trong model mới được trained trên dữ liệu Pháp luật}}{48}{figure.5.10}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Ma trân mã hoá dữ liệu của BERT\cite {transformer}}}{44}{figure.5.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Quy trình xử lý câu hỏi từ người dùng}}{48}{figure.5.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Mô hình train trên dữ liệu Pháp luật}}{52}{figure.5.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Bộ dữ liệu Semantic Textual Similarity}}{53}{figure.5.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Bộ dữ liệu gán nhãn thủ công}}{53}{figure.5.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Bên trong model mới được trained trên dữ liệu Pháp luật}}{54}{figure.5.10}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
