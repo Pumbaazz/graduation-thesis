@@ -6,6 +6,8 @@ Sau đây là sơ đồ quy trình của hệ thống khi đưa dữ liệu từ
 \begin{figure*}[htp]
 \centering
 \includegraphics[scale=0.4]{images/WebStructure}
+\caption{Mô hình hoạt động để lấy dữ liệu từ Back-end lên Front-end}
+\label{fig:webstructure}
 \end{figure*}
 \section{Tạo Web server bằng Flask}
 
@@ -48,8 +50,12 @@ Với việc sử dụng jinja2 là một template engine, ta có thể hiển t
 \end{lstlisting}
 
 Kết quả nhận được là: 
-
+\begin{figure*}[htp]
+\centering
 \includegraphics{images/res1}
+\caption{Kết quả của render template}
+\label{fig:res1}
+\end{figure*}
 
 Jinja2 còn có thể dùng để viết ra các hàm để xử lý dữ liệu được đổ vào Website:
 
@@ -61,8 +67,13 @@ Jinja2 còn có thể dùng để viết ra các hàm để xử lý dữ liệu
 
 Kết quả nhận được là: 
 
-
+\begin{figure*}[htp]
+\centering
 \includegraphics{images/res2}
+\caption{Kết quả nhận được khi sử dụng Jinja2}
+\label{fig:res2}
+\end{figure*}
+
 
 \begin{lstlisting}
 	{% for para in results if para[0] != 1 %}
@@ -74,5 +85,9 @@ Kết quả nhận được là:
 
 Kết quả nhận được là: 
 
-
-\includegraphics{images/final}
+\begin{figure*}[htp]
+\centering
+\includegraphics[scale=0.8]{images/final}
+\caption{Kết quả nhận được khi nhấn vào button "Xem câu hỏi liên quan"}
+\label{fig:final}
+\end{figure*}

@@ -70,4 +70,12 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Mô hình hoạt động để lấy dữ liệu từ Back-end lên Front-end}}{56}{figure.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Kết quả của render template}}{57}{figure.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Kết quả nhận được khi sử dụng Jinja2}}{58}{figure.6.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Kết quả nhận được khi nhấn vào button "Xem câu hỏi liên quan"}}{58}{figure.6.4}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
