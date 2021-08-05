@@ -1,6 +1,6 @@
 \chapter{Công Nghệ Sử Dụng}
 \label{Chapter3}
-\textit{Nội dung chương này sẽ đề cập đến các công nghệ sẽ được áp dụng bên trong hệ thống, các phần mềm , thư viện cần để hệ thống hoạt động, các chức năng mà hệ thống sẽ có, mô tả các chức năng cũng như là sơ đồ hoạt động của hệ thống, các bài toán con cần phải giải quyết để hoàn thành được hệ thống. }
+\textit{Nội dung chương này sẽ đề cập đến các công nghệ sẽ được áp dụng bên trong hệ thống, các phần mềm , thư viện cần để hệ thống hoạt động, cách cài đặt các phần mềm và thư viện cần sử dụng, các bài toán con cần phải giải quyết để hoàn thành được hệ thống. }
 
 %thư viện requests
 \section{Thư viện Requests}
@@ -312,130 +312,16 @@ if __name__ == '__main__':
 \end{itemize}
 \end{enumerate}
 
-\section{Bài Toán Liên Quan}
-Qua quá trình tìm kiếm, tìm hiểu thì nhóm rút ra được để giải quyết được yêu cầu của hệ thống thì sẽ cần giải được các bài toán nhỏ liên quan như sau:
-\begin{itemize}
-    \item Thu thập giữ liệu về pháp luật từ các trang web chuyên về pháp luật
-    \item Xử lý ngôn ngữ tự nhiên
-    \item Mã hoá dữ liệu câu hỏi
-    \item So sánh tìm ra sự tương đồng giữa các câu
-    \item Xây dựng model train trên dữ liệu Pháp luật     
-\end{itemize}
-
-\pagebreak
-\section{Mô Tả Hệ Thống}
-Từ những mô tả và những công nghệ được nêu trên, ta có sơ đồ của hệ thống hỏi đáp pháp luật như sau:
-
-\begin{figure*}[htp]
-\centering
-\includegraphics[scale=0.8]{images/system1_e}
-\caption{Mô tả hệ thống}
-\label{fig:hethong1}
-\end{figure*}
-\pagebreak
-
-Mô hình của hệ thống có 5 quá  trình như sau
-\begin{itemize}
-    \item User's question: Người dùng sẽ cung cấp câu hỏi trên web site, từ đó, câu hỏi sẽ được gửi đến phía Back-end để thực hiện quá trình phân tích và tìm kiếm câu trả lời trong cơ sở dữ liệu.
-    \item Word Segment: Đây là bước thực hiện đầu tiên khi câu hỏi được gửi đến phía Back-end, câu hỏi của người dùng sẽ được thực hiện phân tách từ theo ngữ nghĩa để có thể phân tích bước đầu xác định ý nghĩa câu hỏi người dùng.
-    \item Encoding Question: Ở bước này, sau khi câu hỏi của người dùng đã được phân tách từ, câu hỏi sẽ được hệ thống mã hoá để có cùng với dạng dữ liệu với dữ liệu có trong cơ sở dữ liệu.
-    \item Elasticsearch: Tiến hành tìm kiếm câu hỏi của người dùng trong bộ câu hỏi được thu thập có trong cơ sở dữ liệu bằng Elasticsearch.
-    \item Respond answer: Từ kết quả trả về sau khi tìm kiếm trong hệ thống, câu trả lời cho câu hỏi của người dùng cùng với các bộ câu hỏi và câu trả lời có sự tương tự với câu hỏi của người dùng đã nhập vào trong hệ thống sẽ được gửi lên và hiển thị trên website cho người dùng.
-\end{itemize}
-
-\subsection{Usecase}
-\subsubsection{Mô hình usecase}
-
-Sau khi tìm hiểu về nhu cầu hỏi đáp pháp luật và các yêu cầu về chức năng liên quan đến hệ thống thì chúng em tiến hành đưa ra các chức năng. Vì hệ thống hỏi đáp là một hệ thống đơn giản nên các yêu cầu về chức năng cũng không quá phức tạp. Dưới đây là mô hình Use Case của hệ thống hỏi đáp Pháp luật Việt Nam:
-
-\begin{figure*}[htp]
-\centering
-\includegraphics[scale=0.8]{images/usecasemodel}
-\caption{Mô hình usecase}
-\label{fig:usecasemodel}
-\end{figure*}
-\pagebreak
-\subsubsection{Mô tả usecase}
-\textbf{Actor}
-\begin{table}[htp]
-	\centering
-	\resizebox{\textwidth}{!}{%
-		\begin{tabular}{|l|l|}
-			\hline
-			 Actor & Ý nghĩa                                                                 \\ \hline
-			Người dùng                                           & Người truy cập và sử dụng Website Hệ thống hỏi đáp   Pháp luật Việt Nam \\ \hline
-		\end{tabular}%
-	}
-	\caption{Bảng mô tả Actor}
-	\label{tab:actor}
-\end{table}
-
-\textbf{Use case }
-\begin{table}[htp]
-	\centering
-	\begin{tabular}{|l|l|}
-		\hline
-		Use Case ID & Tên Use Case                         \\ \hline
-		UC01        & Hỏi đáp về Pháp luật Việt Nam        \\ \hline
-		UC02        & Xem các câu hỏi và trả lời liên quan \\ \hline
-	\end{tabular}
-	\caption{Bảng mô tả use case}
-	\label{tab:usecase}
-\end{table}
-
-\pagebreak
-\textbf{Đặc tả Use case}
-
-%table 1
-\begin{table}[htp]
-	\resizebox{\textwidth}{!}{%
-		\begin{tabular}{|l|l|}
-			\hline
-			Use Case ID   & UC01                                                                           \\ \hline
-			Tên Use Case  & Hỏi đáp về Pháp luật Việt Nam                                                  \\ \hline
-			Actor         & Người dùng                                                                     \\ \hline
-			Mô tả         & Use case mô tả cách người dùng thực hiện việc hỏi   đáp Pháp luật trên Website \\ \hline
-			Dòng chính &
-			\begin{tabular}[c]{@{}l@{}}1. Người dùng nhập vào câu hỏi liên quan đến Pháp luật vào ô 'Nhập câu hỏi' \\ 2. Người dùng click vào button 'Hỏi'\\ 3. Hệ thống nhận câu hỏi và đưa ra câu trả lời tương ứng lên giao diện website\end{tabular} \\ \hline
-			Dòng thay thế &
-			\begin{tabular}[c]{@{}l@{}}A1. Người dùng không nhập gì vào ô 'Nhập câu hỏi'\\      A1.1 Hệ thống đưa ra thông báo 'Please fill out thí field': yêu cầu người dùng điền câu hỏi vào ô\end{tabular} \\ \hline
-			Hậu điều kiện & Hệ thống đưa ra câu trả lời cho câu hỏi nhập vào thành công                    \\ \hline
-		\end{tabular}%
-	}
-	\caption{Bảng mô tả use case UC01}
-	\label{tab:usecase01}
-\end{table}
-%table 2
-
-\begin{table}[htp]
-	\resizebox{\textwidth}{!}{%
-		\begin{tabular}{|l|l|}
-			\hline
-			Use Case ID   & UC02                                                                                                                \\ \hline
-			Tên Use Case  & Xem các câu hỏi và trả lời liên quan                                                                                \\ \hline
-			Actor         & Người dùng                                                                                                          \\ \hline
-			Mô tả         & Usecase mô tả cách người dùng xem các câu hỏi và câu trả lời tương ứng liên quan đến câu hỏi được nhập vào trước đó \\ \hline
-			Dòng chính &
-			\begin{tabular}[c]{@{}l@{}}1. Người dùng click vào button 'Xem các câu hỏi liên quan' tại gia diện hệ thống đã đưa ra câu trả lời\\ 2. Hệ thống đưa ra các câu hỏi liên quan đến giao diện website\\ 3. Người dùng click vào nút 'Xem câu trả lời' để xem câu trả lời tương ứng với câu hỏi người dùng quan tâm\\ 4. Hệ thống đưa ra câu trả lời cho câu hỏi được chọn\end{tabular} \\ \hline
-			Dòng thay thế &
-			\begin{tabular}[c]{@{}l@{}}A2. Người dùng click vào nút 'Xem các câu hỏi liên quan một lần nữa để đóng giao diện các câu hỏi liên quan\\ A4. Người dùng click vào nút 'Xem câu trả lời' một lần nữa để ẩn đi câu trả lời\end{tabular} \\ \hline
-			Hậu điều kiện & Hệ thống đưa ra câu trả lời tương ứng thành công                                                                    \\ \hline
-		\end{tabular}%
-	}
-	\caption{Bảng mô tả use case UC02}
-	\label{tab:usecase02}
-\end{table}
-
 %table 3
 \section{Hướng dẫn cài đặt các phần mềm cần thiết}
 \subsubsection{ElasticSearch}
 Truy cập: \url{https://www.elastic.co/downloads/elasticsearch} và tải bản phù hợp với hệ điều hành tại mục Downloads:
 
 \begin{figure*}[htp]
-\centering
-\includegraphics[scale=0.7]{images/elasticsearch1}
-\caption {Giao diện tải về Elastic search}
-\label{fig:elasticsearch1}
+	\centering
+	\includegraphics[scale=0.7]{images/elasticsearch1}
+	\caption {Giao diện tải về Elastic search}
+	\label{fig:elasticsearch1}
 \end{figure*}
 
 Giải nén file .zip vừa tải về thành công ta được thư mục tương ứng
@@ -445,25 +331,25 @@ Vào thư mục giải nén:  bin và chạy file elasticsearch.bat
 Mở trình duyệt truy cập: \url{http://localhost:9200/} để kiểm tra ElasticSearch đã chạy hay chưa, nếu thành công:
 
 \begin{figure*}[htp]
-\centering
-\includegraphics[scale=0.8]{images/elasticsearch2}
-\caption{Trả về kết quả là Elastic search được cài đặt thành công và đang hoạt động}
+	\centering
+	\includegraphics[scale=0.8]{images/elasticsearch2}
+	\caption{Trả về kết quả là Elastic search được cài đặt thành công và đang hoạt động}
 \end{figure*}
 
 \subsubsection{Cài đặt các thư viện cần thiết}
 \textbf{BeautifulSoup}
 \begin{lstlisting}
-pip install beautifulsoup4
+	pip install beautifulsoup4
 \end{lstlisting}
 
 \textbf{Flask 2.0.1}
 \begin{lstlisting}
-pip install Flask
+	pip install Flask
 \end{lstlisting}
 
 \textbf{utils 1.0.1}
 \begin{lstlisting}
-pip install utils
+	pip install utils
 \end{lstlisting}
 
 \textbf{pandas 1.3.1}
