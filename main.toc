@@ -68,15 +68,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.7}Mô hình PhoBERT}{22}{section.3.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.8}Pre-trained model SimCSE}{22}{section.3.8}%
+\contentsline {section}{\numberline {3.8}Pre-trained model SimCSE}{23}{section.3.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.9}Elasticsearch}{22}{section.3.9}%
+\contentsline {section}{\numberline {3.9}Elasticsearch}{23}{section.3.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.9.1}Ưu điểm của Elasticsearch}{23}{subsection.3.9.1}%
+\contentsline {subsection}{\numberline {3.9.1}Ưu điểm của Elasticsearch}{24}{subsection.3.9.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.9.2}Nhược điểm của Elasticsearch}{24}{subsection.3.9.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.10}Web Framework: Flask Framework}{24}{section.3.10}%
+\contentsline {section}{\numberline {3.10}Web Framework: Flask Framework}{25}{section.3.10}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.11}Hướng dẫn cài đặt các phần mềm cần thiết}{27}{section.3.11}%
 \defcounter {refsection}{0}\relax 
@@ -84,62 +84,62 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Cài đặt các thư viện cần thiết}{28}{figure.3.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Kiến trúc hệ thống}{29}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Kiến trúc hệ thống}{30}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Mô Tả Hệ Thống}{29}{section.4.1}%
+\contentsline {section}{\numberline {4.1}Mô Tả Hệ Thống}{30}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Usecase}{32}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.1}Usecase}{33}{subsection.4.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Mô hình usecase}{32}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.2}Mô hình usecase}{33}{subsection.4.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.3}Mô tả usecase}{32}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.3}Mô tả usecase}{33}{subsection.4.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.4}Đặc tả Use case}{33}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.1.4}Đặc tả Use case}{34}{subsection.4.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Quy trình thực hiện Scraping Data}{33}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Quy trình thực hiện Scraping Data}{34}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Chi tiết về dữ liệu}{35}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.1}Chi tiết về dữ liệu}{36}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Kiến trúc phần Back-end}{38}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Kiến trúc phần Back-end}{39}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Xử lý dữ liệu thu thập}{39}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.1}Xử lý dữ liệu thu thập}{40}{subsection.4.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Phân loại từ trong câu hỏi}{39}{figure.4.8}%
+\contentsline {subsubsection}{Phân loại từ trong câu hỏi}{40}{figure.4.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Mã hoá dữ liệu từ dataset}{40}{figure.4.9}%
+\contentsline {subsubsection}{Mã hoá dữ liệu từ dataset}{41}{figure.4.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Lưu dữ liệu đã mã hoá vào Elastic Search}{44}{lstnumber.-24.3}%
+\contentsline {subsubsection}{Lưu dữ liệu đã mã hoá vào Elastic Search}{45}{lstnumber.-24.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Xử lý câu hỏi từ người dùng}{46}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.2}Xử lý câu hỏi từ người dùng}{47}{subsection.4.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Tính toán mức độ tương đồng ngữ nghĩa giữa các câu}{47}{figure.4.13}%
+\contentsline {subsubsection}{Tính toán mức độ tương đồng ngữ nghĩa giữa các câu}{48}{figure.4.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Trả về kết quả sau khi so sánh}{49}{figure.4.13}%
+\contentsline {subsubsection}{Trả về kết quả sau khi so sánh}{50}{figure.4.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.3}Huấn luyện mô hình trên dữ liệu pháp luật}{50}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.3}Huấn luyện mô hình trên dữ liệu pháp luật}{51}{subsection.4.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Kiến trúc phần Front-end}{53}{section.4.4}%
+\contentsline {section}{\numberline {4.4}Kiến trúc phần Front-end}{54}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Tạo Web server bằng Flask}{53}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.1}Tạo Web server bằng Flask}{54}{subsection.4.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Kết quả}{55}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Kết quả}{56}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Kết quả của quy trình thu thập dữ liệu}{55}{section.5.1}%
+\contentsline {section}{\numberline {5.1}Kết quả của quy trình thu thập dữ liệu}{56}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Kết quả sau khi mã hoá dữ liệu câu hỏi sau khi thu thập và lưu vào Elasticsearch}{55}{section.5.2}%
+\contentsline {section}{\numberline {5.2}Kết quả sau khi mã hoá dữ liệu câu hỏi sau khi thu thập và lưu vào Elasticsearch}{56}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Kết quả của quy trình nhận dữ liệu từ Back-end và hiển thị lên Front-end}{57}{section.5.3}%
+\contentsline {section}{\numberline {5.3}Kết quả của quy trình nhận dữ liệu từ Back-end và hiển thị lên Front-end}{58}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Tính đúng đắn của mô hình sau khi đánh giá thủ công}{59}{section.5.4}%
+\contentsline {section}{\numberline {5.4}Tính đúng đắn của mô hình sau khi đánh giá thủ công}{60}{section.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Kết luận}{60}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Kết luận}{69}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Kết quả đạt được}{60}{section.6.1}%
+\contentsline {section}{\numberline {6.1}Kết quả đạt được}{69}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.1}Về mặt kiến thức}{60}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.1}Về mặt kiến thức}{69}{subsection.6.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.2}Về mặt ứng dụng}{61}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.2}Về mặt ứng dụng}{70}{subsection.6.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Định hướng phát triển}{61}{section.6.2}%
+\contentsline {section}{\numberline {6.2}Định hướng phát triển}{70}{section.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Tài liệu tham khảo}{62}{section.6.2}%
+\contentsline {chapter}{Tài liệu tham khảo}{71}{section.6.2}%

@@ -1,6 +1,6 @@
 \chapter{Công Nghệ Sử Dụng}
 \label{Chapter3}
-\textit{Nội dung chương này sẽ đề cập đến các công nghệ sẽ được áp dụng bên trong hệ thống, các phần mềm , thư viện cần để hệ thống hoạt động, cách cài đặt các phần mềm và thư viện cần sử dụng, các bài toán con cần phải giải quyết để hoàn thành được hệ thống. }
+\textit{Nội dung chương này sẽ đề cập đến các công nghệ sẽ được áp dụng bên trong hệ thống, các phần mềm , thư viện cần để hệ thống hoạt động, cách cài đặt các phần mềm và thư viện cần sử dụng. }
 
 %thư viện requests
 \section{Thư viện Requests}
@@ -21,6 +21,7 @@ Tất cả các thông tin về yêu cầu của chúng ta bây giờ được l
 
 Việc phân tích, tìm kiếm thông tin trong đối tượng req cũng chính là nội dung chính của việc scraping data từ một website.
 
+Thư viện này sẽ được áp dụng vào trong bài toán thu thập dữ liệu câu hỏi và câu trả lời về Pháp luật ở website cung cấp thông tin về Pháp luật.
 %BeautifulSoup
 \section{Thư viện BeautifulSoup}
 
@@ -36,6 +37,7 @@ Các Object cần quan tâm khi sử dụng BeautifulSoup là:
 	\item Comment: là một dạng đặc biệt của NavigableString, cho phép truy cập vào các comment của một file HTML.
 \end{itemize}
 
+Thư viện này sẽ được áp dụng vào trong bài toán thu thập dữ liệu câu hỏi và câu trả lời về Pháp luật ở website cung cấp thông tin về Pháp luật.
 %Python Vietnamese Toolkit
 \section{Phân tách từ bằng Python Vietnamese Toolkit}
 \subsection{Định nghĩa PyVi}
@@ -104,6 +106,7 @@ Accents adding(Thêm dấu):
 
 \includegraphics[scale=0.7]{images/segment4.png}
 
+Thư viện này sẽ được áp dụng vào trong bài toán xử lý ngôn ngữ tự nhiên(tách từ ghép trong tiếng Việt).
 %transformer
 \section{Mô hình Transformer}
 \subsection{Định nghĩa mô hình Transformer}
@@ -119,13 +122,15 @@ Kiến trúc của Transformers bao gồm hai phần là Encoder và Decoder, En
 
 \begin{figure*}[htp]
     \centering
-    \includegraphics[width=11 cm, height=12 cm]{images/transformer_schema}
+    \includegraphics[width=13 cm, height=15 cm]{images/transformer_schema}
     \caption{Mô hình tổng quát của cấu trúc của Transformer}
     \label{fig:transformer_schema}
 \end{figure*}
 
 
 Ý tưởng của mô hình Transformers là áp dụng cơ chế Attention. Chính thành phần Multi-Head Attention trong các lớp Encoder cho phép mô hình mã hoá một từ có thể sử dụng thông tin của những từ liên quan đến nó.
+
+Mô hình này sẽ được áp dụng vào trong bài toán mã hoá dữ liệu câu hỏi Pháp luật.
 \pagebreak
 
 
@@ -154,7 +159,7 @@ BERT được xây dựng dựa trên Transformers với hai biến thể:
 Trong khi đó kiến trúc của Transformers chỉ có 6 lớp Encoder, cho thấy khả năng xử lý của BERT mang lại hiệu suất cao hơn.
 \begin{figure*}[htp]
     \centering
-    \includegraphics[width=7 cm]{images/encode_bert.png}
+    \includegraphics[width=12.5 cm, height=17 cm]{images/encode_bert.png}
     \caption{Encode BERT}
     \label{fig:encode_bert}
 \end{figure*}
@@ -164,6 +169,7 @@ Kiến trúc của BERT khác với Transformers ở chỗ nó chỉ dùng thàn
 
 BERT không sử dụng thành phần Decoder của Transformers nên kết quả đầu ra của nó là một embedding – một không gian vector dùng để biểu diễn dữ liệu có thông tin về mối liên hệ, sự tương đồng về mặt ngữ nghĩa, ngữ cảnh của dữ liệu, trong đó bao gồm nhiều chiều và các từ có sự tương đồng sẽ có vị trí gần nhau. Vì kết quả đầu ra của BERT là word embedding nên người sử dụng có thể làm các tác vụ khác nhau. Người dùng có thể sử dụng các kỹ thuật để tính sự tương đồng, chẳng hạn như Cosine Similarity để so sánh giữa các vector đại diện và trả về điểm số tương đồng.
 
+Mô hình này sẽ được áp dụng vào trong bài toán mã hoá dữ liệu câu hỏi Pháp luật.
 %Sentence-transformer
 \section{Sentence-transformer}
 Sentence Transformers\cite{sentencetransformer} là 1 framework dùng để Embedd (nhúng) những câu văn, đoạn văn, hình ảnh để tạo ra các Embeddings có ý nghĩa về mặt ngữ nghĩa, được sử dụng để áp dụng cho các bài toán, ứng dụng Semantic Search (tìm kiếm ngữ nghĩa) hoặc là Multi-lingual Zero-shot Classification (phân loại Zero-shot đa ngôn ngữ).
@@ -206,6 +212,7 @@ PhoBERT sử dụng RDR Segmenter của VnCoreNLP để tách từ cho dữ li�
 
 PhoBERT tượng tự BERT, chỉ khác là dùng cho việc xử lý ngôn ngữ tiếng Việt nên kiến trúc của PhoBERT cũng thừa hưởng thành phần Encoder của mô hình Transformers, không bao gồm Decoder.
 
+Mô hình này sẽ được áp dụng vào trong bài toán mã hoá dữ liệu câu hỏi Pháp luật.
 %SimCSE
 \section{Pre-trained model SimCSE}
 
@@ -213,6 +220,7 @@ SimCSE\cite{gao2021simcse} là một pre-trained model sử dụng PhoBERT, dùn
 
 Việc áp dụng mô hình SimCSE là cần thiết vì đây là mô hình sử dụng các phương pháp kỹ thuật hiện đại nhất trong tác vụ xử lý dữ liệu đầu vào. Thêm vào đó, với tác vụ đánh giá sự tương đồng ngữ cảnh giữa các câu văn bản, SimCSE mang lại kết quả khá cao so với BERT.
 
+Mô hình này sẽ được áp dụng vào trong bài toán mã hoá dữ liệu câu hỏi Pháp luật.
 %Elasticsearch
 \section{Elasticsearch}
 Elasticsearch là một công cụ tìm kiếm dựa trên nền tảng Apache Lucene. Nó cung cấp một bộ máy tìm kiếm dạng phân tán, có đầy đủ công cụ với một giao diện web HTTP có hỗ trợ dữ liệu JSON.
@@ -247,6 +255,7 @@ Nhược điểm của Elasticsearch là:
 	\item Trong Elasticsearch không có khái niệm database transaction , tức là nó sẽ không đảm bảo được toàn vẹn dữ liệu trong các hoạt độngInsert, Update, Delete.Tức khi chúng ta thực hiện thay đổi nhiều bản ghi nếu xảy ra lỗi thì sẽ làm cho logic của mình bị sai hay dẫn tới mất mát dữ liệu. Đây cũng là 1 phần khiến Elasticsearch không nên là database chính.
 	\item Không thích hợp với những hệ thống thường xuyên cập nhật dữ liệu. Sẽ rất tốn kém cho việc đánh index dữ liệu.	
 \end{itemize}
+
 %Flask
 \section{Web Framework: Flask Framework}
 \begin{enumerate}
