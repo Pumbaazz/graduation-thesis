@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.12)  8 AUG 2021 01:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.12)  9 AUG 2021 10:05
 entering extended mode
 **./main.tex
 (main.tex
@@ -1152,26 +1152,26 @@ LaTeX Warning: Label `Chapter6' multiply defined.
 ))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1214,9 +1214,9 @@ Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                - Invalid format of field 'date'.
 
 )
-Package biblatex Info: Reference section=0 on input line 137.
-Package biblatex Info: Reference segment=0 on input line 137.
-Package hyperref Info: Link coloring OFF on input line 137.
+Package biblatex Info: Reference section=0 on input line 138.
+Package biblatex Info: Reference segment=0 on input line 138.
+Package hyperref Info: Link coloring OFF on input line 138.
  (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1229,9 +1229,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count455
 )
-LaTeX Info: Redefining \ref on input line 137.
-LaTeX Info: Redefining \pageref on input line 137.
-LaTeX Info: Redefining \nameref on input line 137.
+LaTeX Info: Redefining \ref on input line 138.
+LaTeX Info: Redefining \pageref on input line 138.
+LaTeX Info: Redefining \nameref on input line 138.
  (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -1303,19 +1303,14 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 {C:/Users/nguyn/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2])
 \openout2 = `Appendix/thanks.aux'.
 
- (Appendix/thanks.tex)pdfTeX warning (ext4): destination with the same identifi
-er (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.147 \include{Appendix/thanks}
-                                [1
+ (Appendix/thanks.tex) [1
 
 
 ]
 \openout2 = `Appendix/nhanxetgiaovienhuongdan.aux'.
 
  (Appendix/nhanxetgiaovienhuongdan.texpdfTeX warning (ext4): destination with t
-he same identifier (name{page.1}) has been already used, duplicate ignored
+he same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.26 \end{titlepage}
@@ -1327,7 +1322,7 @@ l.26 \end{titlepage}
 \openout2 = `Appendix/nhanxetgiaovienphanbien.aux'.
 
  (Appendix/nhanxetgiaovienphanbien.texpdfTeX warning (ext4): destination with t
-he same identifier (name{page.1}) has been already used, duplicate ignored
+he same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.26 \end{titlepage}
@@ -1339,51 +1334,37 @@ l.26 \end{titlepage}
 \openout2 = `Appendix/decuong.aux'.
 
  (Appendix/decuong.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--7
+<images/logo.png, id=283, 99.37125pt x 72.9927pt>
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package pdftex.def Info: images/logo.png  used on input line 5.
+(pdftex.def)             Requested size: 99.371pt x 72.99251pt.
 
+Overfull \hbox (24.2823pt too wide) in paragraph at lines 3--18
+[]$[]$  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--10
+Underfull \hbox (badness 10000) in paragraph at lines 3--18
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--13
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--18
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
-
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.39 \begin{flushright}
-                        [1
+l.50 		\item[\textbf{3.}]
+                          \textbf{Phương pháp tiếp cận}\\ [1
 
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.50 \end{titlepage}
-                     [2]) (main.tocpdfTeX warning (ext4): destination with the 
-same identifier (name{page.1}) has been already used, duplicate ignored
+ <./images/logo.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
+[2] [3]) (main.tocpdfTeX warning (ext4): destination with the same identifier (
+name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.51 ...ython Vietnamese Toolkit}{14}{section.3.3}
@@ -1391,8 +1372,8 @@ l.51 ...ython Vietnamese Toolkit}{14}{section.3.3}
 
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
- been already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) ha
+s been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.129 ...lưu vào Elasticsearch}{56}{section.5.2}
@@ -1400,14 +1381,18 @@ l.129 ...lưu vào Elasticsearch}{56}{section.5.2}
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [3] (main.lof [4
+pdfTeX warning (ext4): destination with the same identifier (name{page.iii}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.164 \listoffigures
+                     [3] (main.lof [4
 
 ])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
-
-[5] (main.lot)
+ [5] (main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
@@ -1416,7 +1401,8 @@ l.129 ...lưu vào Elasticsearch}{56}{section.5.2}
 ]
 \openout2 = `Chapter1/chapter1.aux'.
 
- (Chapter1/chapter1.tex
+
+(Chapter1/chapter1.tex
 Chương 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
@@ -1432,34 +1418,18 @@ l.12 	\end{itemize}
 <to be read again> 
                    \relax 
 l.21 \section
-             {Nội dung của đồ án} [2])pdfTeX warning (ext4): destinatio
-n with the same identifier (name{page.3}) has been already used, duplicate igno
-red
-<to be read again> 
-                   \relax 
-l.172 \include{Chapter1/chapter1}
-                                  [3]pdfTeX warning (ext4): destination with th
-e same identifier (name{page.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.172 \include{Chapter1/chapter1}
-                                  [4]
+             {Nội dung của đồ án} [2]) [3] [4]
 \openout2 = `Chapter2/chapter2.aux'.
 
  (Chapter2/chapter2.tex
 Chương 2.
-pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.19 \section
-             {Kết quả khảo sát} [5
+[5
 
 
 
 
 ]
-<images/survey1.png, id=491, 469.755pt x 197.757pt>
+<images/survey1.png, id=503, 469.755pt x 197.757pt>
 File: images/survey1.png Graphic file (type png)
 <use images/survey1.png>
 Package pdftex.def Info: images/survey1.png  used on input line 24.
@@ -1469,19 +1439,13 @@ Overfull \hbox (14.50975pt too wide) in paragraph at lines 24--25
  [][] 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.30 ...�n hoạt động trong lĩnh vực nào?}
-                                                   [6pdfTeX warning (ext4): des
-tination with the same identifier (name{figure.2.1}) has been already used, dup
-licate ignored
+[6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}
+) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.30 ...�n hoạt động trong lĩnh vực nào?}
                                                    <./images/survey1.png>]
-<images/survey2.png, id=498, 469.755pt x 223.38pt>
+<images/survey2.png, id=509, 469.755pt x 223.38pt>
 File: images/survey2.png Graphic file (type png)
 <use images/survey2.png>
 Package pdftex.def Info: images/survey2.png  used on input line 33.
@@ -1497,7 +1461,7 @@ Overfull \hbox (14.50975pt too wide) in paragraph at lines 33--34
                                                   \__shipout_drop_firstpage_...
 l.40 ...��n đề liên quan đến luật pháp?}
                                                    <./images/survey2.png>]
-<images/survey3.png, id=504, 469.755pt x 197.757pt>
+<images/survey3.png, id=515, 469.755pt x 197.757pt>
 File: images/survey3.png Graphic file (type png)
 <use images/survey3.png>
 Package pdftex.def Info: images/survey3.png  used on input line 43.
@@ -1513,7 +1477,7 @@ Overfull \hbox (14.50975pt too wide) in paragraph at lines 43--44
                                                   \__shipout_drop_firstpage_...
 l.50 ...thức nào để tra cứu pháp luật?}
                                                    <./images/survey3.png>]
-<images/survey4.png, id=510, 469.755pt x 223.38pt>
+<images/survey4.png, id=521, 469.755pt x 223.38pt>
 File: images/survey4.png Graphic file (type png)
 <use images/survey4.png>
 Package pdftex.def Info: images/survey4.png  used on input line 54.
@@ -1529,7 +1493,7 @@ Overfull \hbox (14.50975pt too wide) in paragraph at lines 54--55
                                                   \__shipout_drop_firstpage_...
 l.61 ... cứu trên trang web pháp luật nào?}
                                                    <./images/survey4.png>]
-<images/survey5.png, id=516, 469.755pt x 223.38pt>
+<images/survey5.png, id=527, 469.755pt x 223.38pt>
 File: images/survey5.png Graphic file (type png)
 <use images/survey5.png>
 Package pdftex.def Info: images/survey5.png  used on input line 65.
@@ -1545,7 +1509,7 @@ Overfull \hbox (14.50975pt too wide) in paragraph at lines 65--66
                                                   \__shipout_drop_firstpage_...
 l.72 ...�ng khi sử dụng các trang web trên?}
                                                    <./images/survey5.png>]
-<images/survey6.png, id=522, 469.755pt x 197.757pt>
+<images/survey6.png, id=533, 469.755pt x 197.757pt>
 File: images/survey6.png Graphic file (type png)
 <use images/survey6.png>
 Package pdftex.def Info: images/survey6.png  used on input line 75.
@@ -1576,23 +1540,23 @@ Chương 3.
 
 
 ] [14]
-<images/pyvi_segment.png, id=550, 626.34pt x 291.0875pt>
+<images/pyvi_segment.png, id=561, 626.34pt x 291.0875pt>
 File: images/pyvi_segment.png Graphic file (type png)
 <use images/pyvi_segment.png>
 Package pdftex.def Info: images/pyvi_segment.png  used on input line 76.
 (pdftex.def)             Requested size: 438.435pt x 203.75984pt.
  [15]
-<images/pyvi_demo_code.png, id=555, 496.85625pt x 225.84375pt>
+<images/pyvi_demo_code.png, id=566, 496.85625pt x 225.84375pt>
 File: images/pyvi_demo_code.png Graphic file (type png)
 <use images/pyvi_demo_code.png>
 Package pdftex.def Info: images/pyvi_demo_code.png  used on input line 86.
 (pdftex.def)             Requested size: 422.3298pt x 191.96808pt.
-<images/segment1.png, id=556, 569.12625pt x 54.2025pt>
+<images/segment1.png, id=567, 569.12625pt x 54.2025pt>
 File: images/segment1.png Graphic file (type png)
 <use images/segment1.png>
 Package pdftex.def Info: images/segment1.png  used on input line 95.
 (pdftex.def)             Requested size: 398.38567pt x 37.94148pt.
-<images/segment2.png, id=557, 571.38469pt x 76.03406pt>
+<images/segment2.png, id=568, 571.38469pt x 76.03406pt>
 File: images/segment2.png Graphic file (type png)
 <use images/segment2.png>
 Package pdftex.def Info: images/segment2.png  used on input line 99.
@@ -1604,18 +1568,18 @@ Package pdftex.def Info: images/segment2.png  used on input line 99.
 l.101 A
        ccents removal (bỏ dấu): <./images/pyvi_segment.png> <./images/pyvi_
 demo_code.png> <./images/segment1.png>]
-<images/segment3.png, id=565, 571.38469pt x 54.9553pt>
+<images/segment3.png, id=576, 571.38469pt x 54.9553pt>
 File: images/segment3.png Graphic file (type png)
 <use images/segment3.png>
 Package pdftex.def Info: images/segment3.png  used on input line 103.
 (pdftex.def)             Requested size: 399.96655pt x 38.46843pt.
-<images/segment4.png, id=566, 573.64313pt x 55.70813pt>
+<images/segment4.png, id=577, 573.64313pt x 55.70813pt>
 File: images/segment4.png Graphic file (type png)
 <use images/segment4.png>
 Package pdftex.def Info: images/segment4.png  used on input line 107.
 (pdftex.def)             Requested size: 401.54745pt x 38.9954pt.
  [17 <./images/segment2.png> <./images/segment3.png> <./images/segment4.png>]
-<images/transformer_schema.jpg, id=574, 986.68625pt x 930.47626pt>
+<images/transformer_schema.jpg, id=586, 986.68625pt x 930.47626pt>
 File: images/transformer_schema.jpg Graphic file (type jpg)
 <use images/transformer_schema.jpg>
 Package pdftex.def Info: images/transformer_schema.jpg  used on input line 125.
@@ -1627,13 +1591,13 @@ Package pdftex.def Info: images/transformer_schema.jpg  used on input line 125.
                                                   \__shipout_drop_firstpage_...
 l.135 
        <./images/transformer_schema.jpg>]
-<images/bert-base-and-large.jpg, id=580, 2672.98625pt x 1040.88875pt>
+<images/bert-base-and-large.jpg, id=591, 2672.98625pt x 1040.88875pt>
 File: images/bert-base-and-large.jpg Graphic file (type jpg)
 <use images/bert-base-and-large.jpg>
 Package pdftex.def Info: images/bert-base-and-large.jpg  used on input line 154
 .
 (pdftex.def)             Requested size: 267.31429pt x 104.09497pt.
-<images/encode_bert.png, id=581, 401.5pt x 551.05875pt>
+<images/encode_bert.png, id=592, 401.5pt x 551.05875pt>
 File: images/encode_bert.png Graphic file (type png)
 <use images/encode_bert.png>
 Package pdftex.def Info: images/encode_bert.png  used on input line 162.
@@ -1654,7 +1618,7 @@ l.171
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 [21] [22] [23] [24]
-<images/Flask_Logo.png, id=633, 281.05pt x 210.7875pt>
+<images/Flask_Logo.png, id=644, 281.05pt x 210.7875pt>
 File: images/Flask_Logo.png Graphic file (type png)
 <use images/Flask_Logo.png>
 Package pdftex.def Info: images/Flask_Logo.png  used on input line 265.
@@ -1672,7 +1636,7 @@ LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 3
 (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-<images/elasticsearch1.png, id=657, 469.4265pt x 245.3895pt>
+<images/elasticsearch1.png, id=668, 469.4265pt x 245.3895pt>
 File: images/elasticsearch1.png Graphic file (type png)
 <use images/elasticsearch1.png>
 Package pdftex.def Info: images/elasticsearch1.png  used on input line 331.
@@ -1685,7 +1649,7 @@ Package pdftex.def Info: images/elasticsearch1.png  used on input line 331.
 l.338 V
        ào thư mục giải nén:  bin và chạy file elasticsearch.bat <./im
 ages/elasticsearch1.png>]
-<images/elasticsearch2.png, id=673, 426.84468pt x 280.04625pt>
+<images/elasticsearch2.png, id=684, 426.84468pt x 280.04625pt>
 File: images/elasticsearch2.png Graphic file (type png)
 <use images/elasticsearch2.png>
 Package pdftex.def Info: images/elasticsearch2.png  used on input line 344.
@@ -1711,7 +1675,7 @@ Chương 4.
 
 
 ]
-<images/system1_e.png, id=710, 504.88625pt x 630.355pt>
+<images/system1_e.png, id=721, 504.88625pt x 630.355pt>
 File: images/system1_e.png Graphic file (type png)
 <use images/system1_e.png>
 Package pdftex.def Info: images/system1_e.png  used on input line 25.
@@ -1723,7 +1687,7 @@ Package pdftex.def Info: images/system1_e.png  used on input line 25.
 l.32 	\item E
              ncode Question từ bộ dữ liệu thu thập <./images/system1_
 e.png>]
-<images/encodingframe.png, id=716, 753.48167pt x 691.91833pt>
+<images/encodingframe.png, id=727, 753.48167pt x 691.91833pt>
 File: images/encodingframe.png Graphic file (type png)
 <use images/encodingframe.png>
 Package pdftex.def Info: images/encodingframe.png  used on input line 39.
@@ -1734,7 +1698,7 @@ Package pdftex.def Info: images/encodingframe.png  used on input line 39.
                                                   \__shipout_drop_firstpage_...
 l.50 
       <./images/encodingframe.png>]
-<images/usecasemodel.png, id=722, 462.22687pt x 113.67468pt>
+<images/usecasemodel.png, id=733, 462.22687pt x 113.67468pt>
 File: images/usecasemodel.png Graphic file (type png)
 <use images/usecasemodel.png>
 Package pdftex.def Info: images/usecasemodel.png  used on input line 53.
@@ -1759,7 +1723,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--106
 [][]
  []
 
-<images/scraping_schema.png, id=729, 669.16667pt x 669.16667pt>
+<images/scraping_schema.png, id=740, 669.16667pt x 669.16667pt>
 File: images/scraping_schema.png Graphic file (type png)
 <use images/scraping_schema.png>
 Package pdftex.def Info: images/scraping_schema.png  used on input line 136.
@@ -1780,7 +1744,7 @@ gure.4.4}) has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.141 
        <./images/scraping_schema.png>]
-<images/hoidapphapluat.png, id=740, 1445.4pt x 689.57625pt>
+<images/hoidapphapluat.png, id=752, 1445.4pt x 689.57625pt>
 File: images/hoidapphapluat.png Graphic file (type png)
 <use images/hoidapphapluat.png>
 Package pdftex.def Info: images/hoidapphapluat.png  used on input line 178.
@@ -1796,7 +1760,7 @@ Overfull \hbox (36.1854pt too wide) in paragraph at lines 178--179
                                                   \__shipout_drop_firstpage_...
 l.186 
       ]
-<images/parent_item.png, id=747, 581.17125pt x 134.00063pt>
+<images/parent_item.png, id=758, 581.17125pt x 134.00063pt>
 File: images/parent_item.png Graphic file (type png)
 <use images/parent_item.png>
 Package pdftex.def Info: images/parent_item.png  used on input line 189.
@@ -1812,7 +1776,7 @@ l.196
                                                   \__shipout_drop_firstpage_...
 l.196 
        <./images/hoidapphapluat.png> <./images/parent_item.png>]
-<images/detail_parent_item.png, id=755, 499.11469pt x 104.64093pt>
+<images/detail_parent_item.png, id=766, 499.11469pt x 104.64093pt>
 File: images/detail_parent_item.png Graphic file (type png)
 <use images/detail_parent_item.png>
 Package pdftex.def Info: images/detail_parent_item.png  used on input line 199.
@@ -1825,7 +1789,7 @@ Package pdftex.def Info: images/detail_parent_item.png  used on input line 199.
 l.237 \begin{lstlisting}[language=python]
                                           <./images/detail_parent_item.png>]
 [39]
-<images/elasticsearch_e.png, id=788, 892.33376pt x 496.85625pt>
+<images/elasticsearch_e.png, id=799, 892.33376pt x 496.85625pt>
 File: images/elasticsearch_e.png Graphic file (type png)
 <use images/elasticsearch_e.png>
 Package pdftex.def Info: images/elasticsearch_e.png  used on input line 260.
@@ -1836,7 +1800,7 @@ Package pdftex.def Info: images/elasticsearch_e.png  used on input line 260.
                                                   \__shipout_drop_firstpage_...
 l.272 \begin{lstlisting}
                          <./images/elasticsearch_e.png>]
-<images/tokenize.png, id=794, 384.6872pt x 60.225pt>
+<images/tokenize.png, id=805, 384.6872pt x 60.225pt>
 File: images/tokenize.png Graphic file (type png)
 <use images/tokenize.png>
 Package pdftex.def Info: images/tokenize.png  used on input line 280.
@@ -1846,7 +1810,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 289--290
 
  []
 
-<images/encoding_graph.png, id=796, 587.19376pt x 230.8625pt>
+<images/encoding_graph.png, id=807, 587.19376pt x 230.8625pt>
 File: images/encoding_graph.png Graphic file (type png)
 <use images/encoding_graph.png>
 Package pdftex.def Info: images/encoding_graph.png  used on input line 293.
@@ -1856,7 +1820,7 @@ Overfull \hbox (14.51154pt too wide) in paragraph at lines 293--294
  [][] 
  []
 
-<images/position.jpg, id=797, 285.31593pt x 251.43938pt>
+<images/position.jpg, id=808, 285.31593pt x 251.43938pt>
 File: images/position.jpg Graphic file (type jpg)
 <use images/position.jpg>
 Package pdftex.def Info: images/position.jpg  used on input line 304.
@@ -1892,7 +1856,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 334--335
 
  []
 
-<images/matrix_encode.jpg, id=820, 469.755pt x 350.05782pt>
+<images/matrix_encode.jpg, id=831, 469.755pt x 350.05782pt>
 File: images/matrix_encode.jpg Graphic file (type jpg)
 <use images/matrix_encode.jpg>
 Package pdftex.def Info: images/matrix_encode.jpg  used on input line 339.
@@ -1918,7 +1882,7 @@ l.383 �
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 385.
  (SourceCode/index.json) [46]
-<images/asking.png, id=865, 399.4925pt x 587.19376pt>
+<images/asking.png, id=876, 399.4925pt x 587.19376pt>
 File: images/asking.png Graphic file (type png)
 <use images/asking.png>
 Package pdftex.def Info: images/asking.png  used on input line 397.
@@ -1936,17 +1900,17 @@ Package amsmath Warning: Foreign command \over;
 (amsmath)                 on input line 433.
 
 [49] [50]
-<images/model_manual.png, id=899, 848.16875pt x 546.04pt>
+<images/model_manual.png, id=910, 848.16875pt x 546.04pt>
 File: images/model_manual.png Graphic file (type png)
 <use images/model_manual.png>
 Package pdftex.def Info: images/model_manual.png  used on input line 483.
 (pdftex.def)             Requested size: 424.08333pt x 273.01933pt.
-<images/sts_train_data.png, id=901, 337.26pt x 184.43906pt>
+<images/sts_train_data.png, id=912, 337.26pt x 184.43906pt>
 File: images/sts_train_data.png Graphic file (type png)
 <use images/sts_train_data.png>
 Package pdftex.def Info: images/sts_train_data.png  used on input line 498.
 (pdftex.def)             Requested size: 337.25917pt x 184.4386pt.
-<images/law-train-data.png, id=902, 705.38531pt x 288.3272pt>
+<images/law-train-data.png, id=913, 705.38531pt x 288.3272pt>
 File: images/law-train-data.png Graphic file (type png)
 <use images/law-train-data.png>
 Package pdftex.def Info: images/law-train-data.png  used on input line 505.
@@ -1956,7 +1920,7 @@ Overfull \hbox (38.52225pt too wide) in paragraph at lines 505--506
  [][] 
  []
 
-<images/inside_model.png, id=904, 263.48438pt x 299.61937pt>
+<images/inside_model.png, id=915, 263.48438pt x 299.61937pt>
 File: images/inside_model.png Graphic file (type png)
 <use images/inside_model.png>
 Package pdftex.def Info: images/inside_model.png  used on input line 513.
@@ -1984,7 +1948,7 @@ n already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.537 
        <./images/inside_model.png>]
-<images/WebStructure.png, id=932, 1064.97874pt x 332.24126pt>
+<images/WebStructure.png, id=944, 1064.97874pt x 332.24126pt>
 File: images/WebStructure.png Graphic file (type png)
 <use images/WebStructure.png>
 Package pdftex.def Info: images/WebStructure.png  used on input line 541.
@@ -1999,7 +1963,7 @@ l.562
 
  (Chapter5/chapter5.tex
 Chương 5.
-<images/elastic_search_result.png, id=952, 725.71124pt x 776.9025pt>
+<images/elastic_search_result.png, id=963, 725.71124pt x 776.9025pt>
 File: images/elastic_search_result.png Graphic file (type png)
 <use images/elastic_search_result.png>
 Package pdftex.def Info: images/elastic_search_result.png  used on input line 2
@@ -2016,7 +1980,7 @@ Package pdftex.def Info: images/elastic_search_result.png  used on input line 2
                                                   \__shipout_drop_firstpage_...
 l.29 
       <./images/elastic_search_result.png>]
-<images/res1.png, id=964, 469.755pt x 45.16875pt>
+<images/res1.png, id=975, 469.755pt x 45.16875pt>
 File: images/res1.png Graphic file (type png)
 <use images/res1.png>
 Package pdftex.def Info: images/res1.png  used on input line 51.
@@ -2026,7 +1990,7 @@ Overfull \hbox (14.50975pt too wide) in paragraph at lines 51--52
  [][] 
  []
 
-<images/res2.png, id=965, 469.755pt x 126.4725pt>
+<images/res2.png, id=976, 469.755pt x 126.4725pt>
 File: images/res2.png Graphic file (type png)
 <use images/res2.png>
 Package pdftex.def Info: images/res2.png  used on input line 68.
@@ -2042,7 +2006,7 @@ Overfull \hbox (14.50975pt too wide) in paragraph at lines 68--69
                                                   \__shipout_drop_firstpage_...
 l.76 	
       			{{group_QA(data_id = para[0] - 1, <./images/res1.png>]
-<images/final.png, id=979, 469.755pt x 298.86656pt>
+<images/final.png, id=990, 469.755pt x 298.86656pt>
 File: images/final.png Graphic file (type png)
 <use images/final.png>
 Package pdftex.def Info: images/final.png  used on input line 86.
@@ -2079,33 +2043,33 @@ Package biblatex Warning: Name format 'last-first' deprecated.
 (biblatex)                Using 'family-given' now.
 
 
-Overfull \hbox (8.88272pt too wide) in paragraph at lines 194--194
+Overfull \hbox (8.88272pt too wide) in paragraph at lines 195--195
 []\T5/cmr/m/n/14.4 DatCanCote. \T5/cmr/m/it/14.4 Sim-CSE ph�t tri�n cho ng�n ng
 � ti�ng Vi�t\T5/cmr/m/n/14.4 . \T5/cmr/m/sc/14.4 url\T5/cmr/m/n/14.4 : []$\T5/c
 mtt/m/n/14.4 https :
  []
 
 
-Overfull \hbox (0.27524pt too wide) in paragraph at lines 194--194
+Overfull \hbox (0.27524pt too wide) in paragraph at lines 195--195
 []\T5/cmr/m/n/14.4 Google. ``Mea-sur-ing Sim-i-lar-ity from Em-bed-dings''. In:
  (). \T5/cmr/m/sc/14.4 url\T5/cmr/m/n/14.4 : []$\T5/cmtt/m/n/14.4 https :
  []
 
 
-Overfull \hbox (28.27399pt too wide) in paragraph at lines 194--194
+Overfull \hbox (28.27399pt too wide) in paragraph at lines 195--195
 \T5/cmtt/m/n/14.4 com / vi / tutorials / scraping -[] webpages -[] in -[] pytho
 n -[] with -[] beautiful -[]
  []
 
 
-Overfull \hbox (23.88438pt too wide) in paragraph at lines 194--194
+Overfull \hbox (23.88438pt too wide) in paragraph at lines 195--195
 []\T5/cmr/m/it/14.4 Th� vi�n H�i �p Ph�p Lu�t\T5/cmr/m/n/14.4 . \T5/cmr/m/sc/1
 4.4 url\T5/cmr/m/n/14.4 : []$\T5/cmtt/m/n/14.4 https : / / hoidap . thuvienphap
 luat .
  []
 
 
-Overfull \hbox (0.23653pt too wide) in paragraph at lines 194--194
+Overfull \hbox (0.23653pt too wide) in paragraph at lines 195--195
 []\T5/cmr/m/it/14.4 Translate to Vi Se-man-tic Tex-tual Sim-i-lar-ity 2012-2017
  Dataset\T5/cmr/m/n/14.4 . 2021.
  []
@@ -2127,10 +2091,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31524 strings out of 478864
- 579872 string characters out of 2848660
- 1351968 words of memory out of 3000000
- 48490 multiletter control sequences out of 15000+600000
+ 31541 strings out of 478864
+ 580118 string characters out of 2848660
+ 1352023 words of memory out of 3000000
+ 48500 multiletter control sequences out of 15000+600000
  419313 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,15n,83p,1876b,2014s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2157,9 +2121,9 @@ ex/vnr/vnr17.pfb><C:/Users/nguyn/AppData/Local/Programs/MiKTeX/fonts/type1/vnte
 x/vnr/vnr6.pfb><C:/Users/nguyn/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/
 vnr/vnti12.pfb><C:/Users/nguyn/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/
 vnr/vntt12.pfb>
-Output written on main.pdf (85 pages, 2496213 bytes).
+Output written on main.pdf (86 pages, 2956033 bytes).
 PDF statistics:
- 1238 PDF objects out of 1440 (max. 8388607)
- 348 named destinations out of 1000 (max. 500000)
- 733 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1250 PDF objects out of 1440 (max. 8388607)
+ 354 named destinations out of 1000 (max. 500000)
+ 738 words of extra memory for PDF output out of 10000 (max. 10000000)
 

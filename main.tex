@@ -1,6 +1,6 @@
 
 \documentclass[oneside,a4paper,14pt]{extreport}
-%\documentclass{article}
+
 
 
 % Font tiếng Việt
@@ -94,15 +94,16 @@
 % Định dạng chapter
 \usepackage{titlesec}
 \titleformat{\chapter}
-    [display] 
-    {\normalfont\bfseries\Large}{\chaptername \ \thechapter}{10pt}{\huge}
+[display] 
+{\normalfont\bfseries\Large}{\chaptername \ \thechapter}{10pt}{\huge}
 \titlespacing*{\chapter}{0pt}{-10pt}{40pt} %khoảng cách giữa chapter và đầu trang
 
 \titleformat{\section}
-    {\normalfont\bfseries\large}{\thesection}{1em}{}
- 
+{\normalfont\bfseries\large}{\thesection}{1em}{}
+
 \titleformat{\subsection}
-    {\normalfont\bfseries\normalsize}{\thesubsection}{1em}{}
+{\normalfont\bfseries\normalsize}{\thesubsection}{1em}{}
+
   
 % Dãn dòng 1.5
 \usepackage{setspace}
@@ -138,7 +139,7 @@
 
 \input{Title/title.tex}
 
-\pagenumbering{arabic} % Đánh số i, ii, iii, ...
+\pagenumbering{roman} % Đánh số i, ii, iii, ...
 
 %\addcontentsline{toc}{chapter}{Lời cam đoan}
 %\include{Appendix/reassurances}
