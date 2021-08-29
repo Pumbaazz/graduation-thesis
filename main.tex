@@ -1,7 +1,12 @@
 
 \documentclass[oneside,a4paper,14pt]{extreport}
 
-
+%không biết dòng gì nữa
+\usepackage[usenames,dvipsnames]{xcolor}
+\PassOptionsToPackage{usenames,dvipsnames}{xcolor}
+\PassOptionsToClass{aspectratio=169}{beamer}
+\usepackage{longtable}
+\usepackage{array}
 
 % Font tiếng Việt
 \usepackage[T5]{fontenc}
@@ -24,12 +29,6 @@
 \usepackage{graphicx}
 \graphicspath{ {Images/} }
 \usepackage{lscape}
-
-%không biết dòng gì nữa
-\usepackage[usenames,dvipsnames]{xcolor}
-\PassOptionsToPackage{usenames,dvipsnames}{xcolor}
-\PassOptionsToClass{aspectratio=169}{beamer}
-\usepackage{longtable}
 
 % Chèn và định dạng mã nguồn
 
@@ -136,30 +135,25 @@
 \newcommand{\tenBM}{Hệ~Thống~Thông~Tin}
 
 \begin{document}
-
+\pagenumbering{roman}
 \input{Title/title.tex}
 
 \pagenumbering{roman} % Đánh số i, ii, iii, ...
 
-%\addcontentsline{toc}{chapter}{Lời cam đoan}
-%\include{Appendix/reassurances}
-
-\addcontentsline{toc}{chapter}{Lời cảm ơn}
+%\addcontentsline{toc}{chapter}{Lời cảm ơn}
 \include{Appendix/thanks}
 
-\addcontentsline{toc}{chapter}{Nhận xét của giáo viên hướng dẫn}
+%\addcontentsline{toc}{chapter}{Nhận xét của giáo viên hướng dẫn}
 \include{Appendix/nhanxetgiaovienhuongdan}
 
-\addcontentsline{toc}{chapter}{Nhận xét của giáo viên phản biện}
+%\addcontentsline{toc}{chapter}{Nhận xét của giáo viên phản biện}
 \include{Appendix/nhanxetgiaovienphanbien}
 
-
-
-\addcontentsline{toc}{chapter}{Đề cương chi tiết}
-\include{Appendix/decuong}
+%\addcontentsline{toc}{chapter}{Đề cương đồ án tốt nghiệp}
+%\include{Appendix/decuong}
 
 % Mục lục, danh sách hình, danh sách bảng
-\addcontentsline{toc}{chapter}{Mục lục}
+%\addcontentsline{toc}{chapter}{Mục lục}
 \tableofcontents
 \listoffigures
 \listoftables
@@ -182,17 +176,14 @@
 
 \include{Chapter6/chapter6}
 
-%\include{Chapter7/Chapter7}
-
-
 % In tài liệu tham khảo
+\clearpage
 \addcontentsline{toc}{chapter}{Tài liệu tham khảo}
-	
 
 \DeclareNameAlias{sortname}{last-first}
 \DeclareNameAlias{default}{last-first}
 
-\printbibliography[heading=subbibliography, title=Tài liệu tham khảo] 
+\printbibliography[heading=subbibliography, title=Tài liệu tham khảo, resetnumbers=4] 
 
 
 

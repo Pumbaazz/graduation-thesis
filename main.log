@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.12)  9 AUG 2021 14:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.8.27)  29 AUG 2021 15:53
 entering extended mode
 **./main.tex
 (main.tex
@@ -30,6 +30,57 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen139
+)
+(C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Package option `usenames' ignored on input line 216.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+ (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/graphics\dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)) (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2021-05-07 v4.16 Multi-page Table package (DPC)
+\LTleft=\skip49
+\LTright=\skip50
+\LTpre=\skip51
+\LTpost=\skip52
+\LTchunksize=\count191
+\LTcapwidth=\dimen140
+\LT@head=\box50
+\LT@firsthead=\box51
+\LT@foot=\box52
+\LT@lastfoot=\box53
+\LT@gbox=\box54
+\LT@cols=\count192
+\LT@rows=\count193
+\c@LT@tables=\count194
+\c@LT@chunks=\count195
+\LT@p@ftn=\toks16
+) (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
+\col@sep=\dimen141
+\ar@mcellbox=\box55
+\extrarowheight=\dimen142
+\NC@list=\toks17
+\extratabsurround=\skip53
+\backup@length=\skip54
+\ar@cellbox=\box56
 )
 (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
@@ -201,8 +252,8 @@ File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ))
 (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks16
-\inpenc@posthook=\toks17
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
 )
 (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
@@ -226,10 +277,10 @@ Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ) (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count191
+\etb@tempcnta=\count196
 ) (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks18
+\KV@toks@=\toks20
 )
 (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
@@ -239,7 +290,7 @@ ty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )) (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count192
+\lrq@indent=\count197
 
 (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -251,62 +302,62 @@ Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count193
-\c@listtotal=\count194
-\c@listcount=\count195
-\c@liststart=\count196
-\c@liststop=\count197
-\c@citecount=\count198
-\c@citetotal=\count199
-\c@multicitecount=\count266
-\c@multicitetotal=\count267
-\c@instcount=\count268
-\c@maxnames=\count269
-\c@minnames=\count270
-\c@maxitems=\count271
-\c@minitems=\count272
-\c@citecounter=\count273
-\c@maxcitecounter=\count274
-\c@savedcitecounter=\count275
-\c@uniquelist=\count276
-\c@uniquename=\count277
-\c@refsection=\count278
-\c@refsegment=\count279
-\c@maxextratitle=\count280
-\c@maxextratitleyear=\count281
-\c@maxextraname=\count282
-\c@maxextradate=\count283
-\c@maxextraalpha=\count284
-\c@abbrvpenalty=\count285
-\c@highnamepenalty=\count286
-\c@lownamepenalty=\count287
-\c@maxparens=\count288
-\c@parenlevel=\count289
-\blx@tempcnta=\count290
-\blx@tempcntb=\count291
-\blx@tempcntc=\count292
-\blx@maxsection=\count293
-\blx@maxsegment@0=\count294
-\blx@notetype=\count295
-\blx@parenlevel@text=\count296
-\blx@parenlevel@foot=\count297
-\blx@sectionciteorder@0=\count298
-\blx@entrysetcounter=\count299
-\blx@biblioinstance=\count300
-\labelnumberwidth=\skip49
-\labelalphawidth=\skip50
-\biblabelsep=\skip51
-\bibitemsep=\skip52
-\bibnamesep=\skip53
-\bibinitsep=\skip54
-\bibparsep=\skip55
-\bibhang=\skip56
+\c@tabx@nest=\count198
+\c@listtotal=\count199
+\c@listcount=\count266
+\c@liststart=\count267
+\c@liststop=\count268
+\c@citecount=\count269
+\c@citetotal=\count270
+\c@multicitecount=\count271
+\c@multicitetotal=\count272
+\c@instcount=\count273
+\c@maxnames=\count274
+\c@minnames=\count275
+\c@maxitems=\count276
+\c@minitems=\count277
+\c@citecounter=\count278
+\c@maxcitecounter=\count279
+\c@savedcitecounter=\count280
+\c@uniquelist=\count281
+\c@uniquename=\count282
+\c@refsection=\count283
+\c@refsegment=\count284
+\c@maxextratitle=\count285
+\c@maxextratitleyear=\count286
+\c@maxextraname=\count287
+\c@maxextradate=\count288
+\c@maxextraalpha=\count289
+\c@abbrvpenalty=\count290
+\c@highnamepenalty=\count291
+\c@lownamepenalty=\count292
+\c@maxparens=\count293
+\c@parenlevel=\count294
+\blx@tempcnta=\count295
+\blx@tempcntb=\count296
+\blx@tempcntc=\count297
+\blx@maxsection=\count298
+\blx@maxsegment@0=\count299
+\blx@notetype=\count300
+\blx@parenlevel@text=\count301
+\blx@parenlevel@foot=\count302
+\blx@sectionciteorder@0=\count303
+\blx@entrysetcounter=\count304
+\blx@biblioinstance=\count305
+\labelnumberwidth=\skip55
+\labelalphawidth=\skip56
+\biblabelsep=\skip57
+\bibitemsep=\skip58
+\bibnamesep=\skip59
+\bibinitsep=\skip60
+\bibparsep=\skip61
+\bibhang=\skip62
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language79
-\c@mincomprange=\count301
-\c@maxcomprange=\count302
-\c@mincompwidth=\count303
+\c@mincomprange=\count306
+\c@maxcomprange=\count307
+\c@mincompwidth=\count308
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -315,88 +366,88 @@ File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count304
-\c@savedafterword=\count305
-\c@annotator=\count306
-\c@savedannotator=\count307
-\c@author=\count308
-\c@savedauthor=\count309
-\c@bookauthor=\count310
-\c@savedbookauthor=\count311
-\c@commentator=\count312
-\c@savedcommentator=\count313
-\c@editor=\count314
-\c@savededitor=\count315
-\c@editora=\count316
-\c@savededitora=\count317
-\c@editorb=\count318
-\c@savededitorb=\count319
-\c@editorc=\count320
-\c@savededitorc=\count321
-\c@foreword=\count322
-\c@savedforeword=\count323
-\c@holder=\count324
-\c@savedholder=\count325
-\c@introduction=\count326
-\c@savedintroduction=\count327
-\c@namea=\count328
-\c@savednamea=\count329
-\c@nameb=\count330
-\c@savednameb=\count331
-\c@namec=\count332
-\c@savednamec=\count333
-\c@translator=\count334
-\c@savedtranslator=\count335
-\c@shortauthor=\count336
-\c@savedshortauthor=\count337
-\c@shorteditor=\count338
-\c@savedshorteditor=\count339
-\c@labelname=\count340
-\c@savedlabelname=\count341
-\c@institution=\count342
-\c@savedinstitution=\count343
-\c@lista=\count344
-\c@savedlista=\count345
-\c@listb=\count346
-\c@savedlistb=\count347
-\c@listc=\count348
-\c@savedlistc=\count349
-\c@listd=\count350
-\c@savedlistd=\count351
-\c@liste=\count352
-\c@savedliste=\count353
-\c@listf=\count354
-\c@savedlistf=\count355
-\c@location=\count356
-\c@savedlocation=\count357
-\c@organization=\count358
-\c@savedorganization=\count359
-\c@origlocation=\count360
-\c@savedoriglocation=\count361
-\c@origpublisher=\count362
-\c@savedorigpublisher=\count363
-\c@publisher=\count364
-\c@savedpublisher=\count365
-\c@language=\count366
-\c@savedlanguage=\count367
-\c@origlanguage=\count368
-\c@savedoriglanguage=\count369
-\c@pageref=\count370
-\c@savedpageref=\count371
-\shorthandwidth=\skip57
-\shortjournalwidth=\skip58
-\shortserieswidth=\skip59
-\shorttitlewidth=\skip60
-\shortauthorwidth=\skip61
-\shorteditorwidth=\skip62
-\locallabelnumberwidth=\skip63
-\locallabelalphawidth=\skip64
-\localshorthandwidth=\skip65
-\localshortjournalwidth=\skip66
-\localshortserieswidth=\skip67
-\localshorttitlewidth=\skip68
-\localshortauthorwidth=\skip69
-\localshorteditorwidth=\skip70
+\c@afterword=\count309
+\c@savedafterword=\count310
+\c@annotator=\count311
+\c@savedannotator=\count312
+\c@author=\count313
+\c@savedauthor=\count314
+\c@bookauthor=\count315
+\c@savedbookauthor=\count316
+\c@commentator=\count317
+\c@savedcommentator=\count318
+\c@editor=\count319
+\c@savededitor=\count320
+\c@editora=\count321
+\c@savededitora=\count322
+\c@editorb=\count323
+\c@savededitorb=\count324
+\c@editorc=\count325
+\c@savededitorc=\count326
+\c@foreword=\count327
+\c@savedforeword=\count328
+\c@holder=\count329
+\c@savedholder=\count330
+\c@introduction=\count331
+\c@savedintroduction=\count332
+\c@namea=\count333
+\c@savednamea=\count334
+\c@nameb=\count335
+\c@savednameb=\count336
+\c@namec=\count337
+\c@savednamec=\count338
+\c@translator=\count339
+\c@savedtranslator=\count340
+\c@shortauthor=\count341
+\c@savedshortauthor=\count342
+\c@shorteditor=\count343
+\c@savedshorteditor=\count344
+\c@labelname=\count345
+\c@savedlabelname=\count346
+\c@institution=\count347
+\c@savedinstitution=\count348
+\c@lista=\count349
+\c@savedlista=\count350
+\c@listb=\count351
+\c@savedlistb=\count352
+\c@listc=\count353
+\c@savedlistc=\count354
+\c@listd=\count355
+\c@savedlistd=\count356
+\c@liste=\count357
+\c@savedliste=\count358
+\c@listf=\count359
+\c@savedlistf=\count360
+\c@location=\count361
+\c@savedlocation=\count362
+\c@organization=\count363
+\c@savedorganization=\count364
+\c@origlocation=\count365
+\c@savedoriglocation=\count366
+\c@origpublisher=\count367
+\c@savedorigpublisher=\count368
+\c@publisher=\count369
+\c@savedpublisher=\count370
+\c@language=\count371
+\c@savedlanguage=\count372
+\c@origlanguage=\count373
+\c@savedoriglanguage=\count374
+\c@pageref=\count375
+\c@savedpageref=\count376
+\shorthandwidth=\skip63
+\shortjournalwidth=\skip64
+\shortserieswidth=\skip65
+\shorttitlewidth=\skip66
+\shortauthorwidth=\skip67
+\shorteditorwidth=\skip68
+\locallabelnumberwidth=\skip69
+\locallabelalphawidth=\skip70
+\localshorthandwidth=\skip71
+\localshortjournalwidth=\skip72
+\localshortserieswidth=\skip73
+\localshorttitlewidth=\skip74
+\localshortauthorwidth=\skip75
+\localshorteditorwidth=\skip76
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -417,19 +468,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
-\c@textcitecount=\count372
-\c@textcitetotal=\count373
-\c@textcitemaxnames=\count374
-\c@biburlbigbreakpenalty=\count375
-\c@biburlbreakpenalty=\count376
-\c@biburlnumpenalty=\count377
-\c@biburlucpenalty=\count378
-\c@biburllcpenalty=\count379
+\c@textcitecount=\count377
+\c@textcitetotal=\count378
+\c@textcitemaxnames=\count379
+\c@biburlbigbreakpenalty=\count380
+\c@biburlbreakpenalty=\count381
+\c@biburlnumpenalty=\count382
+\c@biburlucpenalty=\count383
+\c@biburllcpenalty=\count384
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count380
+\c@smartand=\count385
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -443,8 +494,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
 bx
 File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count381
-\c@bbx:relatedtotal=\count382
+\c@bbx:relatedcount=\count386
+\c@bbx:relatedtotal=\count387
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -490,9 +541,9 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen140
-\Hy@linkcounter=\count383
-\Hy@pagecounter=\count384
+\@linkdim=\dimen143
+\Hy@linkcounter=\count388
+\Hy@pagecounter=\count389
 
 (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2021-06-05 v7.00l Hyperref: PDFDocEncoding definition (HO)
@@ -510,7 +561,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count385
+\Hy@SavedSpaceFactor=\count390
  (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2021-06-05 v7.00l Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -524,9 +575,9 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count386
+\c@Hy@tempcnt=\count391
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen141
+\XeTeXLinkMargin=\dimen144
 
 (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -536,9 +587,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count387
-\Field@Width=\dimen142
-\Fld@charsize=\dimen143
+\Fld@menulength=\count392
+\Field@Width=\dimen145
+\Fld@charsize=\dimen146
 Package hyperref Info: Hyper figures OFF on input line 6076.
 Package hyperref Info: Link nesting OFF on input line 6081.
 Package hyperref Info: Hyper index ON on input line 6084.
@@ -553,9 +604,9 @@ LaTeX Info: Redefining \pageref on input line 6150.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count388
-\c@Item=\count389
-\c@Hfootnote=\count390
+\Hy@abspage=\count393
+\c@Item=\count394
+\c@Hfootnote=\count395
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
@@ -566,8 +617,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-\Fld@listcount=\count391
-\c@bookmark@seq@number=\count392
+\Fld@listcount=\count396
+\c@bookmark@seq@number=\count397
 
 (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
 echeck.sty
@@ -580,7 +631,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip71
+\Hy@SectionHShift=\skip77
 )
 (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
@@ -596,71 +647,32 @@ fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
-
-(C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
-))
-\Gin@req@height=\dimen144
-\Gin@req@width=\dimen145
-) (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
-Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
-) (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Package option `usenames' ignored on input line 216.
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-(C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/graphics\dvipsnam.def
-File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-)) (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
-Package: longtable 2021-05-07 v4.16 Multi-page Table package (DPC)
-\LTleft=\skip72
-\LTright=\skip73
-\LTpre=\skip74
-\LTpost=\skip75
-\LTchunksize=\count393
-\LTcapwidth=\dimen146
-\LT@head=\box50
-\LT@firsthead=\box51
-\LT@foot=\box52
-\LT@lastfoot=\box53
-\LT@gbox=\box54
-\LT@cols=\count394
-\LT@rows=\count395
-\c@LT@tables=\count396
-\c@LT@chunks=\count397
-\LT@p@ftn=\toks19
+\Gin@req@height=\dimen147
+\Gin@req@width=\dimen148
+)
+(C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count398
-\lst@gtempboxa=\box55
-\lst@token=\toks20
+\lst@gtempboxa=\box57
+\lst@token=\toks21
 \lst@length=\count399
-\lst@currlwidth=\dimen147
+\lst@currlwidth=\dimen149
 \lst@column=\count400
 \lst@pos=\count401
-\lst@lostspace=\dimen148
-\lst@width=\dimen149
+\lst@lostspace=\dimen150
+\lst@width=\dimen151
 \lst@newlines=\count402
 \lst@lineno=\count403
-\lst@maxwidth=\dimen150
+\lst@maxwidth=\dimen152
 
 (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 \c@lstnumber=\count404
 \lst@skipnumbers=\count405
-\lst@framebox=\box56
+\lst@framebox=\box58
 )
 (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
@@ -668,7 +680,7 @@ File: listings.cfg 2020/03/24 1.8d listings configuration
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
 (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2021/04/20 v2.17j AMS math features
-\@mathmargin=\skip76
+\@mathmargin=\skip78
 
 For additional information on amsmath, use the `?' option.
 (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
@@ -676,12 +688,12 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks21
-\ex@=\dimen151
+\@emptytoks=\toks22
+\ex@=\dimen153
 ))
 (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen152
+\pmbraise@=\dimen154
 )
 (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
@@ -696,9 +708,9 @@ LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box57
-\strutbox@=\box58
-\big@size=\dimen153
+\Mathstrutbox@=\box59
+\strutbox@=\box60
+\big@size=\dimen155
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count411
@@ -706,21 +718,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \dotsspace@=\muskip21
 \c@parentequation=\count413
 \dspbrk@lvl=\count414
-\tag@help=\toks22
+\tag@help=\toks23
 \row@=\count415
 \column@=\count416
 \maxfields@=\count417
-\andhelp@=\toks23
-\eqnshift@=\dimen154
-\alignsep@=\dimen155
-\tagshift@=\dimen156
-\tagwidth@=\dimen157
-\totwidth@=\dimen158
-\lineht@=\dimen159
-\@envbody=\toks24
-\multlinegap=\skip77
-\multlinetaggap=\skip78
-\mathdisplay@stack=\toks25
+\andhelp@=\toks24
+\eqnshift@=\dimen156
+\alignsep@=\dimen157
+\tagshift@=\dimen158
+\tagwidth@=\dimen159
+\totwidth@=\dimen160
+\lineht@=\dimen161
+\@envbody=\toks25
+\multlinegap=\skip79
+\multlinetaggap=\skip80
+\mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
@@ -731,12 +743,12 @@ nment
  (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count418
-\float@exts=\toks26
-\float@box=\box59
-\@float@everytoks=\toks27
-\@floatcapt=\box60
+\float@exts=\toks27
+\float@box=\box61
+\@float@everytoks=\toks28
+\@floatcapt=\box62
 )
-\@float@every@algorithm=\toks28
+\@float@every@algorithm=\toks29
 \c@algorithm=\count419
 )
 (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algpseudoc
@@ -751,32 +763,22 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \c@ALG@line=\count420
 \c@ALG@rem=\count421
 \c@ALG@nested=\count422
-\ALG@tlm=\skip79
-\ALG@thistlm=\skip80
+\ALG@tlm=\skip81
+\ALG@thistlm=\skip82
 \c@ALG@Lnr=\count423
 \c@ALG@blocknr=\count424
 \c@ALG@storecount=\count425
 \c@ALG@tmpcounter=\count426
-\ALG@tmplength=\skip81
+\ALG@tmplength=\skip83
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
 ) (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip82
+\multirow@colwidth=\skip84
 \multirow@cntb=\count427
-\multirow@dima=\skip83
-\bigstrutjot=\dimen160
-) (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
-Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
-\col@sep=\dimen161
-\ar@mcellbox=\box61
-\extrarowheight=\dimen162
-\NC@list=\toks29
-\extratabsurround=\skip84
-\backup@length=\skip85
-\ar@cellbox=\box62
-)
-(C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+\multirow@dima=\skip85
+\bigstrutjot=\dimen162
+) (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box63
 \beforetitleunit=\skip86
@@ -787,16 +789,12 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \titlewidth=\dimen165
 \titlewidthlast=\dimen166
 \titlewidthfirst=\dimen167
-)
-(C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+) (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
-)
-(C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+) (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-)
-(C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+) (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
 (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
@@ -1135,9 +1133,8 @@ File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count454
 \l__pdf_internal_box=\box75
 ) (main.aux (Appendix/thanks.aux) (Appendix/nhanxetgiaovienhuongdan.aux) (Appen
-dix/nhanxetgiaovienphanbien.aux) (Appendix/decuong.aux)
-(Chapter1/chapter1.aux) (Chapter2/chapter2.aux) (Chapter3/chapter3.aux)
-(Chapter4/chapter4.aux
+dix/nhanxetgiaovienphanbien.aux) (Chapter1/chapter1.aux)
+(Chapter2/chapter2.aux) (Chapter3/chapter3.aux) (Chapter4/chapter4.aux
 
 LaTeX Warning: Label `tab:data-type-table' multiply defined.
 
@@ -1152,26 +1149,52 @@ LaTeX Warning: Label `Chapter6' multiply defined.
 ))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+
+(C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count455
+\scratchdimen=\dimen282
+\scratchbox=\box76
+\nofMPsegments=\count456
+\nofMParguments=\count457
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count458
+\MPscratchDim=\dimen283
+\MPnumerator=\count459
+\makeMPintoPDFobject=\count460
+\everyMPtoPDFconversion=\toks45
+)
+(C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1214,9 +1237,9 @@ Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                - Invalid format of field 'date'.
 
 )
-Package biblatex Info: Reference section=0 on input line 138.
-Package biblatex Info: Reference segment=0 on input line 138.
-Package hyperref Info: Link coloring OFF on input line 138.
+Package biblatex Info: Reference section=0 on input line 137.
+Package biblatex Info: Reference segment=0 on input line 137.
+Package hyperref Info: Link coloring OFF on input line 137.
  (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1227,41 +1250,15 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count455
+\c@section@level=\count461
 )
-LaTeX Info: Redefining \ref on input line 138.
-LaTeX Info: Redefining \pageref on input line 138.
-LaTeX Info: Redefining \nameref on input line 138.
+LaTeX Info: Redefining \ref on input line 137.
+LaTeX Info: Redefining \pageref on input line 137.
+LaTeX Info: Redefining \nameref on input line 137.
  (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-
-(C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count456
-\scratchdimen=\dimen282
-\scratchbox=\box76
-\nofMPsegments=\count457
-\nofMParguments=\count458
-\everyMPshowfont=\toks44
-\MPscratchCnt=\count459
-\MPscratchDim=\dimen283
-\MPnumerator=\count460
-\makeMPintoPDFobject=\count461
-\everyMPtoPDFconversion=\toks45
-)
-(C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
 \c@lstlisting=\count462
 
 *geometry* driver: auto-detecting
@@ -1303,133 +1300,78 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 {C:/Users/nguyn/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2])
 \openout2 = `Appendix/thanks.aux'.
 
- (Appendix/thanks.tex) [1
+ (Appendix/thanks.tex)pdfTeX warning (ext4): destination with the same identifi
+er (name{page.i}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.144 \include{Appendix/thanks}
+                                [1
 
 
 ]
 \openout2 = `Appendix/nhanxetgiaovienhuongdan.aux'.
 
- (Appendix/nhanxetgiaovienhuongdan.texpdfTeX warning (ext4): destination with t
-he same identifier (name{page.i}) has been already used, duplicate ignored
+ (Appendix/nhanxetgiaovienhuongdan.tex)pdfTeX warning (ext4): destination with 
+the same identifier (name{page.ii}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.26 \end{titlepage}
-                     [1
+l.147 \include{Appendix/nhanxetgiaovienhuongdan}
+                                                 [2
 
 
 
-])
+
+]
 \openout2 = `Appendix/nhanxetgiaovienphanbien.aux'.
 
- (Appendix/nhanxetgiaovienphanbien.texpdfTeX warning (ext4): destination with t
-he same identifier (name{page.i}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.26 \end{titlepage}
-                     [1
+
+(Appendix/nhanxetgiaovienphanbien.tex) [3
 
 
 
-])
-\openout2 = `Appendix/decuong.aux'.
 
- (Appendix/decuong.tex
-<images/logo.png, id=283, 99.37125pt x 72.9927pt>
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 5.
-(pdftex.def)             Requested size: 99.371pt x 72.99251pt.
-
-Overfull \hbox (24.2823pt too wide) in paragraph at lines 3--18
-[]$[]$  $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--18
-
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.50 		\item[\textbf{3.}]
-                          \textbf{Phương pháp tiếp cận}\\ [1
+] (main.toc [4
 
 
 
- <./images/logo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
-
- []
-
-[2] [3]) (main.tocpdfTeX warning (ext4): destination with the same identifier (
-name{page.i}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.51 ...ython Vietnamese Toolkit}{14}{section.3.3}
-                                                  % [1
-
-
-
-]pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) ha
-s been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.129 ...lưu vào Elasticsearch}{56}{section.5.2}
-                                                  % [2])
+] [5])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.iii}) ha
-s been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.164 \listoffigures
-                     [3] (main.lof [4
+ [6] (main.lof
+[7
 
 ])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [5] (main.lot)
+ [8] (main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [6
+ [9
 
 ]
 \openout2 = `Chapter1/chapter1.aux'.
 
-
-(Chapter1/chapter1.tex
+ (Chapter1/chapter1.tex
 Chương 1.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.12 	\end{itemize}
-                    [1
+[1
 
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.21 \section
-             {Nội dung của đồ án} [2]) [3] [4]
+] [2]) [3]
 \openout2 = `Chapter2/chapter2.aux'.
 
  (Chapter2/chapter2.tex
 Chương 2.
-[5
+[4
 
 
 
 
 ]
-<images/survey1.png, id=503, 469.755pt x 197.757pt>
+<images/survey1.png, id=467, 469.755pt x 197.757pt>
 File: images/survey1.png Graphic file (type png)
 <use images/survey1.png>
 Package pdftex.def Info: images/survey1.png  used on input line 24.
@@ -1439,13 +1381,13 @@ Overfull \hbox (14.50975pt too wide) in paragraph at lines 24--25
  [][] 
  []
 
-[6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}
+[5pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.30 ...�n hoạt động trong lĩnh vực nào?}
                                                    <./images/survey1.png>]
-<images/survey2.png, id=509, 469.755pt x 223.38pt>
+<images/survey2.png, id=474, 469.755pt x 223.38pt>
 File: images/survey2.png Graphic file (type png)
 <use images/survey2.png>
 Package pdftex.def Info: images/survey2.png  used on input line 33.
@@ -1455,13 +1397,13 @@ Overfull \hbox (14.50975pt too wide) in paragraph at lines 33--34
  [][] 
  []
 
-[7pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}
+[6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.40 ...��n đề liên quan đến luật pháp?}
                                                    <./images/survey2.png>]
-<images/survey3.png, id=515, 469.755pt x 197.757pt>
+<images/survey3.png, id=480, 469.755pt x 197.757pt>
 File: images/survey3.png Graphic file (type png)
 <use images/survey3.png>
 Package pdftex.def Info: images/survey3.png  used on input line 43.
@@ -1471,13 +1413,13 @@ Overfull \hbox (14.50975pt too wide) in paragraph at lines 43--44
  [][] 
  []
 
-[8pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}
+[7pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.50 ...thức nào để tra cứu pháp luật?}
                                                    <./images/survey3.png>]
-<images/survey4.png, id=521, 469.755pt x 223.38pt>
+<images/survey4.png, id=486, 469.755pt x 223.38pt>
 File: images/survey4.png Graphic file (type png)
 <use images/survey4.png>
 Package pdftex.def Info: images/survey4.png  used on input line 54.
@@ -1487,13 +1429,13 @@ Overfull \hbox (14.50975pt too wide) in paragraph at lines 54--55
  [][] 
  []
 
-[9pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}
+[8pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.61 ... cứu trên trang web pháp luật nào?}
                                                    <./images/survey4.png>]
-<images/survey5.png, id=527, 469.755pt x 223.38pt>
+<images/survey5.png, id=493, 469.755pt x 223.38pt>
 File: images/survey5.png Graphic file (type png)
 <use images/survey5.png>
 Package pdftex.def Info: images/survey5.png  used on input line 65.
@@ -1503,13 +1445,13 @@ Overfull \hbox (14.50975pt too wide) in paragraph at lines 65--66
  [][] 
  []
 
-[10pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5
-}) has been already used, duplicate ignored
+[9pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}
+) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.72 ...�ng khi sử dụng các trang web trên?}
                                                    <./images/survey5.png>]
-<images/survey6.png, id=533, 469.755pt x 197.757pt>
+<images/survey6.png, id=499, 469.755pt x 197.757pt>
 File: images/survey6.png Graphic file (type png)
 <use images/survey6.png>
 Package pdftex.def Info: images/survey6.png  used on input line 75.
@@ -1524,192 +1466,189 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-[11pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6
+[10pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.86 \begin{itemize}
-                     <./images/survey6.png>]) [12]
+l.86 
+      <./images/survey6.png>]) [11]
 \openout2 = `Chapter3/chapter3.aux'.
 
  (Chapter3/chapter3.tex
 Chương 3.
-[13
+[12
 
 
 
 
-] [14]
-<images/pyvi_segment.png, id=561, 626.34pt x 291.0875pt>
+] [13]
+<images/pyvi_segment.png, id=526, 626.34pt x 291.0875pt>
 File: images/pyvi_segment.png Graphic file (type png)
 <use images/pyvi_segment.png>
-Package pdftex.def Info: images/pyvi_segment.png  used on input line 76.
+Package pdftex.def Info: images/pyvi_segment.png  used on input line 56.
 (pdftex.def)             Requested size: 438.435pt x 203.75984pt.
- [15]
-<images/pyvi_demo_code.png, id=566, 496.85625pt x 225.84375pt>
-File: images/pyvi_demo_code.png Graphic file (type png)
-<use images/pyvi_demo_code.png>
-Package pdftex.def Info: images/pyvi_demo_code.png  used on input line 86.
-(pdftex.def)             Requested size: 422.3298pt x 191.96808pt.
-<images/segment1.png, id=567, 569.12625pt x 54.2025pt>
-File: images/segment1.png Graphic file (type png)
-<use images/segment1.png>
-Package pdftex.def Info: images/segment1.png  used on input line 95.
-(pdftex.def)             Requested size: 398.38567pt x 37.94148pt.
-<images/segment2.png, id=568, 571.38469pt x 76.03406pt>
-File: images/segment2.png Graphic file (type png)
-<use images/segment2.png>
-Package pdftex.def Info: images/segment2.png  used on input line 99.
-(pdftex.def)             Requested size: 399.96655pt x 53.22346pt.
- [16pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+ [14pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.101 A
-       ccents removal (bỏ dấu): <./images/pyvi_segment.png> <./images/pyvi_
-demo_code.png> <./images/segment1.png>]
-<images/segment3.png, id=576, 571.38469pt x 54.9553pt>
+l.61 \subsection
+                {Tính năng chính của PyVi} <./images/pyvi_segment.png>]
+<images/pyvi_demo_code.png, id=533, 496.85625pt x 225.84375pt>
+File: images/pyvi_demo_code.png Graphic file (type png)
+<use images/pyvi_demo_code.png>
+Package pdftex.def Info: images/pyvi_demo_code.png  used on input line 66.
+(pdftex.def)             Requested size: 422.3298pt x 191.96808pt.
+<images/segment1.png, id=534, 569.12625pt x 54.2025pt>
+File: images/segment1.png Graphic file (type png)
+<use images/segment1.png>
+Package pdftex.def Info: images/segment1.png  used on input line 75.
+(pdftex.def)             Requested size: 398.38567pt x 37.94148pt.
+<images/segment2.png, id=535, 571.38469pt x 76.03406pt>
+File: images/segment2.png Graphic file (type png)
+<use images/segment2.png>
+Package pdftex.def Info: images/segment2.png  used on input line 79.
+(pdftex.def)             Requested size: 399.96655pt x 53.22346pt.
+<images/segment3.png, id=536, 571.38469pt x 54.9553pt>
 File: images/segment3.png Graphic file (type png)
 <use images/segment3.png>
-Package pdftex.def Info: images/segment3.png  used on input line 103.
+Package pdftex.def Info: images/segment3.png  used on input line 83.
 (pdftex.def)             Requested size: 399.96655pt x 38.46843pt.
-<images/segment4.png, id=577, 573.64313pt x 55.70813pt>
+<images/segment4.png, id=537, 573.64313pt x 55.70813pt>
 File: images/segment4.png Graphic file (type png)
 <use images/segment4.png>
-Package pdftex.def Info: images/segment4.png  used on input line 107.
+Package pdftex.def Info: images/segment4.png  used on input line 87.
 (pdftex.def)             Requested size: 401.54745pt x 38.9954pt.
- [17 <./images/segment2.png> <./images/segment3.png> <./images/segment4.png>]
-<images/transformer_schema.jpg, id=586, 986.68625pt x 930.47626pt>
+
+[15 <./images/pyvi_demo_code.png> <./images/segment1.png> <./images/segment2.pn
+g> <./images/segment3.png> <./images/segment4.png>] [16]
+<images/transformer_schema.jpg, id=551, 986.68625pt x 930.47626pt>
 File: images/transformer_schema.jpg Graphic file (type jpg)
 <use images/transformer_schema.jpg>
-Package pdftex.def Info: images/transformer_schema.jpg  used on input line 125.
+Package pdftex.def Info: images/transformer_schema.jpg  used on input line 105.
 
 (pdftex.def)             Requested size: 369.88599pt x 426.78905pt.
- [18pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+ [17pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.135 
+l.115 
        <./images/transformer_schema.jpg>]
-<images/bert-base-and-large.jpg, id=591, 2672.98625pt x 1040.88875pt>
+<images/bert-base-and-large.jpg, id=556, 2672.98625pt x 1040.88875pt>
 File: images/bert-base-and-large.jpg Graphic file (type jpg)
 <use images/bert-base-and-large.jpg>
-Package pdftex.def Info: images/bert-base-and-large.jpg  used on input line 154
+Package pdftex.def Info: images/bert-base-and-large.jpg  used on input line 134
 .
 (pdftex.def)             Requested size: 267.31429pt x 104.09497pt.
-<images/encode_bert.png, id=592, 401.5pt x 551.05875pt>
+<images/encode_bert.png, id=557, 401.5pt x 551.05875pt>
 File: images/encode_bert.png Graphic file (type png)
 <use images/encode_bert.png>
-Package pdftex.def Info: images/encode_bert.png  used on input line 162.
+Package pdftex.def Info: images/encode_bert.png  used on input line 142.
 (pdftex.def)             Requested size: 355.68587pt x 483.71396pt.
- [19pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+ [18pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.166 
-       <./images/bert-base-and-large.jpg>] [20pdfTeX warning (ext4): destinatio
+l.146 
+       <./images/bert-base-and-large.jpg>] [19pdfTeX warning (ext4): destinatio
 n with the same identifier (name{figure.3.4}) has been already used, duplicate 
 ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.171 
-       <./images/encode_bert.png>]
+l.151 
+       <./images/encode_bert.png>] [20]
 (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-[21] [22] [23] [24]
-<images/Flask_Logo.png, id=644, 281.05pt x 210.7875pt>
+[21] [22] [23]
+<images/Flask_Logo.png, id=609, 281.05pt x 210.7875pt>
 File: images/Flask_Logo.png Graphic file (type png)
 <use images/Flask_Logo.png>
-Package pdftex.def Info: images/Flask_Logo.png  used on input line 265.
+Package pdftex.def Info: images/Flask_Logo.png  used on input line 247.
 (pdftex.def)             Requested size: 281.0493pt x 210.78699pt.
- [25pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+ [24pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.276             \item \textbf
-                               {jinja2}: jinja2 là một template engine ph...
- <./images/Flask_Logo.png>] [26]
+l.262 
+       <./images/Flask_Logo.png>] [25]
 LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 3
-27.
+12.
 
 (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-<images/elasticsearch1.png, id=668, 469.4265pt x 245.3895pt>
+<images/elasticsearch1.png, id=641, 469.4265pt x 245.3895pt>
 File: images/elasticsearch1.png Graphic file (type png)
 <use images/elasticsearch1.png>
-Package pdftex.def Info: images/elasticsearch1.png  used on input line 331.
+Package pdftex.def Info: images/elasticsearch1.png  used on input line 316.
 (pdftex.def)             Requested size: 328.5963pt x 171.77147pt.
+<images/elasticsearch2.png, id=643, 426.84468pt x 280.04625pt>
+File: images/elasticsearch2.png Graphic file (type png)
+<use images/elasticsearch2.png>
+Package pdftex.def Info: images/elasticsearch2.png  used on input line 329.
+(pdftex.def)             Requested size: 341.47621pt x 224.0373pt.
 
-[27pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6
+[26pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.338 V
-       ào thư mục giải nén:  bin và chạy file elasticsearch.bat <./im
-ages/elasticsearch1.png>]
-<images/elasticsearch2.png, id=684, 426.84468pt x 280.04625pt>
-File: images/elasticsearch2.png Graphic file (type png)
-<use images/elasticsearch2.png>
-Package pdftex.def Info: images/elasticsearch2.png  used on input line 344.
-(pdftex.def)             Requested size: 341.47621pt x 224.0373pt.
- [28pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-7}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.382 \end{lstlisting}
-                       <./images/elasticsearch2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 405--406
+l.352 \end{lstlisting}
+                       <./images/elasticsearch1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 390--391
 
  []
 
-) [29]
+) [27pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.171 \include{Chapter3/chapter3}
+                                  <./images/elasticsearch2.png>] [28]
 \openout2 = `Chapter4/chapter4.aux'.
 
- (Chapter4/chapter4.tex
+
+(Chapter4/chapter4.tex
 Chương 4.
-[30
+[29
 
 
 
 
 ]
-<images/system1_e.png, id=721, 504.88625pt x 630.355pt>
+<images/system1_e.png, id=687, 504.88625pt x 630.355pt>
 File: images/system1_e.png Graphic file (type png)
 <use images/system1_e.png>
-Package pdftex.def Info: images/system1_e.png  used on input line 25.
+Package pdftex.def Info: images/system1_e.png  used on input line 29.
 (pdftex.def)             Requested size: 403.90953pt x 504.28468pt.
- [31pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [30pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.32 	\item E
-             ncode Question từ bộ dữ liệu thu thập <./images/system1_
-e.png>]
-<images/encodingframe.png, id=727, 753.48167pt x 691.91833pt>
+l.38 \end{itemize}
+                   <./images/system1_e.png>]
+<images/encodingframe.png, id=693, 715.67375pt x 674.52pt>
 File: images/encodingframe.png Graphic file (type png)
 <use images/encodingframe.png>
-Package pdftex.def Info: images/encodingframe.png  used on input line 39.
-(pdftex.def)             Requested size: 376.73991pt x 345.95833pt.
- [32pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-2}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.50 
-      <./images/encodingframe.png>]
-<images/usecasemodel.png, id=733, 462.22687pt x 113.67468pt>
+Package pdftex.def Info: images/encodingframe.png  used on input line 43.
+(pdftex.def)             Requested size: 357.836pt x 337.25917pt.
+<images/usecasemodel.png, id=694, 462.22687pt x 113.67468pt>
 File: images/usecasemodel.png Graphic file (type png)
 <use images/usecasemodel.png>
-Package pdftex.def Info: images/usecasemodel.png  used on input line 53.
+Package pdftex.def Info: images/usecasemodel.png  used on input line 56.
 (pdftex.def)             Requested size: 369.782pt x 90.93985pt.
- [33pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-3}) has been already used, duplicate ignored
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+[]|\T5/cmr/m/n/14.4 Ng��i
+ []
+
+[31pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
+}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.88 \subsection
-                {Đặc tả Use case}pdfTeX warning (ext4): destination with t
-he same identifier (name{table.4.1}) has been already used, duplicate ignored
+l.72 \end{longtable}
+                     <./images/encodingframe.png>] [32pdfTeX warning (ext4): de
+stination with the same identifier (name{figure.4.3}) has been already used, du
+plicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.88 \subsection
@@ -1719,38 +1658,106 @@ he same identifier (name{table.4.2}) has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.88 \subsection
                 {Đặc tả Use case} <./images/usecasemodel.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 92--106
-[][]
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+[]|\T5/cmr/bx/n/14.4 Use
  []
 
-<images/scraping_schema.png, id=740, 669.16667pt x 669.16667pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+[]|\T5/cmr/m/n/14.4 T�n Use
+ []
+
+
+Overfull \hbox (24.3975pt too wide) in paragraph at lines 102--102
+\T5/cmr/m/n/14.4 D�ng 
+ []
+
+
+Overfull \hbox (24.98737pt too wide) in paragraph at lines 102--102
+\T5/cmr/m/n/14.4 ch�nh|  
+ []
+
+
+Overfull \hbox (23.81265pt too wide) in paragraph at lines 108--108
+\T5/cmr/m/n/14.4 Thay 
+ []
+
+
+Overfull \hbox (11.28242pt too wide) in paragraph at lines 108--108
+\T5/cmr/m/n/14.4 th�|  
+ []
+
+
+Overfull \vbox (21.25002pt too high) detected at line 108
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 112--112
+[]|\T5/cmr/m/n/14.4 H�u i�u
+ []
+
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+[]|\T5/cmr/bx/n/14.4 Use
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+\T5/cmr/bx/n/14.4 Case
+ []
+
+
+Overfull \hbox (26.67249pt too wide) in paragraph at lines 130--130
+\T5/cmr/m/n/14.4 D�ng 
+ []
+
+
+Overfull \hbox (27.26234pt too wide) in paragraph at lines 130--130
+\T5/cmr/m/n/14.4 ch�nh|  
+ []
+
+
+Overfull \hbox (26.08763pt too wide) in paragraph at lines 138--138
+\T5/cmr/m/n/14.4 Thay 
+ []
+
+
+Overfull \hbox (13.5574pt too wide) in paragraph at lines 138--138
+\T5/cmr/m/n/14.4 th�|  
+ []
+
+
+Overfull \vbox (21.25002pt too high) detected at line 138
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
+[]|\T5/cmr/m/n/14.4 H�u
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
+\T5/cmr/m/n/14.4 i�u
+ []
+
+<images/scraping_schema.png, id=711, 577.15625pt x 668.4975pt>
 File: images/scraping_schema.png Graphic file (type png)
 <use images/scraping_schema.png>
-Package pdftex.def Info: images/scraping_schema.png  used on input line 136.
-(pdftex.def)             Requested size: 455.24174pt x 569.08026pt.
-[34pdfTeX warning (ext4): destination with the same identifier (name{table.4.3}
-) has been already used, duplicate ignored
+Package pdftex.def Info: images/scraping_schema.png  used on input line 154.
+(pdftex.def)             Requested size: 455.2615pt x 569.1028pt.
+[34] [35pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.4.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.141 
-      pdfTeX warning (ext4): destination with the same identifier (name{table.4
-.4}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.141 
-      ] [35pdfTeX warning (ext4): destination with the same identifier (name{fi
-gure.4.4}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.141 
+l.159 
        <./images/scraping_schema.png>]
-<images/hoidapphapluat.png, id=752, 1445.4pt x 689.57625pt>
+<images/hoidapphapluat.png, id=722, 1445.4pt x 689.57625pt>
 File: images/hoidapphapluat.png Graphic file (type png)
 <use images/hoidapphapluat.png>
-Package pdftex.def Info: images/hoidapphapluat.png  used on input line 178.
-(pdftex.def)             Requested size: 491.4295pt x 234.45282pt.
+Package pdftex.def Info: images/hoidapphapluat.png  used on input line 196.
+(pdftex.def)             Requested size: 462.53746pt x 220.6689pt.
 
-Overfull \hbox (36.1854pt too wide) in paragraph at lines 178--179
+Overfull \hbox (7.29335pt too wide) in paragraph at lines 196--197
  [][] 
  []
 
@@ -1758,212 +1765,211 @@ Overfull \hbox (36.1854pt too wide) in paragraph at lines 178--179
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.186 
+l.204 
       ]
-<images/parent_item.png, id=758, 581.17125pt x 134.00063pt>
+<images/parent_item.png, id=728, 581.17125pt x 134.00063pt>
 File: images/parent_item.png Graphic file (type png)
 <use images/parent_item.png>
-Package pdftex.def Info: images/parent_item.png  used on input line 189.
+Package pdftex.def Info: images/parent_item.png  used on input line 207.
 (pdftex.def)             Requested size: 406.8171pt x 93.79977pt.
  [37pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.196 
+l.214 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 4.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.196 
+l.214 
        <./images/hoidapphapluat.png> <./images/parent_item.png>]
-<images/detail_parent_item.png, id=766, 499.11469pt x 104.64093pt>
+<images/detail_parent_item.png, id=736, 499.11469pt x 104.64093pt>
 File: images/detail_parent_item.png Graphic file (type png)
 <use images/detail_parent_item.png>
-Package pdftex.def Info: images/detail_parent_item.png  used on input line 199.
+Package pdftex.def Info: images/detail_parent_item.png  used on input line 217.
 
 (pdftex.def)             Requested size: 399.29228pt x 83.71283pt.
  [38pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.237 \begin{lstlisting}[language=python]
-                                          <./images/detail_parent_item.png>]
+l.249 	
+       	'Date-asked':div_date_asked.text}) <./images/detail_parent_item.png>]
 [39]
-<images/elasticsearch_e.png, id=799, 892.33376pt x 496.85625pt>
+<images/elasticsearch_e.png, id=769, 892.33376pt x 496.85625pt>
 File: images/elasticsearch_e.png Graphic file (type png)
 <use images/elasticsearch_e.png>
-Package pdftex.def Info: images/elasticsearch_e.png  used on input line 260.
+Package pdftex.def Info: images/elasticsearch_e.png  used on input line 276.
 (pdftex.def)             Requested size: 455.24759pt x 199.17111pt.
  [40pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.272 \begin{lstlisting}
+l.288 \begin{lstlisting}
                          <./images/elasticsearch_e.png>]
-<images/tokenize.png, id=805, 384.6872pt x 60.225pt>
+<images/tokenize.png, id=775, 384.6872pt x 60.225pt>
 File: images/tokenize.png Graphic file (type png)
 <use images/tokenize.png>
-Package pdftex.def Info: images/tokenize.png  used on input line 280.
+Package pdftex.def Info: images/tokenize.png  used on input line 296.
 (pdftex.def)             Requested size: 307.75017pt x 48.18005pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
 
  []
 
-<images/encoding_graph.png, id=807, 587.19376pt x 230.8625pt>
+<images/encoding_graph.png, id=777, 630.355pt x 257.96375pt>
 File: images/encoding_graph.png Graphic file (type png)
 <use images/encoding_graph.png>
-Package pdftex.def Info: images/encoding_graph.png  used on input line 293.
-(pdftex.def)             Requested size: 469.75565pt x 184.69023pt.
-
-Overfull \hbox (14.51154pt too wide) in paragraph at lines 293--294
- [][] 
- []
-
-<images/position.jpg, id=808, 285.31593pt x 251.43938pt>
-File: images/position.jpg Graphic file (type jpg)
-<use images/position.jpg>
-Package pdftex.def Info: images/position.jpg  used on input line 304.
-(pdftex.def)             Requested size: 285.31523pt x 251.43875pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 308--309
-
- []
-
+Package pdftex.def Info: images/encoding_graph.png  used on input line 309.
+(pdftex.def)             Requested size: 441.24548pt x 180.57338pt.
 [41pdfTeX warning (ext4): destination with the same identifier (name{figure.4.9
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.309 \end{itemize}
-                    <./images/tokenize.png>] [42pdfTeX warning (ext4): destinat
-ion with the same identifier (name{figure.4.10}) has been already used, duplica
-te ignored
+l.316 	\item T
+              oken đầu tiên trong mỗi chuỗi đều có giá trị l�...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.10})
+ has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.309 \end{itemize}
-                   pdfTeX warning (ext4): destination with the same identifier 
-(name{figure.4.11}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.309 \end{itemize}
-                    <./images/encoding_graph.png> <./images/position.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 327--328
+l.316 	\item T
+              oken đầu tiên trong mỗi chuỗi đều có giá trị l�...
+ <./images/tokenize.png> <./images/encoding_graph.png>]
+<images/position.jpg, id=787, 285.31593pt x 251.43938pt>
+File: images/position.jpg Graphic file (type jpg)
+<use images/position.jpg>
+Package pdftex.def Info: images/position.jpg  used on input line 320.
+(pdftex.def)             Requested size: 285.31523pt x 251.43875pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
 
  []
 
-[43]
-Underfull \hbox (badness 10000) in paragraph at lines 334--335
+[42pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.331 (
+       PE)$_(pos,2i+1)$=$\cos(pos/10000^{(2i/d_{model})})$ <./images/position.j
+pg>]
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
 
  []
 
-<images/matrix_encode.jpg, id=831, 469.755pt x 350.05782pt>
+<images/matrix_encode.jpg, id=794, 469.755pt x 350.05782pt>
 File: images/matrix_encode.jpg Graphic file (type jpg)
 <use images/matrix_encode.jpg>
-Package pdftex.def Info: images/matrix_encode.jpg  used on input line 339.
+Package pdftex.def Info: images/matrix_encode.jpg  used on input line 351.
 (pdftex.def)             Requested size: 469.75386pt x 350.05695pt.
 
-Overfull \hbox (14.50975pt too wide) in paragraph at lines 339--340
+Overfull \hbox (14.50975pt too wide) in paragraph at lines 351--352
  [][] 
  []
 
-[44pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
-2}) has been already used, duplicate ignored
+[43] [44pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.4.12}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.344 \begin{itemize}
-                      <./images/matrix_encode.jpg>] [45pdfTeX warning (ext4): d
-estination with the same identifier (name{table.4.6}) has been already used, du
-plicate ignored
+l.355 T
+       rong thành phần Encoder của Transformers hay của BERT, thành ...
+ <./images/matrix_encode.jpg>] [45pdfTeX warning (ext4): destination with the s
+ame identifier (name{table.4.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.383 �
+l.389 �
        �ể định danh các kiểu dữ liệu này trước khi lưu xu�...
 ]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 385.
+nput line 391.
  (SourceCode/index.json) [46]
-<images/asking.png, id=876, 399.4925pt x 587.19376pt>
+<images/asking.png, id=846, 523.9575pt x 587.19376pt>
 File: images/asking.png Graphic file (type png)
 <use images/asking.png>
-Package pdftex.def Info: images/asking.png  used on input line 397.
-(pdftex.def)             Requested size: 341.43306pt x 501.87668pt.
+Package pdftex.def Info: images/asking.png  used on input line 403.
+(pdftex.def)             Requested size: 341.43306pt x 382.64804pt.
  [47pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 13}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.402 C
+l.409 C
        âu hỏi của người dùng sau khi nhập vào từ giao diện w...
- <./images/asking.png>] [48]
+ <./images/asking.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 409--415
+
+ []
+
+[48]
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 433.
+(amsmath)                 on input line 439.
 
 [49] [50]
-<images/model_manual.png, id=910, 848.16875pt x 546.04pt>
+<images/model_manual.png, id=880, 848.16875pt x 546.04pt>
 File: images/model_manual.png Graphic file (type png)
 <use images/model_manual.png>
-Package pdftex.def Info: images/model_manual.png  used on input line 483.
+Package pdftex.def Info: images/model_manual.png  used on input line 489.
 (pdftex.def)             Requested size: 424.08333pt x 273.01933pt.
-<images/sts_train_data.png, id=912, 337.26pt x 184.43906pt>
+<images/sts_train_data.png, id=882, 337.26pt x 184.43906pt>
 File: images/sts_train_data.png Graphic file (type png)
 <use images/sts_train_data.png>
-Package pdftex.def Info: images/sts_train_data.png  used on input line 498.
+Package pdftex.def Info: images/sts_train_data.png  used on input line 504.
 (pdftex.def)             Requested size: 337.25917pt x 184.4386pt.
-<images/law-train-data.png, id=913, 705.38531pt x 288.3272pt>
+<images/law-train-data.png, id=883, 705.38531pt x 288.3272pt>
 File: images/law-train-data.png Graphic file (type png)
 <use images/law-train-data.png>
-Package pdftex.def Info: images/law-train-data.png  used on input line 505.
+Package pdftex.def Info: images/law-train-data.png  used on input line 511.
 (pdftex.def)             Requested size: 493.76636pt x 201.82765pt.
 
-Overfull \hbox (38.52225pt too wide) in paragraph at lines 505--506
+Overfull \hbox (38.52225pt too wide) in paragraph at lines 511--512
  [][] 
  []
 
-<images/inside_model.png, id=915, 263.48438pt x 299.61937pt>
+<images/inside_model.png, id=885, 263.48438pt x 299.61937pt>
 File: images/inside_model.png Graphic file (type png)
 <use images/inside_model.png>
-Package pdftex.def Info: images/inside_model.png  used on input line 513.
+Package pdftex.def Info: images/inside_model.png  used on input line 519.
 (pdftex.def)             Requested size: 210.78777pt x 239.69582pt.
 [51pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.519 
+l.525 
        <./images/model_manual.png>] [52pdfTeX warning (ext4): destination with 
 the same identifier (name{figure.4.15}) has been already used, duplicate ignore
 d
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.519 
+l.525 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 4.16}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.519 
+l.525 
        <./images/sts_train_data.png> <./images/law-train-data.png>] [53pdfTeX w
 arning (ext4): destination with the same identifier (name{figure.4.17}) has bee
 n already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.537 
-       <./images/inside_model.png>]
-<images/WebStructure.png, id=944, 1064.97874pt x 332.24126pt>
+l.544 S
+       au đây là sơ đồ quy trình của hệ thống khi đưa dữ l...
+ <./images/inside_model.png>]
+<images/WebStructure.png, id=913, 1064.97874pt x 332.24126pt>
 File: images/WebStructure.png Graphic file (type png)
 <use images/WebStructure.png>
-Package pdftex.def Info: images/WebStructure.png  used on input line 541.
+Package pdftex.def Info: images/WebStructure.png  used on input line 547.
 (pdftex.def)             Requested size: 425.98395pt x 132.89413pt.
  [54pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 18}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.562 	
-       else: <./images/WebStructure.png>]) [55]
+l.576 
+       <./images/WebStructure.png>]) [55]
 \openout2 = `Chapter5/chapter5.aux'.
 
  (Chapter5/chapter5.tex
 Chương 5.
-<images/elastic_search_result.png, id=963, 725.71124pt x 776.9025pt>
+<images/elastic_search_result.png, id=932, 725.71124pt x 776.9025pt>
 File: images/elastic_search_result.png Graphic file (type png)
 <use images/elastic_search_result.png>
 Package pdftex.def Info: images/elastic_search_result.png  used on input line 2
@@ -1980,7 +1986,7 @@ Package pdftex.def Info: images/elastic_search_result.png  used on input line 2
                                                   \__shipout_drop_firstpage_...
 l.29 
       <./images/elastic_search_result.png>]
-<images/res1.png, id=975, 469.755pt x 45.16875pt>
+<images/res1.png, id=945, 469.755pt x 45.16875pt>
 File: images/res1.png Graphic file (type png)
 <use images/res1.png>
 Package pdftex.def Info: images/res1.png  used on input line 51.
@@ -1990,7 +1996,7 @@ Overfull \hbox (14.50975pt too wide) in paragraph at lines 51--52
  [][] 
  []
 
-<images/res2.png, id=976, 469.755pt x 126.4725pt>
+<images/res2.png, id=946, 469.755pt x 126.4725pt>
 File: images/res2.png Graphic file (type png)
 <use images/res2.png>
 Package pdftex.def Info: images/res2.png  used on input line 68.
@@ -2006,7 +2012,7 @@ Overfull \hbox (14.50975pt too wide) in paragraph at lines 68--69
                                                   \__shipout_drop_firstpage_...
 l.76 	
       			{{group_QA(data_id = para[0] - 1, <./images/res1.png>]
-<images/final.png, id=990, 469.755pt x 298.86656pt>
+<images/final.png, id=960, 469.755pt x 298.86656pt>
 File: images/final.png Graphic file (type png)
 <use images/final.png>
 Package pdftex.def Info: images/final.png  used on input line 86.
@@ -2022,82 +2028,138 @@ l.93 \begin{itemize}
                                                   \__shipout_drop_firstpage_...
 l.93 \begin{itemize}
                      <./images/res2.png> <./images/final.png>] [60] [61]
-[62
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+[]|
+ []
 
-] [63] [64] [65] [66] [67]) [68
 
-]
+Overfull \hbox (1.14877pt too wide) in paragraph at lines 129--129
+\T5/cmr/bx/n/14.4 ID| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+[]|
+ []
+
+
+Overfull \hbox (0.53226pt too wide) in paragraph at lines 129--129
+\T5/cmr/bx/n/14.4 L1| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+[]|
+ []
+
+
+Overfull \hbox (0.53226pt too wide) in paragraph at lines 129--129
+\T5/cmr/bx/n/14.4 L2| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+[]|
+ []
+
+
+Overfull \hbox (0.53226pt too wide) in paragraph at lines 129--129
+\T5/cmr/bx/n/14.4 L3| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+[]|
+ []
+
+
+Overfull \hbox (1.58844pt too wide) in paragraph at lines 129--129
+\T5/cmr/bx/n/14.4 C1| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+[]|
+ []
+
+
+Overfull \hbox (0.6715pt too wide) in paragraph at lines 129--129
+\T5/cmr/bx/n/14.4 C2| 
+ []
+
+[62] [63]) [64] [65]
 \openout2 = `Chapter6/chapter6.aux'.
 
  (Chapter6/chapter6.tex
 Chương 6.
-[69
+[66
 
 
 
 
-]) [70]
+] [67]) [68]
 
 Package biblatex Warning: Name format 'last-first' deprecated.
 (biblatex)                Please use 'family-given' instead.
 (biblatex)                Using 'family-given' now.
 
 
-Overfull \hbox (8.88272pt too wide) in paragraph at lines 195--195
+Overfull \hbox (8.88272pt too wide) in paragraph at lines 186--186
 []\T5/cmr/m/n/14.4 DatCanCote. \T5/cmr/m/it/14.4 Sim-CSE ph�t tri�n cho ng�n ng
 � ti�ng Vi�t\T5/cmr/m/n/14.4 . \T5/cmr/m/sc/14.4 url\T5/cmr/m/n/14.4 : []$\T5/c
 mtt/m/n/14.4 https :
  []
 
 
-Overfull \hbox (0.27524pt too wide) in paragraph at lines 195--195
+Overfull \hbox (0.27524pt too wide) in paragraph at lines 186--186
 []\T5/cmr/m/n/14.4 Google. ``Mea-sur-ing Sim-i-lar-ity from Em-bed-dings''. In:
  (). \T5/cmr/m/sc/14.4 url\T5/cmr/m/n/14.4 : []$\T5/cmtt/m/n/14.4 https :
  []
 
 
-Overfull \hbox (28.27399pt too wide) in paragraph at lines 195--195
+Overfull \hbox (28.27399pt too wide) in paragraph at lines 186--186
 \T5/cmtt/m/n/14.4 com / vi / tutorials / scraping -[] webpages -[] in -[] pytho
 n -[] with -[] beautiful -[]
  []
 
 
-Overfull \hbox (23.88438pt too wide) in paragraph at lines 195--195
+Overfull \hbox (23.88438pt too wide) in paragraph at lines 186--186
 []\T5/cmr/m/it/14.4 Th� vi�n H�i �p Ph�p Lu�t\T5/cmr/m/n/14.4 . \T5/cmr/m/sc/1
 4.4 url\T5/cmr/m/n/14.4 : []$\T5/cmtt/m/n/14.4 https : / / hoidap . thuvienphap
 luat .
  []
 
 
-Overfull \hbox (0.23653pt too wide) in paragraph at lines 195--195
+Overfull \hbox (0.23653pt too wide) in paragraph at lines 186--186
 []\T5/cmr/m/it/14.4 Translate to Vi Se-man-tic Tex-tual Sim-i-lar-ity 2012-2017
  Dataset\T5/cmr/m/n/14.4 . 2021.
  []
 
-[71
+[69
 
 
-] [72] (main.aux (Appendix/thanks.aux) (Appendix/nhanxetgiaovienhuongdan.aux) (
-Appendix/nhanxetgiaovienphanbien.aux) (Appendix/decuong.aux)
-(Chapter1/chapter1.aux) (Chapter2/chapter2.aux) (Chapter3/chapter3.aux)
-(Chapter4/chapter4.aux) (Chapter5/chapter5.aux) (Chapter6/chapter6.aux))
+
+] [70] (main.aux (Appendix/thanks.aux) (Appendix/nhanxetgiaovienhuongdan.aux) (
+Appendix/nhanxetgiaovienphanbien.aux) (Chapter1/chapter1.aux)
+(Chapter2/chapter2.aux) (Chapter3/chapter3.aux) (Chapter4/chapter4.aux)
+(Chapter5/chapter5.aux) (Chapter6/chapter6.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C98909CBBE58173C436D965D3FDB219A;13465.
+(rerunfilecheck)             Checksum: D54C6F7F715BC34AF1B43D8B09EC1009;12463.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31541 strings out of 478864
- 580118 string characters out of 2848660
- 1352023 words of memory out of 3000000
- 48500 multiletter control sequences out of 15000+600000
+ 31513 strings out of 478864
+ 579357 string characters out of 2848660
+ 1347531 words of memory out of 3000000
+ 48477 multiletter control sequences out of 15000+600000
  419313 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,15n,83p,1876b,2014s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 84i,9n,83p,1876b,1894s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\nguyn\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti
 1440.pk> <C:\Users\nguyn\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcrm1000.pk> <C:\Users\nguyn\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
@@ -2121,9 +2183,9 @@ ex/vnr/vnr17.pfb><C:/Users/nguyn/AppData/Local/Programs/MiKTeX/fonts/type1/vnte
 x/vnr/vnr6.pfb><C:/Users/nguyn/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/
 vnr/vnti12.pfb><C:/Users/nguyn/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/
 vnr/vntt12.pfb>
-Output written on main.pdf (86 pages, 2957505 bytes).
+Output written on main.pdf (81 pages, 2706633 bytes).
 PDF statistics:
- 1250 PDF objects out of 1440 (max. 8388607)
- 354 named destinations out of 1000 (max. 500000)
- 738 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1212 PDF objects out of 1440 (max. 8388607)
+ 356 named destinations out of 1000 (max. 500000)
+ 685 words of extra memory for PDF output out of 10000 (max. 10000000)
 

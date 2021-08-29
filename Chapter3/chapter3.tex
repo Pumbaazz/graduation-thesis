@@ -1,4 +1,4 @@
-\chapter{Công Nghệ Sử Dụng}
+\chapter{Công nghệ sử dụng}
 \label{Chapter3}
 \textit{Nội dung chương này sẽ đề cập đến các công nghệ sẽ được áp dụng bên trong hệ thống, các phần mềm , thư viện cần để hệ thống hoạt động, cách cài đặt các phần mềm và thư viện cần sử dụng. }
 
@@ -45,36 +45,16 @@ Python Vietnamese Toolkit(PyVi)\cite{pyvi} là một công cụ xử lý ngôn n
 
 \begin{itemize}
 	\item Tokenization: tách từ, cụm từ trong văn bản
-	\item POS tagging: gán nhãn từ loại, các loại từ bao gồm:
-	\begin{itemize}
-	    \item	A – Adjective: tính từ
-	    \item	C – Coordinating conjunction: liên từ
-		\item   E – Preposition: giới từ
-	    \item   I – Interjection: thán từ
-	    \item   L – Determiner: từ hạn định
-	    \item   M – Numeral: số 
-	    \item   N - Common noun: danh từ chung
-	    \item   Nc - Noun Classifier: phân loại danh từ
-	    \item   Ny - Noun abbreviation: các danh từ viết tắt
-	    \item   Np - Proper noun: danh từ riêng
-	    \item   Nu - Unit noun: danh từ đơn vị
-	    \item   P – Pronoun: đại từ
-	    \item   R – Adverb: trạng từ
-	    \item   S - Subordinating conjunction:  liên từ phụ thuộc
-	    \item   T - Auxiliary, modal words: động từ khiếm khuyết
-	    \item   V – Verb: động từ
-	    \item   X – Unknown: các từ không xác định được
-	    \item   F - Filtered out (punctuation): các từ được lọc ra bởi dấu chấm câu
-	\end{itemize}
+	\item POS tagging: gán nhãn từ loại, các loại từ bao gồm: A – Adjective: tính từ, C – Coordinating conjunction: liên từ, E – Preposition: giới từ, I – Interjection: thán từ,L – Determiner: từ hạn định, M – Numeral: số, N - Common noun: danh từ chung, Nc - Noun Classifier: phân loại danh từ, Ny - Noun abbreviation: các danh từ viết tắt, Np - Proper noun: danh từ riêng, Nu - Unit noun: danh từ đơn vị, P – Pronoun: đại từ, R – Adverb: trạng từ, S - Subordinating conjunction:  liên từ phụ thuộc, T - Auxiliary, modal words: động từ khiếm khuyết, V – Verb: động từ, X – Unknown: các từ không xác định được, F - Filtered out (punctuation): các từ được lọc ra bởi dấu chấm câu
 	\item Accents removal: bỏ dấu từ
 	\item Accents adding: thêm dấu từ
-
+	
 \end{itemize}
 
 \begin{figure*}[htp]
     \centering
     \includegraphics[scale=0.7]{images/pyvi_segment}
-    \caption{Minh hoạ tách từ bằng PyVi}
+    \caption{Minh hoạ tách từ bằng PyVi.}
     \label{fig:ex_pyvi_1}
 \end{figure*}
 \pagebreak
@@ -123,7 +103,7 @@ Kiến trúc của Transformers bao gồm hai phần là Encoder và Decoder, En
 \begin{figure*}[htp]
     \centering
     \includegraphics[width=13 cm, height=15 cm]{images/transformer_schema}
-    \caption{Mô hình tổng quát của cấu trúc của Transformer}
+    \caption{Mô hình tổng quát của cấu trúc của Transformer.}
     \label{fig:transformer_schema}
 \end{figure*}
 
@@ -152,7 +132,7 @@ BERT được xây dựng dựa trên Transformers với hai biến thể:
 \begin{figure*}[htp]
     \centering
     \includegraphics[scale=0.1]{images/bert-base-and-large.jpg}
-    \caption{Kích thước của 2 dạng BERT}
+    \caption{Kích thước của 2 dạng BERT.}
     \label{fig:BERT_SIZE}
 \end{figure*}
 
@@ -160,7 +140,7 @@ Trong khi đó kiến trúc của Transformers chỉ có 6 lớp Encoder, cho th
 \begin{figure*}[htp]
     \centering
     \includegraphics[width=12.5 cm, height=17 cm]{images/encode_bert.png}
-    \caption{Encode BERT}
+    \caption{Encode BERT.}
     \label{fig:encode_bert}
 \end{figure*}
 
@@ -177,11 +157,12 @@ Sentence Transformers\cite{sentencetransformer} là 1 framework dùng để Embe
 Sentence Transformers là phương pháp để tính toán, tạo ra các vector biểu diễn cho các câu văn, đoạn văn bản hay là một hình ảnh. Các mô hình như BERT, RoBERTa, XLM-RoBERTa,... đều dựa trên framework Sentence Transformers này. Các đoạn văn bản sau khi được Vector hóa có thể tìm được sự tương đồng về mặt ngữ nghĩa với nhau bằng cách dùng phương pháp tính Cosine Similarity.
 
 Như vậy với Sentence Transformers, ta có thể:
-\begin{itemize}
-	\item Dùng các độ đo khoảng cách hoặc góc để tính độ tương đồng về ngữ nghĩa của các câu, áp dụng để phân nhóm câu theo ngữ nghĩa (Semantic Clustering), dùng trong Hệ thống truy vấn thông tin theo ngữ nghĩa (Semantic Information Retrieval), tính toán câu tương tự (Computing Sentence Similarity), ...
-	\item Sử dụng như Pre-trained Model trong các Transfer Learning, đã có hơn 100 ngôn ngữ được huấn luyện sẵn nên rất dễ cho việc sử dụng.
-\end{itemize}
 
+Dùng các độ đo khoảng cách hoặc góc để tính độ tương đồng về ngữ nghĩa của các câu, áp dụng để phân nhóm câu theo ngữ nghĩa (Semantic Clustering), dùng trong Hệ thống truy vấn thông tin theo ngữ nghĩa (Semantic Information Retrieval), tính toán câu tương tự (Computing Sentence Similarity), ...
+
+Sử dụng như Pre-trained Model trong các Transfer Learning, đã có hơn 100 ngôn ngữ được huấn luyện sẵn nên rất dễ cho việc sử dụng.
+
+\pagebreak
 Ví dụ về sử dụng mô hình Sentence Transformer để nhúng (Embedd) các câu văn:
 \begin{lstlisting}[language=python]
 from sentence_transformers import SentenceTransformer
@@ -208,9 +189,7 @@ PhoBERT\cite{PhoBERT},\cite{PhoBERT_VNMESE}  là một pre-trained model dựa t
 
 PhoBERT cũng có hai kích thước là PhoBERT$_{BASE}$ với 12 transformers block và PhoBERT$_{LARGE}$ với 24 transformers block. PhoBERT được huấn luyện từ 20GB dữ liệu về Tiếng Việt bao gồm 1GB Vietnamese Wikipedia corpus và 19GB Vietnamese news corpus. 
 
-PhoBERT sử dụng RDR Segmenter của VnCoreNLP để tách từ cho dữ liệu đầu vào trước khi qua BPE encoder.
-
-PhoBERT tượng tự BERT, chỉ khác là dùng cho việc xử lý ngôn ngữ tiếng Việt nên kiến trúc của PhoBERT cũng thừa hưởng thành phần Encoder của mô hình Transformers, không bao gồm Decoder.
+PhoBERT sử dụng RDR Segmenter của VnCoreNLP để tách từ cho dữ liệu đầu vào trước khi qua BPE encoder. PhoBERT tượng tự BERT, chỉ khác là dùng cho việc xử lý ngôn ngữ tiếng Việt nên kiến trúc của PhoBERT cũng thừa hưởng thành phần Encoder của mô hình Transformers, không bao gồm Decoder.
 
 Mô hình này sẽ được áp dụng vào trong bài toán mã hoá dữ liệu câu hỏi Pháp luật.
 %SimCSE
@@ -239,22 +218,25 @@ Các khái niệm cần phải biết khi sử dụng Elasticsearch\cite{ES} là
 Chức năng chính của Cluster đó chính là quyết định xem shards nào được phân bổ cho node nào và khi nào thì di chuyển các Cluster để cân bằng lại Cluster.
 
 \subsection{Ưu điểm của Elasticsearch}
-Ưu điểm của Elasticsearch là:
-\begin{itemize}
-	\item Tìm kiếm dữ liệu rất nhanh chóng, mạnh mẽ dựa trên Apache Lucene ( near-realtime searching)
-	\item Có khả năng phân tích dữ liệu (Analysis data)
-	\item Khả năng mở rộng theo chiều ngang
-	\item Hỗ trợ tìm kiếm mờ (fuzzy), tức là từ khóa tìm kiếm có thể bị sai lỗi chính tả hay không đúng cú pháp thì vẫn có khả năng Elasticsearch trả về kết quả tốt.
-	\item Hỗ trợ Structured Query DSL (Domain-Specific Language ), cung cấp việc đặc tả những câu truy vấn phức tạp một cách cụ thể và rõ ràng bằng JSON.
-	\item Hỗ trợ nhiều Elasticsearch client như Java, PhP, Javascript, Ruby, .NET, Python
-\end{itemize}
+Tìm kiếm dữ liệu rất nhanh chóng, mạnh mẽ dựa trên Apache Lucene ( near-realtime searching)
+
+Có khả năng phân tích dữ liệu (Analysis data)
+
+Khả năng mở rộng theo chiều ngang
+
+Hỗ trợ tìm kiếm mờ (fuzzy), tức là từ khóa tìm kiếm có thể bị sai lỗi chính tả hay không đúng cú pháp thì vẫn có khả năng Elasticsearch trả về kết quả tốt.
+
+Hỗ trợ Structured Query DSL (Domain-Specific Language ), cung cấp việc đặc tả những câu truy vấn phức tạp một cách cụ thể và rõ ràng bằng JSON.
+
+Hỗ trợ nhiều Elasticsearch client như Java, PhP, Javascript, Ruby, .NET, Python
+
 \subsection{Nhược điểm của Elasticsearch}
-Nhược điểm của Elasticsearch là:
-\begin{itemize}
-	\item Elasticsearch được thiết kế cho mục đích search, do vậy với những nhiệm vụ khác ngoài search như CRUD thì elastic kém thế hơn so với những database khác như Mongodb, Mysql …. Do vậy người ta ít khi dùng Elasticsearch làm database chính, mà thường kết hợp nó với 1 database khác.
-	\item Trong Elasticsearch không có khái niệm database transaction , tức là nó sẽ không đảm bảo được toàn vẹn dữ liệu trong các hoạt độngInsert, Update, Delete.Tức khi chúng ta thực hiện thay đổi nhiều bản ghi nếu xảy ra lỗi thì sẽ làm cho logic của mình bị sai hay dẫn tới mất mát dữ liệu. Đây cũng là 1 phần khiến Elasticsearch không nên là database chính.
-	\item Không thích hợp với những hệ thống thường xuyên cập nhật dữ liệu. Sẽ rất tốn kém cho việc đánh index dữ liệu.	
-\end{itemize}
+
+Elasticsearch được thiết kế cho mục đích search, do vậy với những nhiệm vụ khác ngoài search như CRUD thì elastic kém thế hơn so với những database khác như Mongodb, Mysql …. Do vậy người ta ít khi dùng Elasticsearch làm database chính, mà thường kết hợp nó với 1 database khác.
+
+Trong Elasticsearch không có khái niệm database transaction , tức là nó sẽ không đảm bảo được toàn vẹn dữ liệu trong các hoạt độngInsert, Update, Delete.Tức khi chúng ta thực hiện thay đổi nhiều bản ghi nếu xảy ra lỗi thì sẽ làm cho logic của mình bị sai hay dẫn tới mất mát dữ liệu. Đây cũng là 1 phần khiến Elasticsearch không nên là database chính.
+
+Không thích hợp với những hệ thống thường xuyên cập nhật dữ liệu. Sẽ rất tốn kém cho việc đánh index dữ liệu.	
 
 %Flask
 \section{Web Framework: Flask Framework}
@@ -263,28 +245,29 @@ Nhược điểm của Elasticsearch là:
     \begin{figure*}[htp]
         \centering
         \includegraphics{images/Flask_Logo}
-        \caption{Flask logo}
+        \caption{Flask logo.}
         \label{fig:flask_logo}
     \end{figure*}
     
-    \begin{itemize}
-        \item Flask là một Web Frameworks, được xây dựng bằng ngôn ngữ lập trình Python.
-        \item Flask dựa trên bộ công cụ \textbf{Werkzeg WSGI} và template engine \textbf{Jinja2}:
-        \begin{itemize}
-            \item \textbf{WSGI} (Web Server Gateway Interface): WSGI là Giao diện Cổng Máy chủ Web, WSGI mô tả cách máy chủ web giao tiếp với các ứng dụng web và cách các ứng dụng web có thể được kết nối với nhau khi xử lý một yêu cầu.
-            \item \textbf{Werkzeug}: Werkzeug là một bộ công cụ WSGI thực hiện các yêu cầu, đối tượng phản hồi và các chức năng tiện ích, cho phép xây dựng một Web Framework trên đó. Flask framework sử dụng Werkzeg làm một trong những cơ sở của nó.
-            \item \textbf{jinja2}: jinja2 là một template engine phổ biến cho Python, được sử dụng để hiển thị dữ liệu cho các trang web. Jinja2 cho phép chuyển các biến Python vào các HTML template – thuận tiện cho việc đổ dữ liệu từ Back End đến Front End.
 
-        \end{itemize}
-        \item Flask cung cấp các thư viện, công cụ, cơ chế để xây dựng các Website từ nhỏ đến lớn, từ đơn giản tới phức tạp như: các API nhỏ, trang blog, trang web thương mại điện tử,…
-        \item Flask thuộc loại Micro-framework: có ưu điểm là rất nhẹ và nhỏ, không phụ thuộc vào thư viện bên ngoài nên rất ít lỗi, do đó dễ dàng đề phòng, phát hiện và xử lý các lỗi bảo mật
+Flask là một Web Frameworks, được xây dựng bằng ngôn ngữ lập trình Python.
+         
+Flask dựa trên bộ công cụ \textbf{Werkzeg WSGI} và template engine \textbf{Jinja2}:
 
-    \end{itemize}
+\textbf{WSGI} (Web Server Gateway Interface): WSGI là Giao diện Cổng Máy chủ Web, WSGI mô tả cách máy chủ web giao tiếp với các ứng dụng web và cách các ứng dụng web có thể được kết nối với nhau khi xử lý một yêu cầu.
+
+\textbf{Werkzeug}: Werkzeug là một bộ công cụ WSGI thực hiện các yêu cầu, đối tượng phản hồi và các chức năng tiện ích, cho phép xây dựng một Web Framework trên đó. Flask framework sử dụng Werkzeg làm một trong những cơ sở của nó.
+
+\textbf{jinja2}: jinja2 là một template engine phổ biến cho Python, được sử dụng để hiển thị dữ liệu cho các trang web. Jinja2 cho phép chuyển các biến Python vào các HTML template – thuận tiện cho việc đổ dữ liệu từ Back End đến Front End.
+
+Flask cung cấp các thư viện, công cụ, cơ chế để xây dựng các Website từ nhỏ đến lớn, từ đơn giản tới phức tạp như: các API nhỏ, trang blog, trang web thương mại điện tử,…
+        
+Flask thuộc loại Micro-framework: có ưu điểm là rất nhẹ và nhỏ, không phụ thuộc vào thư viện bên ngoài nên rất ít lỗi, do đó dễ dàng đề phòng, phát hiện và xử lý các lỗi bảo mật
     
     
-    \item Ví dụ web API đơn giản xây dựng bằng Flask\cite{FlaskAPIWeb}:
-    \begin{itemize}
-        \item Sau đây là một đoạn code để tạo một Route của một website
+\item Ví dụ web API đơn giản xây dựng bằng Flask\cite{FlaskAPIWeb}:
+Sau đây là một đoạn code để tạo một Route của một website
+
 %code        
 \begin{lstlisting}[language=Python]
 from flask import Flask 
@@ -296,29 +279,31 @@ if __name__ == '__main__':
 	app.run(host='0.0.0.0', port=5001)
 \end{lstlisting}
     
-        \item Để khởi tạo instance của class, dòng code dưới sẽ tạo một web server điều hướng các request từ client đến ứng dụng của chúng ta, nó cũng là chính là một ứng dụng WSGI(Web Sẻver Gateway Interface):
+Để khởi tạo instance của class, dòng code dưới sẽ tạo một web server điều hướng các request từ client đến ứng dụng của chúng ta, nó cũng là chính là một ứng dụng WSGI(Web Server Gateway Interface):
 %code
 \begin{lstlisting}[language=Python]
     app = Flask(__name__):
 \end{lstlisting}
 
-        \item Route decorator cho FLask biết được url nào ứng với hàm nào, Web Server dựa vào đường dẫn và route decorator để chuyển yêu cầu tới hàm xử lý tương ứng $ hello\_world()$, hàm này đóng vai trò làm ứng dụng web (web application).
+Route decorator cho FLask biết được url nào ứng với hàm nào, Web Server dựa vào đường dẫn và route decorator để chuyển yêu cầu tới hàm xử lý tương ứng $ hello\_world()$, hàm này đóng vai trò làm ứng dụng web (web application).
         
 \begin{lstlisting}[language=Python]
     @app.route('/hello') 
 \end{lstlisting}
 
-\item Flask app được chạy với lệnh app.run(). Các tham số trong hàm run:
+Flask app được chạy với lệnh app.run(). Các tham số trong hàm run:
+
 \begin{lstlisting}
     if __name__ == '__main__': 
 	    app.run(host='0.0.0.0', port=5001)
 \end{lstlisting}
-	\begin{itemize}
-	\item \textbf{Host= $'0.0.0.0'$}: Địa chỉ IP để ứng dụng Flask lắng nghe các kết nối, mặc định giá trị của tham số này là $'127.0.0.1'$ và ứng dụng flask chỉ chấp nhận các kết nối từ máy local. chuyển giá trị này thành $'0.0.0.0'$ để ứng dụng chấp nhận các kết nối từ bên ngoài.
-	\item \textbf{port=5001}: Giá trị của port là một số nguyên, giá trị mặc định bằng 5001. Là cổng được mở trên máy mà ứng dụng Flask chạy, cần chọn cổng mà chưa được mở trên máy để tránh gặp lỗi khi chạy.
+
+	\textbf{Host= $'0.0.0.0'$}: Địa chỉ IP để ứng dụng Flask lắng nghe các kết nối, mặc định giá trị của tham số này là $'127.0.0.1'$ và ứng dụng flask chỉ chấp nhận các kết nối từ máy local. chuyển giá trị này thành $'0.0.0.0'$ để ứng dụng chấp nhận các kết nối từ bên ngoài.
 	
-	\end{itemize}
-\end{itemize}
+	\textbf{port=5001}: Giá trị của port là một số nguyên, giá trị mặc định bằng 5001. Là cổng được mở trên máy mà ứng dụng Flask chạy, cần chọn cổng mà chưa được mở trên máy để tránh gặp lỗi khi chạy.
+	
+
+
 \end{enumerate}
 
 %table 3
@@ -329,7 +314,7 @@ Truy cập: \url{https://www.elastic.co/downloads/elasticsearch} và tải bản
 \begin{figure*}[htp]
 	\centering
 	\includegraphics[scale=0.7]{images/elasticsearch1}
-	\caption {Giao diện tải về Elastic search}
+	\caption {Giao diện tải về Elastic search.}
 	\label{fig:elasticsearch1}
 \end{figure*}
 
@@ -342,7 +327,7 @@ Mở trình duyệt truy cập: \url{http://localhost:9200/} để kiểm tra El
 \begin{figure*}[htp]
 	\centering
 	\includegraphics[scale=0.8]{images/elasticsearch2}
-	\caption{Trả về kết quả là Elastic search được cài đặt thành công và đang hoạt động}
+	\caption{Trả về kết quả là Elastic search được cài đặt thành công và đang hoạt động.}
 \end{figure*}
 
 \subsubsection{Cài đặt các thư viện cần thiết}

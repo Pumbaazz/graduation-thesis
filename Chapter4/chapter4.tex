@@ -1,6 +1,6 @@
 \chapter{Kiến trúc hệ thống}
 \label{Chapter4}
-Nội dung trong chương này trình bày về tất cả các kiến thức và công nghệ đã áp dụng trong hệ thống bao gồm:
+\textit{Nội dung trong chương này trình bày về tất cả các kiến thức và công nghệ đã áp dụng trong hệ thống bao gồm:
 \begin{itemize}
 	\item Mô tả hệ thống
 	\item Mô hình Usecase hệ thống
@@ -9,21 +9,25 @@ Nội dung trong chương này trình bày về tất cả các kiến thức v�
 	\item Quy trình xử lý dữ liệu bên trong Front-end
 \end{itemize}
 \section{Mô Tả Hệ Thống}
-Từ những mô tả và những công nghệ được nêu trên, ta có sơ đồ của hệ thống hỏi đáp pháp luật như sau:
+Từ những mô tả và những công nghệ được nêu trên, ta có sơ đồ của hệ thống hỏi đáp pháp luật như sau:}
 
-Mô hình của hệ thống có 5 quá  trình như sau
-\begin{itemize}
-	\item User's question: Người dùng sẽ cung cấp câu hỏi trên web site, từ đó, câu hỏi sẽ được gửi đến phía Back-end để thực hiện quá trình phân tích và tìm kiếm câu trả lời trong cơ sở dữ liệu.
-	\item Word Segment: Đây là bước thực hiện đầu tiên khi câu hỏi được gửi đến phía Back-end, câu hỏi của người dùng sẽ được thực hiện phân tách từ theo ngữ nghĩa để có thể phân tích bước đầu xác định ý nghĩa câu hỏi người dùng.
-	\item Encoding Question: Ở bước này, sau khi câu hỏi của người dùng đã được phân tách từ, câu hỏi sẽ được hệ thống mã hoá để có cùng với dạng dữ liệu với dữ liệu có trong cơ sở dữ liệu.
-	\item Elasticsearch: Tiến hành tìm kiếm câu hỏi của người dùng trong bộ câu hỏi được thu thập có trong cơ sở dữ liệu bằng Elasticsearch.
-	\item Respond answer: Từ kết quả trả về sau khi tìm kiếm trong hệ thống, câu trả lời cho câu hỏi của người dùng cùng với các bộ câu hỏi và câu trả lời có sự tương tự với câu hỏi của người dùng đã nhập vào trong hệ thống sẽ được gửi lên và hiển thị trên website cho người dùng.
-\end{itemize}
+Mô hình của hệ thống có 5 quá  trình như sau:
+
+User's question: Người dùng sẽ cung cấp câu hỏi trên web site, từ đó, câu hỏi sẽ được gửi đến phía Back-end để thực hiện quá trình phân tích và tìm kiếm câu trả lời trong cơ sở dữ liệu.
+
+Word Segment: Đây là bước thực hiện đầu tiên khi câu hỏi được gửi đến phía Back-end, câu hỏi của người dùng sẽ được thực hiện phân tách từ theo ngữ nghĩa để có thể phân tích bước đầu xác định ý nghĩa câu hỏi người dùng.
+
+Encoding Question: Ở bước này, sau khi câu hỏi của người dùng đã được phân tách từ, câu hỏi sẽ được hệ thống mã hoá để có cùng với dạng dữ liệu với dữ liệu có trong cơ sở dữ liệu.
+
+Elasticsearch: Tiến hành tìm kiếm câu hỏi của người dùng trong bộ câu hỏi được thu thập có trong cơ sở dữ liệu bằng Elasticsearch.
+
+Respond answer: Từ kết quả trả về sau khi tìm kiếm trong hệ thống, câu trả lời cho câu hỏi của người dùng cùng với các bộ câu hỏi và câu trả lời có sự tương tự với câu hỏi của người dùng đã nhập vào trong hệ thống sẽ được gửi lên và hiển thị trên website cho người dùng.
+
 
 \begin{figure*}[htp]
 	\centering
 	\includegraphics[scale=0.8]{images/system1_e}
-	\caption{Mô tả hệ thống}
+	\caption{Mô tả hệ thống.}
 	\label{fig:hethong1}
 \end{figure*}
 
@@ -37,13 +41,12 @@ Ta có sơ đồ như sau:
 \begin{figure*}[htp]
 \centering
 \includegraphics[scale=0.5]{images/encodingframe}
-\caption{Hai quy trình Encode Question của hệ thống}
+\caption{Hai quy trình Encode Question của hệ thống.}
 \label{fig:encodingframe}
 \end{figure*}
 
 Nhìn vào sơ đồ, ta thấy được rằng về quy trình cơ bản thì cả hai quy trình này gần giống hệt nhau về các bước xử lý, là từ tách từ ghép rồi tiến hành mã hoá câu hỏi và chỉ khác biệt nhau ở bước xử lý cuối cùng là ở Encode từ dữ liệu thu thập thì dữ liệu sẽ được lưu vào trong Elasticsearch còn ở Encode từ câu hỏi người dùng thì dữ liệu sau khi mã hoá sẽ được tiến hành vào trong bước tiếp theo là tìm kiếm trong Elasticsearch.
 
-\subsection{Usecase}
 \subsection{Mô hình usecase}
 
 Sau khi tìm hiểu về nhu cầu hỏi đáp pháp luật và các yêu cầu về chức năng liên quan đến hệ thống thì chúng em tiến hành đưa ra các chức năng. Vì hệ thống hỏi đáp là một hệ thống đơn giản nên các yêu cầu về chức năng cũng không quá phức tạp. Dưới đây là mô hình Use Case của hệ thống hỏi đáp Pháp luật Việt Nam:
@@ -51,36 +54,33 @@ Sau khi tìm hiểu về nhu cầu hỏi đáp pháp luật và các yêu cầu 
 \begin{figure*}[htp]
 	\centering
 	\includegraphics[scale=0.8]{images/usecasemodel}
-	\caption{Mô hình usecase}
+	\caption{Mô hình usecase.}
 	\label{fig:usecasemodel}
 \end{figure*}
 
 
 \subsection{Mô tả usecase}
 \textbf{Actor}
-\begin{table}[htp]
-	\centering
-	\resizebox{\textwidth}{!}{%
-		\begin{tabular}{|l|l|}
-			\hline
-			Actor & Ý nghĩa                                                                 \\ \hline
-			Người dùng                                           & Người truy cập và sử dụng Website Hệ thống hỏi đáp   Pháp luật Việt Nam \\ \hline
-		\end{tabular}%
-	}
-	\caption{Bảng mô tả Actor}
-	\label{tab:actor}
-\end{table}
+\begin{longtable}{|>{\hspace{0pt}}m{0.142\linewidth}|>{\hspace{0pt}}m{0.8\linewidth}|}
+	\caption{Bảng mô tả Actor}\\ 
+	\hline
+	\textbf{Actor} & \textbf{Ý nghĩa} \endfirsthead 
+	\hline
+	Người dùng & Người truy cập và sử dụng Website Hệ thống hỏi đáp
+	Pháp luật Việt Nam \\
+	\hline
+\end{longtable}
 
 \textbf{Use case }
 \begin{table}[htp]
-	\centering
+	\centering	
+	\caption{Bảng mô tả use case}
 	\begin{tabular}{|l|l|}
 		\hline
 		Use Case ID & Tên Use Case                         \\ \hline
 		UC01        & Hỏi đáp về Pháp luật Việt Nam        \\ \hline
 		UC02        & Xem các câu hỏi và trả lời liên quan \\ \hline
 	\end{tabular}
-	\caption{Bảng mô tả use case}
 	\label{tab:usecase}
 \end{table}
 
@@ -88,44 +88,62 @@ Sau khi tìm hiểu về nhu cầu hỏi đáp pháp luật và các yêu cầu 
 \subsection{Đặc tả Use case}
 
 %table 1
-\begin{table}[htp]
-	\resizebox{\textwidth}{!}{%
-		\begin{tabular}{|l|l|}
-			\hline
-			Use Case ID   & UC01                                                                           \\ \hline
-			Tên Use Case  & Hỏi đáp về Pháp luật Việt Nam                                                  \\ \hline
-			Actor         & Người dùng                                                                     \\ \hline
-			Mô tả         & Use case mô tả cách người dùng thực hiện việc hỏi   đáp Pháp luật trên Website \\ \hline
-			Dòng chính &
-			\begin{tabular}[c]{@{}l@{}}1. Người dùng nhập vào câu hỏi liên quan đến Pháp luật vào ô 'Nhập câu hỏi' \\ 2. Người dùng click vào button 'Hỏi'\\ 3. Hệ thống nhận câu hỏi và đưa ra câu trả lời tương ứng lên giao diện website\end{tabular} \\ \hline
-			Dòng thay thế &
-			\begin{tabular}[c]{@{}l@{}}A1. Người dùng không nhập gì vào ô 'Nhập câu hỏi'\\      A1.1 Hệ thống đưa ra thông báo 'Please fill out thí field': yêu cầu người dùng điền câu hỏi vào ô\end{tabular} \\ \hline
-			Hậu điều kiện & Hệ thống đưa ra câu trả lời cho câu hỏi nhập vào thành công                    \\ \hline
-		\end{tabular}%
-	}
-	\caption{Bảng mô tả use case UC01}
-	\label{tab:usecase01}
-\end{table}
-%table 2
+\begin{longtable}{|>{\hspace{0pt}}m{0.135\linewidth}|>{\hspace{0pt}}m{0.808\linewidth}|}
+	\caption{Bảng đặc tả usecase UC01}\\ 
+	\hline
+	\textbf{Use Case ID} & \textbf{UC01} \endfirsthead 
+	\hline
+	Tên Use Case & Hỏi đáp về Pháp luật Việt Nam \\ 
+	\hline
+	Actor & Người dùng \\ 
+	\hline
+	Mô tả & Use case mô tả cách người dùng thực hiện việc hỏi đáp Pháp luật trên Website \\* 
+	\hline
+	\multirow{3}{0.135\linewidth}{\hspace{0pt}Dòng chính} & 1.~~~~~ Người dùng nhập câu hỏi liên quan đến Pháp luật vào ô “Nhập câu hỏi” \\* 
+	\cline{2-2}
+	& 2.~~~~~ Người dùng click vào button “Hỏi” \\* 
+	\cline{2-2}
+	& 3.~~~~~ Hệ thống nhận câu hỏi đưa câu ra trả lời tương ứng ra ngoài giao diện Website \\* 
+	\hline
+	\multirow{2}{0.135\linewidth}{\hspace{0pt}Thay thế} & A1.  Người dùng không nhập gì vào ô “Nhập câu hỏi” \\* 
+	\cline{2-2}
+	& A1.1.  Hệ thống đưa thông báo “Please fill out this field”: yêu cầu người dùng điền câu hỏi vào ô \\ 
+	\hline
+	Hậu điều kiện & Hệ thống đưa ra câu trả lời cho câu hỏi nhập vào thành công \\
+	\hline
+\end{longtable}
 
-\begin{table}[htp]
-	\resizebox{\textwidth}{!}{%
-		\begin{tabular}{|l|l|}
-			\hline
-			Use Case ID   & UC02                                                                                                                \\ \hline
-			Tên Use Case  & Xem các câu hỏi và trả lời liên quan                                                                                \\ \hline
-			Actor         & Người dùng                                                                                                          \\ \hline
-			Mô tả         & Usecase mô tả cách người dùng xem các câu hỏi và câu trả lời tương ứng liên quan đến câu hỏi được nhập vào trước đó \\ \hline
-			Dòng chính &
-			\begin{tabular}[c]{@{}l@{}}1. Người dùng click vào button 'Xem các câu hỏi liên quan' tại gia diện hệ thống đã đưa ra câu trả lời\\ 2. Hệ thống đưa ra các câu hỏi liên quan đến giao diện website\\ 3. Người dùng click vào nút 'Xem câu trả lời' để xem câu trả lời tương ứng với câu hỏi người dùng quan tâm\\ 4. Hệ thống đưa ra câu trả lời cho câu hỏi được chọn\end{tabular} \\ \hline
-			Dòng thay thế &
-			\begin{tabular}[c]{@{}l@{}}A2. Người dùng click vào nút 'Xem các câu hỏi liên quan một lần nữa để đóng giao diện các câu hỏi liên quan\\ A4. Người dùng click vào nút 'Xem câu trả lời' một lần nữa để ẩn đi câu trả lời\end{tabular} \\ \hline
-			Hậu điều kiện & Hệ thống đưa ra câu trả lời tương ứng thành công                                                                    \\ \hline
-		\end{tabular}%
-	}
-	\caption{Bảng mô tả use case UC02}
-	\label{tab:usecase02}
-\end{table}
+
+%table 2
+\pagebreak
+\begin{longtable}{|>{\hspace{0pt}}m{0.115\linewidth}|>{\hspace{0pt}}m{0.827\linewidth}|}
+	\caption{Bảng mô tả use case UC02}\\ 
+	\hline
+	\textbf{Use Case ID} & \textbf{UC02} \endfirsthead 
+	\hline
+	Tên Use Case & Xem các câu hỏi và trả lời liên quan \\ 
+	\hline
+	Actor & Người dùng \\ 
+	\hline
+	Mô tả & Use case mô tả cách người dùng xem các câu hỏi và câu trả lời tương ứng liên quan đến câu hỏi được nhập vào trước đó \\* 
+	\hline
+	\multirow{4}{0.115\linewidth}{\hspace{0pt}Dòng chính} & 1.~~~~~ Người dùng click vào nút “Xem các câu hỏi liên quan” tại giao diện Hệ thống đã đưa ra câu trả lời \\* 
+	\cline{2-2}
+	& 2.~~~~~ Hệ thống đưa ra các câu hỏi liên quan ra giao diện Website \\* 
+	\cline{2-2}
+	& 3.~~~~~ Người dùng click vào nút “Xem câu trả lời” để xem câu trả lời tương ứng với câu hỏi người dùng quan tâm \\* 
+	\cline{2-2}
+	& 4.~~~~~ Hệ thống đưa ra câu trả lời cho câu hỏi được chọn \\* 
+	\hline
+	\multirow{2}{0.115\linewidth}{\hspace{0pt}Thay thế} & A2.  Người dùng click vào nút ““Xem các câu hỏi liên quan” 1 lần nữa để đóng giao diện các câu trả lời liên quan \\* 
+	\cline{2-2}
+	& A4. Người dùng click vào nút ““Xem câu trả lời” 1 lần nữa để đóng ẩn đi câu trả lời \\ 
+	\hline
+	Hậu điều kiện & Hệ thống đưa ra các câu hỏi và câu trả lời tương ứng thành công thành công \\
+	\hline
+\end{longtable}
+
+
 
 \section{Quy trình thực hiện Scraping Data}
 Ở phần này, vấn đề cần phân tích là công việc đầu tiên cần phải làm trước tiên để bắt đầu cho các công việc sau này. Việc thu thập dữ liệu(\textbf{Scraping data})\cite{Scraping} là bước đầu tiên trong mô hình của hệ thống.
@@ -134,7 +152,7 @@ Dưới đây mà mô hình hoạt động của công việc Scarping data:
 \begin{figure*}[htp]
 	\centering
 	\includegraphics[width=\linewidth,height=20 cm]{images/scraping_schema}
-	\caption{Sơ đồ hoạt động của Scraping data từ website}
+	\caption{Sơ đồ hoạt động của Scraping data từ website.}
 	\label{fig:scraping_data_1}
 \end{figure*}
 \pagebreak
@@ -155,6 +173,7 @@ Sau khi thống nhất về dữ liệu tiến hành thu thập, nhóm đưa ra 
 
 \begin{table*}[htp]
 	\centering
+	\caption{Bảng kiểu dữ liệu thu thập}
 	\label{tab:data-type-table}
 	\begin{tabular}{|l|l|}
 		\hline
@@ -163,7 +182,6 @@ Sau khi thống nhất về dữ liệu tiến hành thu thập, nhóm đưa ra 
 		Answer         & text         \\ \hline
 		Date-asked     & text         \\ \hline
 	\end{tabular}
-	\caption{Bảng kiểu dữ liệu thu thập}
 \end{table*}
 	
 Tiếp đến ta cần phải phân tích file HTML chứa danh sách các câu hỏi, việc cần làm là tìm ra được các Title của các câu hỏi ở đâu và URL dẫn đến trang chứa thông tin câu trả lời. Ở đây, nhóm đã tìm ra được thông tin chứa câu hỏi cũng như câu trả lời nằm ở trong các tag HTML là:
@@ -175,8 +193,8 @@ Tiếp đến ta cần phải phân tích file HTML chứa danh sách các câu 
 
 \begin{figure*}[htp]
 	\centering
-	\includegraphics[scale=0.34]{images/hoidapphapluat}
-	\caption{Giao diện trang web Hỏi đáp pháp luật}
+	\includegraphics[scale=0.32]{images/hoidapphapluat}
+	\caption{Giao diện trang web Hỏi đáp pháp luật.}
 	\label{fig:hoidapphapluat}
 \end{figure*}
 
@@ -187,7 +205,7 @@ Qua giao diện của website thì các câu hỏi sẽ hiển thị ở dạng 
 \begin{figure*}[htp]
 	\centering
 	\includegraphics[scale=0.7]{images/parent_item}
-	\caption{Một block parent-item}
+	\caption{Một block parent-item.}
 	\label{fig:block-parent-item}
 \end{figure*}
 
@@ -197,7 +215,7 @@ Khi mở mã nguồn của trang và tìm tới đoạn của các parent-item t
 \begin{figure*}[htp]
 	\centering
 	\includegraphics[scale=0.8]{images/detail_parent_item}
-	\caption{Chi tiết bên trong mã nguồn parent-item}
+	\caption{Chi tiết bên trong mã nguồn parent-item.}
 	\label{fig:detail-parent-item}
 \end{figure*}
 
@@ -221,9 +239,7 @@ Sau khi kiểm tra URL có sẵn sàng hay không bằng cách kiểm tra status
 
 Sau đấy thì cần lưu lại từng cặp câu hỏi và câu trả lời vào trong file CSV. Lý do nhóm chọn sử dụng file CSV là để lưu xuống file những đoạn text data rất nhanh, định dạng cấu trúc file dễ dàng hơn so với file JSON.
 
-Vì các bước công việc trên là để thực hiện lấy toàn bộ text data từ 1 trang của 1 câu hỏi, vậy nên để 
-
-Sau đấy từ file CSV convert sang file cấu trúc JSON để có thể thuận tiện hơn trong việc gửi lại dữ liệu lên website.
+Vì các bước công việc trên là để thực hiện lấy toàn bộ text data từ 1 trang của 1 câu hỏi, vậy nên để có thể lấy được thông tin của toàn bộ dữ liệu câu hỏi và câu trả lời thì cần phải lặp lại các hành động trên trong tất cả các trang mà website đang hiện có. Sau đấy từ file CSV convert sang file cấu trúc JSON để có thể thuận tiện hơn trong việc gửi lại dữ liệu lên website.
 
 \begin{lstlisting}[language=python]
  with open('/home/lan1', mode='a', newline='', encoding='utf-8') as f:
@@ -258,7 +274,7 @@ Trong mục này, xử lý dữ liệu thu thập là tiến hành việc công 
 \begin{figure*}[htp]
 	\centering
 	\includegraphics[width=\linewidth, height=7 cm]{images/elasticsearch_e}
-	\caption{Quy trình lưu dữ liệu xuống Elastic Search}
+	\caption{Quy trình lưu dữ liệu xuống Elastic Search.}
 	\label{fig:system2_s}
 \end{figure*}
 
@@ -278,7 +294,7 @@ Dòng code này sẽ thực hiện công việc tách các từ ra, phân loại
 \begin{figure*}[htp]
 	\centering
 	\includegraphics[scale=0.8]{images/tokenize}
-	\caption{Tokenize một câu hỏi từ dataset}
+	\caption{Tokenize một câu hỏi từ dataset.}
 	\label{fig:tokenize}
 \end{figure*}
 
@@ -290,8 +306,8 @@ Kết quả sau giai đoạn phân tách sẽ được hệ thống mã hóa, ch
 
 \begin{figure*}[htp]
 	\centering
-	\includegraphics[scale=0.8]{images/encoding_graph}
-	\caption{Quy trình thực hiện Encoding question}
+	\includegraphics[scale=0.7]{images/encoding_graph}
+	\caption{Quy trình thực hiện Encoding question.}
 \end{figure*}
 
 Tại đây, dữ liệu đầu vào sẽ được chức năng Mã hóa thực hiện như sau:
@@ -302,7 +318,7 @@ Tại đây, dữ liệu đầu vào sẽ được chức năng Mã hóa thực 
 	\begin{figure*}[htp]
 		\centering
 		\includegraphics{images/position}
-		\caption{Encoders Input}
+		\caption{Encoders Input.}
 		\label{fig:position}
 	\end{figure*}
 	\item Position Embedding – mã hóa vị trí từ trong câu: kiến trúc của BERT dựa trên kiến trúc của Transformers cho nên việc mã hóa vị trí từ trong câu cũng khá giống nhau. Vì Transformers có khả năng xử lý các từ song song nhưng nếu chỉ xử lý với mô hình Word Embedding sẽ không thể nào mô hình biết được vị trí của các từ để có thể hiểu ngữ nghĩa của câu. Vì vậy, cơ chế mã hóa vị trí từ trong câu xuất hiện để giải quyết vấn đề này bằng cách đưa thông tin vị trí của từ vào trong vector đại diện đầu vào.\\
@@ -320,33 +336,23 @@ Với việc mã hóa thành vector, SimCSE hay PhoBERT hay BERT đều dựa tr
 
 Với mỗi từ, sẽ có ba vector tương ứng là Query, Key và Value. Các vector này được tính toán dựa trên ma trận Word Embedding.
 
-Trong đó:
-\begin{itemize}
-	\item Query: vector đại diện, chứa thông tin của từ được tìm kiếm.
-	\item Key: vector chứa thông tin của các từ được so sánh với vector Query.
-	\item Value: vector chứa thông tin về nội dung, ý nghĩa của các từ trong vector Key.\\
-\end{itemize}
+Trong đó: \textbf{Query} là vector đại diện, chứa thông tin của từ được tìm kiếm.; \textbf{Key} là vector chứa thông tin của các từ được so sánh với vector Query. \textbf{Value} là vector chứa thông tin về nội dung, ý nghĩa của các từ trong vector Key.
+
 Các bước tính toán attention vector có thể tóm lại bằng ba bước:
 
 \begin{itemize}
 	\item Bước 1: Tính ma trận Query, Key và Value dựa trên ma trận dữ liệu đầu vào là Word Embedding cộng với ma trận Position Embedding, tạo ra ba ma trận trọng số tương ứng với ba vector và nhân với ma trận dữ liệu đầu vào.
-	\item Bước 2: Attetnion Score hay còn gọi là điểm tương quan hay trọng số, được tính bằng cách nhân hai ma trận Query và Key để so sánh mối liên hệ giữa các vector, cho ra được sự tương quan giữa chúng. Sau đó, dùng hàm Softmax để chuẩn hóa kết quả về đoạn [0-1] với ý nghĩa 1 là vector Query tương quan với vector Key, 0 là không có sự tương quan nào giữa chúng.
+	\item Bước 2: Attention Score hay còn gọi là điểm tương quan hay trọng số, được tính bằng cách nhân hai ma trận Query và Key để so sánh mối liên hệ giữa các vector, cho ra được sự tương quan giữa chúng. Sau đó, dùng hàm Softmax để chuẩn hóa kết quả về đoạn [0-1] với ý nghĩa 1 là vector Query tương quan với vector Key, 0 là không có sự tương quan nào giữa chúng.
 	\item Bước 3: Tính trọng số kết quả đầu ra bằng cách nhân ma trận kết quả Attention Score với ma trận Value để biểu diễn được thông tin của từ. \\	
 \end{itemize}
 
 \begin{figure*}[htp]
 	\centering
 	\includegraphics{images/matrix_encode}
-	\caption{Ma trân mã hoá dữ liệu của BERT\cite{transformer}}
+	\caption{Ma trận mã hoá dữ liệu của BERT\cite{transformer}.}
 \end{figure*}
-
-Trong thành phần Encoder của Transformers hay của BERT, thành phần Encoder bao gồm hai phần chính là Multi-Head Attention và Feedforward Network. Về bản chất, Multi-Head Attention là bao gồm nhiều lớp Self-Attention với cơ chế Attention đã được trình bày ở trên. Với mỗi Self-Attention sẽ cho ra được một mẫu kết quả khác nhau, nên việc sử dụng nhiều lớp Self-Attention sẽ giúp cho mô hình BERT cho ra kết quả chuẩn, có độ chính xác cao. Nó cho phép mô hình học được sự tương quan của từ dựa trên:
-\begin{itemize}
-	\item Từ kế trước của một từ
-	\item Từ kế sau của một từ
-	\item Những từ liên quan, tương đồng với một từ.
-	
-\end{itemize}
+\pagebreak
+Trong thành phần Encoder của Transformers hay của BERT, thành phần Encoder bao gồm hai phần chính là Multi-Head Attention và Feedforward Network. Về bản chất, Multi-Head Attention là bao gồm nhiều lớp Self-Attention với cơ chế Attention đã được trình bày ở trên. Với mỗi Self-Attention sẽ cho ra được một mẫu kết quả khác nhau, nên việc sử dụng nhiều lớp Self-Attention sẽ giúp cho mô hình BERT cho ra kết quả chuẩn, có độ chính xác cao. Nó cho phép mô hình học được sự tương quan của từ dựa trên: Từ kế trước của một từ; Từ kế sau của một từ; Những từ liên quan, tương đồng với một từ.
 
 Lấy ví dụ người dùng nhập câu hỏi "Vượt đèn đỏ thì xử lý thế nào", sau khi phân tách thành các từ khóa "Vượt", "đèn\_đỏ", "xử\_lý", "thế\_nào", đưa vào mã hóa chuyển thành vector sẽ được nhận được ma trận vector của câu sau mã hóa với độ dài 768 tokens:
 
@@ -366,6 +372,7 @@ Sau khi có được 2 cột dữ liệu cần thiết là Segmented Question v�
 
 \begin{table}[htp]
 	\centering
+	\caption{Bảng kiểu dữ liệu thêm vào cơ sở dữ liệu}
 	\begin{tabular}{|l|l|}
 		\hline
 		Tên thuộc tính & Kiểu dữ liệu \\ \hline
@@ -375,7 +382,6 @@ Sau khi có được 2 cột dữ liệu cần thiết là Segmented Question v�
 		Answer         & text         \\ \hline
 		Title\_vector  & text         \\ \hline
 	\end{tabular}
-	\caption{Bảng kiểu dữ liệu thêm vào cơ sở dữ liệu}
 	\label{tab:data-type-table}
 \end{table}
 
@@ -395,18 +401,18 @@ Lý do để phải thêm 2 cột dữ liệu mới là vì trong khi tính toá
 \begin{figure*}[htp]
 	\centering
 	\includegraphics[width=12 cm]{images/asking}
-	\caption{Quy trình xử lý câu hỏi từ người dùng}
+	\caption{Quy trình xử lý câu hỏi từ người dùng.}
 	\label{fig:asking}
 \end{figure*}
+
 \pagebreak
-Câu hỏi của người dùng sau khi nhập vào từ giao diện website sẽ được gửi từ web server đến phía Back-end của hệ thống. Khi nhận được dữ liệu câu hỏi, hệ thống sẽ bắt đầu thực hiện xử lý câu hỏi của người dùng theo từng bước là:
-\begin{itemize}
-	\item Tách từ trong câu
-	\item Mã hoá câu đã được tách từ
-	\item Tìm kiếm trong cơ sở dữ liệu vector giống với vector câu hỏi nhất
-	\item So sánh mức độ tương đồng với câu hỏi
-	\item Trả về những câu hỏi có mức độ tương đồng ngữ nghĩa với câu hỏi của người dùng cao nhất
-\end{itemize}
+Câu hỏi của người dùng sau khi nhập vào từ giao diện website sẽ được gửi từ web server đến phía Back-end của hệ thống. Khi nhận được dữ liệu câu hỏi, hệ thống sẽ bắt đầu thực hiện xử lý câu hỏi của người dùng theo từng bước là:\\
+1. Tách từ trong câu\\
+2. Mã hoá câu đã được tách từ\\
+3. Tìm kiếm trong cơ sở dữ liệu vector giống với vector câu hỏi nhất\\
+4. So sánh mức độ tương đồng với câu hỏi\\
+5. Trả về những câu hỏi có mức độ tương đồng ngữ nghĩa với câu hỏi của người dùng cao nhất\\
+
 \subsubsection{Tính toán mức độ tương đồng ngữ nghĩa giữa các câu}
 Ở mục này, nhóm sẽ giải quyết bài toán được đặt ra từ trước để có thể tiến hành hoàn thành hệ thống là bài toán tính mức độ tương đồng ngữ nghĩa giữa các câu.
 
@@ -481,7 +487,7 @@ Sau đây là sơ đồ về cách sử dụng mô hình mới:
 \begin{figure*}[htp]
 	\centering
 	\includegraphics[scale=0.5]{images/model_manual}
-	\caption{Mô hình train trên dữ liệu Pháp luật}
+	\caption{Mô hình train trên dữ liệu Pháp luật.}
 	\label{fig:model_manual}
 \end{figure*} 
 
@@ -496,14 +502,14 @@ Bộ dữ liệu huấn luyện mới sẽ bao gồm
 \begin{figure*}[htp]
 	\centering
 	\includegraphics{images/sts_train_data}
-	\caption{Bộ dữ liệu Semantic Textual Similarity}
+	\caption{Bộ dữ liệu Semantic Textual Similarity.}
 	\label{fig:sts-train-data}
 \end{figure*}
 
 \begin{figure*}[htp]
 	\centering
 	\includegraphics[scale=0.7]{images/law-train-data}
-	\caption{Bộ dữ liệu gán nhãn thủ công}
+	\caption{Bộ dữ liệu gán nhãn thủ công.}
 	\label{fig:law-train-data}
 \end{figure*}
 
@@ -511,7 +517,7 @@ Dữ liệu này sẽ được train trên mô hình PhoBERT và được nhúng
 \begin{figure*}[htp]
 	\centering
 	\includegraphics[scale=0.8]{images/inside_model}
-	\caption{Bên trong model mới được trained trên dữ liệu Pháp luật}
+	\caption{Bên trong model mới được trained trên dữ liệu Pháp luật.}
 	\label{fig:inside_model}
 \end{figure*}
 
@@ -539,7 +545,7 @@ Sau đây là sơ đồ quy trình của hệ thống khi đưa dữ liệu từ
 \begin{figure*}[htp]
 	\centering
 	\includegraphics[scale=0.4]{images/WebStructure}
-	\caption{Mô hình hoạt động để lấy dữ liệu từ Back-end lên Front-end}
+	\caption{Mô hình hoạt động để lấy dữ liệu từ Back-end lên Front-end.}
 	\label{fig:webstructure}
 \end{figure*}
 \subsection{Tạo Web server bằng Flask}
@@ -568,4 +574,4 @@ raw\_text = request.form['rawtext']
 
 Ứng dụng sẽ gọi hàm search được import từ utils.py để thực hiện việc tìm kết quả để lưu vào biến results
 
-Biến results và raw\_text sẽ được truyền vào hàm render\_template để gọi render cùng với HTML template
+Biến results và raw\_text sẽ được truyền vào hàm render\_template để gọi render cùng với HTML template.

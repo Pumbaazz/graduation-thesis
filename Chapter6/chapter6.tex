@@ -24,8 +24,8 @@ Nhóm đã có thử đưa ứng dụng lên một máy chủ VPS Azure để c�
 
 Vì giới hạn về kĩ năng cũng như thời gian, hiện tại nhóm đã hoàn thành tốt nhất sản phẩm cho hiện tại nhưng vẫn còn một số hạn chế. Trong tương lai, nhóm sẽ phát triển một số tính năng sau nữa để có thể hoàn thành nhất sản phẩm ví dụ như:
 \begin{itemize}
-	\item [-] Xây dựng thêm tính năng thêm số lượng câu hỏi và câu trả lời vào hệ thống
-	\item [-] Nâng cấp được độ chính xác của model train trên dữ liệu Pháp luật
-	\item [-] Triển khai được hệ thống hoạt động như Web app hoàn chỉnh
+	\item [-] Xây dựng thêm tính năng thêm số lượng câu hỏi và câu trả lời vào hệ thống, vì hiện tại hệ thống chỉ sử dụng trên dữ liệu được lưu trữ sẵn trong cơ sở dữ liệu và không thể thêm dữ liệu mới vào vậy nên khi cần thêm mới bộ câu hỏi và câu trả lời thì nhóm cần phải xây dựng thêm tính năng mới để có thể thêm mới dữ liệu vào được.
+	\item [-] Nâng cấp được độ chính xác của mô hình đào tạo trên dữ liệu Pháp luật. Hiện tại thì mô hình vẫn chỉ dừng lại ở mức độ là kiểm tra câu hỏi của người dùng có tương đồng với dữ liệu có trong cơ sở dữ liệu hay không chứ chưa thể kiểm tra được câu hỏi của người dùng đồng nghĩa hay trái nghĩa với câu hỏi được lưu trữ trong cơ sở dữ liệu. Vậy nên, định hướng để đưa mô hình đạo tạo chính xác hơn thì nhóm cần phải thực hiện được chức năng này.
+	\item [-] Triển khai được hệ thống hoạt động như Web app hoàn chỉnh. Hiện tại vì lý do kinh phí duy trì được lượng dữ liệu trong cơ sở dữ liệu và sử dụng Elasticsearch để tìm kiếm cũng như có đủ phần cứng để chạy được mô hình pre-trained PhoBERT thì cần phải có một phần cứng đủ mạng để có thể chịu được hệ thống. Nhưng do kinh phí để có thể duy trì được một hệ thống như vậy tương đối lớn so với nhóm và cũng như nhóm thể làm kịp được việc triển khai hệ thống nên phần này nhóm sẽ định hướng để phát triển thêm.
 \end{itemize}
 

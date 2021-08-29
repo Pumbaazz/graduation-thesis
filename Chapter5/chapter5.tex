@@ -22,7 +22,7 @@ Sau khi truy cập vào URL trên, Elastic Search sẽ trả về dữ liệu đ
 \begin{figure*}[htp]
 \centering
 \includegraphics[width=\linewidth]{images/elastic_search_result}
-\caption{Dữ liệu được lưu vào trong Elasticsearch sau khi Encode}
+\caption{Dữ liệu được lưu vào trong Elasticsearch sau khi Encode.}
 \label{fig:elastic_search_result}
 \end{figure*}
 \pagebreak
@@ -49,7 +49,7 @@ Kết quả nhận được là:
 \begin{figure*}[htp]
 	\centering
 	\includegraphics{images/res1}
-	\caption{Kết quả của render template}
+	\caption{Kết quả của render template.}
 	\label{fig:res1}
 \end{figure*}
 
@@ -66,7 +66,7 @@ Jinja2 còn có thể dùng để viết ra các hàm để xử lý dữ liệu
 		\begin{figure*}[htp]
 			\centering
 			\includegraphics{images/res2}
-			\caption{Kết quả nhận được khi sử dụng Jinja2}
+			\caption{Kết quả nhận được khi sử dụng Jinja2.}
 			\label{fig:res2}
 		\end{figure*}
 		
@@ -84,7 +84,7 @@ Jinja2 còn có thể dùng để viết ra các hàm để xử lý dữ liệu
 				\begin{figure*}[htp]
 					\centering
 					\includegraphics[scale=0.8]{images/final}
-					\caption{Kết quả nhận được khi nhấn vào button "Xem câu hỏi liên quan"}
+					\caption{Kết quả nhận được khi nhấn vào button "Xem câu hỏi liên quan".}
 					\label{fig:final}
 				\end{figure*}
 \section{Tính đúng đắn của mô hình sau khi đánh giá thủ công}
@@ -99,14 +99,13 @@ Cuối cùng, để đánh giá được mô hình sử dụng trong đồ án c
 Kết quả trả về của từng phương pháp được tính như sau:
 \begin{itemize}
 	\item Phương pháp tìm kiếm bằng từ khoá của Elasticsearch: Kết quả được trả về là kết quả có \textit{\_score} cao nhất. Công thức tính được \textit{\_score} được Elasticsearch giải thích là:
-	
-	$IDF score * TF score * fieldNorms$
-	\begin{itemize}
-		\item 	Trong đó, TF score là tần suất xuất hiện của term trong field. Càng xuất hiện nhiều, relevance càng cao. Term frequency (tf) của t trong document d được tính bằng căn bậc hai của số lần t xuất hiện trong d. Vậy nên ta sẽ có công thức để tính TF score là: $tf(t, d) = \sqrt{frequency}$
-		\item 	IDF score là đánh giá tần suất xuất hiện của term trên toàn bộ index, càng xuất hiện nhiều, càng ít thích hợp. IDF score được tính theo công thức là: $idf(t) = 1 + \log{\frac{numDocs} {docFreq+1}}$
-		\item	fieldNorms là đánh giá độ dài của field. Field càng ngắn, thì term sẽ có giá trị càng cao; và ngược lại. fieldNorms sẽ được tính theo công thức là: $norm(d) =\frac{1}{\sqrt{numTerms}}$
-	\end{itemize}
+	\begin{center}
+	$IDF score * TF score * fieldNorms$\\
+	\end{center}
 
+	Trong đó, TF score là tần suất xuất hiện của term trong field. Càng xuất hiện nhiều, relevance càng cao. Term frequency (tf) của t trong document d được tính bằng căn bậc hai của số lần t xuất hiện trong d. Vậy nên ta sẽ có công thức để tính TF score là: $tf(t, d) = \sqrt{frequency}$\\
+	IDF score là đánh giá tần suất xuất hiện của term trên toàn bộ index, càng xuất hiện nhiều, càng ít thích hợp. IDF score được tính theo công thức là: $idf(t) = 1 + \log{\frac{numDocs} {docFreq+1}}$\\
+	fieldNorms là đánh giá độ dài của field. Field càng ngắn, thì term sẽ có giá trị càng cao; và ngược lại. fieldNorms sẽ được tính theo công thức là: $norm(d) =\frac{1}{\sqrt{numTerms}}$\\
 	Các giá trị này sẽ được Elasticsearch hỗ trợ tính toán.
 	\item Phương pháp sử dụng Pre-trained SimCSE: Kết quả trả là góc nhỏ nhất giữa vector câu hỏi của người dùng và vector câu hỏi có trong cơ sở dữ liệu.
 	\item Phương pháp sử dụng Pre-trained SimCSE kết hợp với mô hình xây dựng trên bộ dữ liệu STS và Pháp luật thì ngoài kết quả là góc của vector thì còn có khoảng cách Euclide giữa các vector đấy là nhỏ nhất.
@@ -117,166 +116,111 @@ Sau khi chọn ra được câu hỏi đầu tiên từ hệ thống thông qua 
 	\item L1 là khi sử dụng bằng cách tìm kiếm từ khoá sử dụng Elasticsearch 
 	\item L2 là khi tìm kiếm bằng mô hình áp dụng Pre-trained SimCSE
 	\item L3 là khi tìm kiếm bằng mô hình sử dụng Pre-trained SimCSE và được sắp xếp lại bằng mô hình tự xây dựng trên dữ liệu STS và dữ liệu Pháp luật gán nhãn thủ công.
+	\item C1 là số lượng câu hỏi được đánh giá có liên quan đến câu hỏi đầu vào ở website hoidap.thuvienphapluat.vn.
+	\item C2 là số lượng câu hỏi được đánh giá có liên quan đến câu hỏi đầu vào ở Hệ thống Hỏi đáp Pháp luật Việt Nam.
+	
 \end{itemize}
 
 \pagebreak
-% Please add the following required packages to your document preamble:
-% \usepackage{lscape}
-% \usepackage{longtable}
-% Note: It may be necessary to compile the document several times to get a multi-page table to line up properly
-\begin{landscape}
-	\begin{longtable}[c]{|r|l|r|r|r|}
-		\hline
-		\multicolumn{1}{|l|}{ID} &
-		Question &
-		\multicolumn{1}{l|}{L1} &
-		\multicolumn{1}{l|}{L2} &
-		\multicolumn{1}{l|}{L3} \\ \hline
-		\endfirsthead
-		%
-		\endhead
-		%
-		1                      & Bán hàng rong có phải đăng ký kinh doanh không ?                   & 1  & 1  & 1  \\ \hline
-		2                      & Điều kiện hưởng lương hưu của sĩ quan, quân nhân                   & 1  & 1  & 1  \\ \hline
-		3                      & Thời hạn sang tên sổ đỏ khi mua bán đất                            & 0  & 0  & 1  \\ \hline
-		4                      & Điều kiện mang thai hộ vì mục đích nhân đạo                        & 0  & 1  & 1  \\ \hline
-		5                      & Có được khai sinh là ngày âm lịch không?                           & 0  & 0  & 0  \\ \hline
-		6                      & Lương và chế độ việc làm của phụ nữ trong thời gian nuôi con nhỏ?  & 0  & 1  & 0  \\ \hline
-		7                      & Mức phạt bán buôn thuốc lá không rõ nguồn gốc xuất xứ?             & 0  & 1  & 1  \\ \hline
-		8                      & Không lập biên bản có được tạm giữ xe không?                       & 1  & 1  & 1  \\ \hline
-		9                      & Mức phạt khi vi phạm về sử dụng lao động chưa thành niên           & 0  & 1  & 0  \\ \hline
-		10                     & Bảo đảm dự thầu áp dụng trong trường hợp nào?                      & 1  & 1  & 1  \\ \hline
-		11                     & Quy trình đấu thầu lại sau khi hủy thầu như thế nào?               & 0  & 0  & 0  \\ \hline
-		12                     & Thời gian nộp, thời gian hoàn trả bảo đảm thực hiện hợp đồng       & 0  & 0  & 0  \\ \hline
-		13                     & Hỏi về thời điểm đóng thầu                                         & 0  & 0  & 0  \\ \hline
-		14                     & Có được bổ sung nhà thầu liên danh?                                & 0  & 1  & 1  \\ \hline
-		15                     & So sánh đầu tư trực tiếp nước ngoài và đầu tư gián tiếp nước ngoài & 0  & 0  & 0  \\ \hline
-		16                     & Thủ tục chuyển nhượng dự án đầu tư cho nhà đầu tư nước ngoài       & 1  & 1  & 1  \\ \hline
-		17                     & Thành lập chi nhánh công ty có vốn đầu tư nước ngoài cần làm gì?   & 0  & 0  & 1  \\ \hline
-		18                     & Độ tuổi được lập di chúc?                                          & 0  & 1  & 1  \\ \hline
-		19                     & Dưới 18 tuổi có được phép lập di chúc không?                       & 1  & 1  & 0  \\ \hline
-		20 &
-		Nếu có nhiều di chúc ở nhiều thời điểm khác nhau, di chúc nào có hiệu lực? &
-		1 &
-		1 &
-		1 \\ \hline
-		21                     & Các trường hợp nào cháu được hưởng di sản thừa kế của ông bà?      & 0  & 1  & 1  \\ \hline
-		22                     & Con riêng có được hưởng thừa kế?                                   & 1  & 1  & 1  \\ \hline
-		23                     & Không thực hiện nghĩa vụ phụng dưỡng cha mẹ có được hưởng thừa kế? & 1  & 1  & 1  \\ \hline
-		24                     & Tiền phúng viếng là tài sản của ai?                                & 0  & 0  & 1  \\ \hline
-		25                     & Người đã chết có được hưởng di sản thừa kế không?                  & 0  & 1  & 1  \\ \hline
-		26                     & Quy định về phân chia di sản thừa kế theo pháp luật mới nhất       & 1  & 0  & 1  \\ \hline
-		27                     & Điều kiện có hiệu lực của di chúc bằng miệng?                      & 1  & 1  & 1  \\ \hline
-		28                     & Chưa có giấy chứng nhận quyền sử dụng đất chia thừa kế được không? & 0  & 1  & 1  \\ \hline
-		29                     & Đánh bạc nhiều lần bị phạt thế nào?                                & 0  & 0  & 0  \\ \hline
-		30                     & Xử phạt khi sử dụng ma túy lần đầu?                                & 0  & 1  & 0  \\ \hline
-		31                     & Ép người yêu phá thai, ép vợ bỏ con có vi phạm pháp luật không?    & 1  & 1  & 0  \\ \hline
-		32                     & Bị quấy rối bằng điện thoại phải làm sao?                          & 0  & 1  & 1  \\ \hline
-		33                     & Xử lý hành vi lừa đảo chiếm đoạt tài sản?                          & 1  & 1  & 1  \\ \hline
-		34                     & Quy định về độ tuổi phải chịu trách nhiệm hình sự mới nhất         & 0  & 1  & 1  \\ \hline
-		35                     & Giám định thương tật ở đâu?                                        & 0  & 0  & 0  \\ \hline
-		36 &
-		Vào nhà nghỉ với người yêu có bị coi là mại dâm, mua bán dâm không? &
-		1 &
-		1 &
-		1 \\ \hline
-		37                     & Cố ý gây thương tích đi tù mấy năm?                                & 0  & 1  & 1  \\ \hline
-		38                     & Năm 2020, say rượu đánh người gây thương tích bị phạt như thế nào? & 0  & 1  & 0  \\ \hline
-		39                     & Điều kiện, thủ tục bảo lãnh tại ngoại?                             & 0  & 0  & 0  \\ \hline
-		40                     & Xử lý hành vi tuyên truyền chống phá nhà nước trên mạng xã hội     & 0  & 0  & 0  \\ \hline
-		41                     & Xử lý hành vi vu khống người khác?                                 & 1  & 1  & 0  \\ \hline
-		42 &
-		Giao cấu với trẻ em dưới 16 tuổi nhưng tự nguyện có phải đi tù không? &
-		1 &
-		1 &
-		1 \\ \hline
-		43                     & Mua xe không rõ nguồn gốc rõ ràng có phạm tội không?               & 1  & 1  & 1  \\ \hline
-		44                     & Tội trốn tránh thực hiện nghĩa vụ quân sự                          & 1  & 0  & 1  \\ \hline
-		45                     & Chơi xóc đĩa bị xử lý như thế nào?                                 & 0  & 1  & 1  \\ \hline
-		46                     & Xâm phạm mồ mả bị xử phạt như thế nào?                             & 0  & 1  & 1  \\ \hline
-		47                     & Thẩm quyền của cảnh sát điều tra cấp huyện                         & 1  & 1  & 0  \\ \hline
-		48 &
-		Tự ý đăng thông tin cá nhân của người khác lên mạng xã hội bị xử lý thế nào? &
-		1 &
-		1 &
-		0 \\ \hline
-		49                     & Buôn bán thuốc lá lậu có bị truy cứu trách nhiệm hình sự           & 0  & 1  & 0  \\ \hline
-		50                     & Dùng dao chém người có phạm tội nặng không?                        & 0  & 1  & 1  \\ \hline
-		51                     & Chủ hụi ôm tiền bỏ trốn có bị truy cứu hình sự không?              & 0  & 0  & 0  \\ \hline
-		52                     & Xử lý hành vi làm giả giấy tờ cho người khác xuất cảnh             & 0  & 1  & 0  \\ \hline
-		53                     & Ép buộc trẻ em uống rượu có phạm tội không?                        & 0  & 1  & 0  \\ \hline
-		54 &
-		Phân biệt lỗi cố ý gián tiếp và lỗi vô ý vì quá tự tin trong hình sự &
-		1 &
-		1 &
-		1 \\ \hline
-		55                     & Trình tự, thủ tục khám xét nhà ở của công dân                      & 1  & 1  & 1  \\ \hline
-		56                     & Sử dụng giấy tờ, tài liệu giả có phạm tội không?                   & 1  & 1  & 0  \\ \hline
-		57                     & Công dân được quyền tố cáo khi nào?                                & 0  & 0  & 0  \\ \hline
-		58                     & Chủ nợ có được phép đập phá tài sản của con nợ?                    & 1  & 1  & 0  \\ \hline
-		59                     & Hành vi đe dọa tung video nhạy cảm bị xử lý như thế nào?           & 0  & 1  & 1  \\ \hline
-		60                     & Nhặt được ví không trả lại tiền bị xử lý thế nào?                  & 1  & 1  & 0  \\ \hline
-		61                     & Rủ bạn đi ăn trộm thì có phải là đồng phạm không?                  & 0  & 1  & 0  \\ \hline
-		62 &
-		Có bị truy cứu trách nhiệm hình sự khi người bị hại đã rút đơn yêu cầu không? &
-		0 &
-		1 &
-		0 \\ \hline
-		63                     & Làm giả thẻ sinh viên có phải là hành vi vi phạm pháp luật?        & 0  & 0  & 0  \\ \hline
-		64                     & Giáo viên có được phép nhắn tin quan tâm tình cảm với học sinh     & 1  & 1  & 1  \\ \hline
-		65                     & Hình phạt đối với tội lây truyền HIV cho người khác                & 1  & 1  & 0  \\ \hline
-		66                     & Quy định về ủy thác điều tra khi nào?                              & 1  & 1  & 0  \\ \hline
-		67 &
-		Hacker xâm phạm vào máy tính của người khác để lấy tiền thì phạm tội gì? &
-		0 &
-		1 &
-		0 \\ \hline
-		68                     & Tiền chạy việc có đòi lại được không?                              & 0  & 1  & 0  \\ \hline
-		69                     & Hỏi về trường hợp giả mạo công an                                  & 0  & 0  & 0  \\ \hline
-		70                     & Mượn xe rồi bỏ trốn thì phải xử lý như thế nào?                    & 1  & 1  & 1  \\ \hline
-		71                     & Dùng thẻ chơi game online có vi phạm pháp luật không?              & 0  & 0  & 0  \\ \hline
-		72                     & Hỏi về tội phạm tham nhũng trong Bộ luật hình sự                   & 0  & 1  & 0  \\ \hline
-		73                     & Tin nhắn có được coi là chứng cứ của vụ án hình sự?                & 0  & 1  & 0  \\ \hline
-		74                     & Xử lý hành vi cho nước thải vào đồ uống                            & 0  & 0  & 0  \\ \hline
-		75                     & Trộm cắp lần đầu bị xử lý thế nào?                                 & 1  & 1  & 1  \\ \hline
-		76                     & Các trường hợp được hoãn thi hành án phạt tù                       & 1  & 1  & 1  \\ \hline
-		77                     & Cảnh sát hình sự có được quyền dừng phương tiện giao thông không?       & 1  & 0  & 0  \\ \hline
-		78                     & Hành vi tham nhũng nào bị truy cứu trách nhiệm hình sự?            & 0  & 1  & 1  \\ \hline
-		79                     & Người tâm thần có phải gánh chịu trách nhiệm trước pháp luật       & 1  & 1  & 1  \\ \hline
-		80                     & Đánh kẻ trộm chó có phạm tội không?                                & 0  & 0  & 0  \\ \hline
-		81                     & Có được kinh doanh côn nhị khúc không?                             & 1  & 1  & 1  \\ \hline
-		82                     & Ghi hộ lô đề có phải chịu trách nhiệm hình sự không?               & 0  & 0  & 0  \\ \hline
-		83                     & Cá độ bóng đá bao nhiêu tiền thì bì truy cứu trách nhiệm hình sự?  & 1  & 1  & 0  \\ \hline
-		84                     & Khám xét chỗ ở không có lệnh có vi phạm không?                     & 0  & 1  & 0  \\ \hline
-		85                     & Mua bán xe máy bằng giấy tờ giả xử lý như thế nào?                 & 1  & 1  & 1  \\ \hline
-		86                     & Làm thế nào để tố cáo người khác ngoại tình?                       & 1  & 1  & 1  \\ \hline
-		87                     & Thời hạn nhận lại xe bị mất trộm từ cơ quan công an                & 1  & 1  & 0  \\ \hline
-		88                     & Trường hợp được giảm nhẹ trách nhiệm hình sự                       & 0  & 1  & 1  \\ \hline
-		89                     & Sự kiện bất khả kháng là sự kiện xảy ra như thế nào?               & 1  & 1  & 1  \\ \hline
-		90                     & Quy định về tội mua bán người như thế nào?                         & 1  & 1  & 1  \\ \hline
-		91                     & Mức án phạt đối với tội bắt cóc nhằm chiếm đoạt tài sản            & 1  & 1  & 0  \\ \hline
-		92                     & Trách nhiệm về hành vi giết con mới đẻ                             & 0  & 0  & 1  \\ \hline
-		93                     & Bị cáo có thể yêu cầu thay đổi luật sư bên nguyên đơn không?       & 0  & 0  & 0  \\ \hline
-		94                     & Đi sai làn đường bị xử phạt như thế nào?                         & 0  & 1  & 0  \\ \hline
-		95                     & Chế tạo súng hơi có cồn có vi phạm pháp luật hay không?  & 0  & 1  & 1  \\ \hline
-		96                     & Trẻ em móc túi có bị chịu trách nhiệm hình sự?                     & 0  & 0  & 0  \\ \hline
-		97                     & Lái xe trong tình trang say bị xử lý thế nào?                      & 0  & 1  & 0  \\ \hline
-		98                     & Lạm dụng chức vụ, quyền hạn chiếm đoạt tài sản xử lý như thế nào?  & 1  & 1  & 0  \\ \hline
-		99                     & Xử lý hành vi ngược đãi với cha mẹ                                 & 0  & 1  & 0  \\ \hline
-		100                    & Tạt axit vào người khác có phạm tội gì không?                      & 1  & 1  & 1  \\ \hline
-		\multicolumn{1}{|l|}{} &                                                                    & 43 & 74 & 49 \\ \hline
-		\caption{Bảng 100 câu hỏi dùng để kiểm tra độ chính xác của mô hình}
-		\label{tab:Bảng 100 câu hỏi dùng để kiểm tra độ chính xác của model}\\
-	\end{longtable}
-\end{landscape}
+
+\begin{longtable}{|>{\hspace{0pt}}m{0.038\linewidth}|>{\hspace{0pt}}m{0.531\linewidth}|>{\hspace{0pt}}m{0.038\linewidth}|>{\hspace{0pt}}m{0.038\linewidth}|>{\hspace{0pt}}m{0.038\linewidth}|>{\hspace{0pt}}m{0.04\linewidth}|>{\hspace{0pt}}m{0.042\linewidth}|}
+	\caption{Bảng rút gọn 100 câu hỏi dùng để kiểm tra độ chính xác của model}\\ 
+	\hline
+	\textbf{ID} & \textbf{Question} & \textbf{L1} & \textbf{L2} & \textbf{L3} & \textbf{C1} & \textbf{C2} \endfirsthead 
+	\hline
+	1 & Bán hàng rong có phải đăng ký kinh doanh không ? & 1 & 1 & 1 & 1 & 8 \\ 
+	\hline
+	2 & Điều kiện hưởng lương hưu của sĩ quan, quân nhân & 1 & 1 & 1 & 1 & 6 \\ 
+	\hline
+	3 & Thời hạn sang tên sổ đỏ khi mua bán đất & 0 & 0 & 1 & 2 & 10 \\ 
+	\hline
+	4 & Điều kiện mang thai hộ vì mục đích nhân đạo & 0 & 1 & 1 & 8 & 10 \\ 
+	\hline
+	5 & Có được khai sinh là ngày âm lịch không? & 0 & 0 & 0 & 2 & 1 \\ 
+	\hline
+	6 & Lương và chế độ việc làm của phụ nữ trong thời gian nuôi con nhỏ? & 0 & 1 & 0 & 0 & 8 \\ 
+	\hline
+	7 & Mức phạt bán buôn thuốc lá không rõ nguồn gốc xuất xứ? & 0 & 1 & 1 & 1 & 10 \\ 
+	\hline
+	8 & Không lập biên bản có được tạm giữ xe không? & 1 & 1 & 1 & 2 & 9 \\ 
+	\hline
+	9 & Mức phạt khi vi phạm về sử dụng lao động chưa thành niên & 0 & 1 & 0 & 0 & 7 \\ 
+	\hline
+	10 & Bảo đảm dự thầu áp dụng trong trường hợp nào? & 1 & 1 & 1 & 2 & 8 \\ 
+	\hline
+	11 & Quy trình đấu thầu lại sau khi hủy thầu như thế nào? & 0 & 0 & 0 & 0 & 5 \\ 
+	\hline
+	12 & Thời gian nộp, thời gian hoàn trả bảo đảm thực hiện hợp đồng & 0 & 0 & 0 & 2 & 6 \\ 
+	\hline
+	13 & Hỏi về thời điểm đóng thầu & 0 & 0 & 0 & 0 & 5 \\ 
+	\hline
+	14 & Có được bổ sung nhà thầu liên danh? & 0 & 1 & 1 & 1 & 6 \\ 
+	\hline
+	15 & So sánh đầu tư trực tiếp nước ngoài và đầu tư gián tiếp nước ngoài & 0 & 0 & 0 & 1 & 9 \\ 
+	\hline
+	16 & Thủ tục chuyển nhượng dự án đầu tư cho nhà đầu tư nước ngoài & 1 & 1 & 1 & 7 & 7 \\ 
+	\hline
+	17 & Thành lập chi nhánh công ty có vốn đầu tư nước ngoài cần làm gì? & 0 & 0 & 1 & 4 & 5 \\ 
+	\hline
+	18 & Độ tuổi được lập di chúc?~ & 0 & 1 & 1 & 1 & 7 \\ 
+	\hline
+	19 & Dưới 18 tuổi có được phép lập di chúc không? & 1 & 1 & 0 & 0 & 10 \\ 
+	\hline
+	20 & Nếu có nhiều di chúc ở nhiều thời điểm khác nhau, di chúc nào có hiệu lực? & 1 & 1 & 1 & 4 & 7 \\ 
+	\hline
+	21 & Các trường hợp nào cháu được hưởng di sản thừa kế của ông bà? & 0 & 1 & 1 & 2 & 10 \\ 
+	\hline
+	22 & Con riêng có được hưởng thừa kế? & 1 & 1 & 1 & 6 & 10 \\ 
+	\hline
+	23 & Không thực hiện nghĩa vụ phụng dưỡng cha mẹ có được hưởng thừa kế? & 1 & 1 & 1 & 0 & 2 \\ 
+	\hline
+	24 & Tiền phúng viếng là tài sản của ai? & 0 & 0 & 1 & 0 & 8 \\ 
+	\hline
+	25 & Người đã chết có được hưởng di sản thừa kế không? & 0 & 1 & 1 & 0 & 8 \\ 
+	\hline
+	26 & Quy định về phân chia di sản thừa kế theo pháp luật mới nhất & 1 & 0 & 1 & 2 & 9 \\ 
+	\hline
+	27 & Điều kiện có hiệu lực của di chúc bằng miệng? & 1 & 1 & 1 & 3 & 9 \\ 
+	\hline
+	28 & Chưa có giấy chứng nhận quyền sử dụng đất chia thừa kế được không? & 0 & 1 & 1 & 0 & 8 \\ 
+	\hline
+	29 & Đánh bạc nhiều lần bị phạt thế nào? & 0 & 0 & 0 & 2 & 10 \\ 
+	\hline
+	30 & Xử phạt khi sử dụng ma túy lần đầu? & 0 & 1 & 0 & 0 & 5 \\
+	\hline
+\end{longtable}
+
 \pagebreak
 
+Qua bảng kết quả đánh giá trên thì nhóm có công thức để đánh giá kết quả tìm kiếm bằng 3 phương pháp trên là:
+
+\begin{center}
+	$result = \frac{\sum_{t=1}^{N}(L_{i}(1))}{N}$    
+\end{center}
+
+Với 
+\begin{itemize}
+	\item \textbf{$\sum_{t=1}^{N}(L_{i}(1))$} là tổng số các giá trị bằng 1 có trong bảng đánh giá của cột kết quả đánh giá L1, L2, L3
+	\item \textbf{N} là tổng số câu hỏi được đem ra làm mẫu để đánh giá các phương pháp, ở đây N có giá trị là 100.
+\end{itemize}
+
+\begin{center}
+	$result' = \frac{\sum_{t=1}^{N}(C_{i}(1))}{N*10}$    
+\end{center}
+\begin{itemize}
+	\item $C_{i}$  là số lượng câu hỏi được đánh giá có liên quan đến câu hỏi đầu vào.
+	\item $N$ là tổng số câu hỏi được test, $N$=100.
+	
+\end{itemize}
 Kết quả trả về đầu tiên mà hệ thống trả về sẽ được các thành viên đánh giá thủ công. Kết quả nào được thành viên kiểm thử đánh giá là đúng so với câu hỏi người dùng thì sẽ có giá trị là \textbf{1} và ngược lại.
 
 \begin{itemize}
 	\item Phương pháp tìm kiếm bằng Elasticsearch: 43\%
 	\item Phương pháp tìm kiếm bằng mô hình Pre-trained SimCSE: 74\%
 	\item Phương pháp tìm kiếm bằng mô hình Pre-trained SimCSE kết hợp với mô hình xây dựng trên dữ liệu Luật pháp: 49\%
+	\item Hệ thống website hoidap.thuvienphapluat.vn: 8.2\% 
+	\item Hệ thống Hỏi đáp Pháp luật Việt Nam: 74\% 
+	
 \end{itemize}
 
 Qua kết quả đánh giá, mặc dù Elasticsearch rất có danh tiếng trong khả năng tìm kiếm dữ liệu với độ chính xác cao và nhanh chóng, nhưng khi áp dụng trí tuệ nhân tạo vào trong bài toán tìm kiếm thì độ chính xác của việc tìm kiếm đã được cải thiện tới 31\%. Bên cạnh đó, việc đào tạo trên dữ liệu Pháp luật với khối lượng dữ liệu Pháp luật nhỏ(chỉ 400 dòng dữ liệu) đã có cải thiện hơn 6\% so với khi chỉ sử dụng tìm kiếm bằng từ khoá thông thường. Vậy nên, nếu như mô hình được đào tạo và xây dựng lại với khối lượng dữ liệu nhiều hơn thì việc nâng cao độ chính xác của mô hình lên là việc chắc chắn sẽ xảy ra. 
