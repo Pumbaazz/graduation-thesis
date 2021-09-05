@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.8.27)  29 AUG 2021 15:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.8.27)  5 SEP 2021 20:46
 entering extended mode
 **./main.tex
 (main.tex
@@ -1229,18 +1229,12 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (main.bbl
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'TransformerModel':
-(biblatex)                - Invalid format of field 'date' 
-(biblatex)                - Invalid format of field 'date'.
-
-)
+ (main.bbl)
 Package biblatex Info: Reference section=0 on input line 137.
 Package biblatex Info: Reference segment=0 on input line 137.
 Package hyperref Info: Link coloring OFF on input line 137.
- (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+
+(C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
 (C:\Users\nguyn\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
@@ -2111,12 +2105,6 @@ mtt/m/n/14.4 https :
  []
 
 
-Overfull \hbox (0.27524pt too wide) in paragraph at lines 186--186
-[]\T5/cmr/m/n/14.4 Google. ``Mea-sur-ing Sim-i-lar-ity from Em-bed-dings''. In:
- (). \T5/cmr/m/sc/14.4 url\T5/cmr/m/n/14.4 : []$\T5/cmtt/m/n/14.4 https :
- []
-
-
 Overfull \hbox (28.27399pt too wide) in paragraph at lines 186--186
 \T5/cmtt/m/n/14.4 com / vi / tutorials / scraping -[] webpages -[] in -[] pytho
 n -[] with -[] beautiful -[]
@@ -2129,18 +2117,24 @@ Overfull \hbox (23.88438pt too wide) in paragraph at lines 186--186
 luat .
  []
 
+[69
 
+
+
+]
 Overfull \hbox (0.23653pt too wide) in paragraph at lines 186--186
 []\T5/cmr/m/it/14.4 Translate to Vi Se-man-tic Tex-tual Sim-i-lar-ity 2012-2017
  Dataset\T5/cmr/m/n/14.4 . 2021.
  []
 
-[69
 
+Overfull \hbox (41.97667pt too wide) in paragraph at lines 186--186
+\T5/cmtt/m/n/14.4 tree / master / examples / datasets / stsbenchmark$[] \T5/cmr
+/m/n/14.4 (vis-ited on 06/20/2021). 
+ []
 
-
-] [70] (main.aux (Appendix/thanks.aux) (Appendix/nhanxetgiaovienhuongdan.aux) (
-Appendix/nhanxetgiaovienphanbien.aux) (Chapter1/chapter1.aux)
+[70] (main.aux (Appendix/thanks.aux) (Appendix/nhanxetgiaovienhuongdan.aux)
+(Appendix/nhanxetgiaovienphanbien.aux) (Chapter1/chapter1.aux)
 (Chapter2/chapter2.aux) (Chapter3/chapter3.aux) (Chapter4/chapter4.aux)
 (Chapter5/chapter5.aux) (Chapter6/chapter6.aux))
 
@@ -2154,8 +2148,8 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  31513 strings out of 478864
- 579357 string characters out of 2848660
- 1347531 words of memory out of 3000000
+ 579069 string characters out of 2848660
+ 1347820 words of memory out of 3000000
  48477 multiletter control sequences out of 15000+600000
  419313 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2183,7 +2177,7 @@ ex/vnr/vnr17.pfb><C:/Users/nguyn/AppData/Local/Programs/MiKTeX/fonts/type1/vnte
 x/vnr/vnr6.pfb><C:/Users/nguyn/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/
 vnr/vnti12.pfb><C:/Users/nguyn/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/
 vnr/vntt12.pfb>
-Output written on main.pdf (81 pages, 2706633 bytes).
+Output written on main.pdf (81 pages, 2706968 bytes).
 PDF statistics:
  1212 PDF objects out of 1440 (max. 8388607)
  356 named destinations out of 1000 (max. 500000)

@@ -34,6 +34,9 @@
     \verb{url}
     \verb https://github.com/DatCanCode/sentence-transformers
     \endverb
+    \field{urlday}{02}
+    \field{urlmonth}{05}
+    \field{urlyear}{2021}
   \endentry
 
   \entry{ES}{online}{}
@@ -45,6 +48,9 @@
     \verb https://viblo.asia/p/elasticsearch-la-gi-1Je5E8RmlnL
     \endverb
     \field{year}{2021}
+    \field{urlday}{01}
+    \field{urlmonth}{02}
+    \field{urlyear}{2021}
   \endentry
 
   \entry{gao2021simcse}{article}{}
@@ -77,9 +83,12 @@
     \field{title}{{SimCSE}: Simple Contrastive Learning of Sentence Embeddings}
     \field{journaltitle}{arXiv preprint arXiv:2104.08821}
     \field{year}{2021}
+    \field{urlday}{30}
+    \field{urlmonth}{04}
+    \field{urlyear}{2021}
   \endentry
 
-  \entry{MeasureSimilarityGoogle}{article}{}
+  \entry{MeasureSimilarityGoogle}{online}{}
     \name{author}{1}{}{%
       {{hash=G}{%
          family={Google},
@@ -97,6 +106,10 @@
     \verb https://developers.google.com/machine-learning/clustering/similarit
     \verb y/measuring-similarity
     \endverb
+    \field{year}{2021}
+    \field{urlday}{19}
+    \field{urlmonth}{06}
+    \field{urlyear}{2021}
   \endentry
 
   \entry{Scraping}{online}{}
@@ -108,7 +121,10 @@
     \verb https://code.tutsplus.com/vi/tutorials/scraping-webpages-in-python-
     \verb with-beautiful-soup-the-basics--cms-28211
     \endverb
-    \field{year}{2020}
+    \field{year}{2021}
+    \field{urlday}{11}
+    \field{urlmonth}{03}
+    \field{urlyear}{2021}
   \endentry
 
   \entry{PhoBERT}{article}{}
@@ -138,6 +154,9 @@
     \endverb
     \field{journaltitle}{Findings of EMNLP}
     \field{year}{2020}
+    \field{urlday}{23}
+    \field{urlmonth}{05}
+    \field{urlyear}{2021}
   \endentry
 
   \entry{sentencetransformer}{article}{}
@@ -160,6 +179,9 @@
     \verb https://huggingface.co/blog/sentence-transformers-in-the-hub
     \endverb
     \field{year}{2020}
+    \field{urlday}{30}
+    \field{urlmonth}{04}
+    \field{urlyear}{2021}
   \endentry
 
   \entry{PhoBERT_VNMESE}{online}{}
@@ -173,6 +195,9 @@
     \verb ZY3
     \endverb
     \field{year}{2021}
+    \field{urlday}{02}
+    \field{urlmonth}{05}
+    \field{urlyear}{2021}
   \endentry
 
   \entry{ThuVien}{online}{}
@@ -183,6 +208,9 @@
     \verb{url}
     \verb https://hoidap.thuvienphapluat.vn
     \endverb
+    \field{urlday}{10}
+    \field{urlmonth}{03}
+    \field{urlyear}{2021}
   \endentry
 
   \entry{transformer}{online}{}
@@ -193,7 +221,9 @@
     \verb{url}
     \verb https://pbcquoc.github.io/transformer/
     \endverb
-    \field{year}{2021}
+    \field{urlday}{16}
+    \field{urlmonth}{04}
+    \field{urlyear}{2021}
   \endentry
 
   \entry{pyvi}{article}{}
@@ -216,6 +246,9 @@
     \verb https://github.com/trungtv/pyvi
     \endverb
     \field{year}{2021}
+    \field{urlday}{18}
+    \field{urlmonth}{04}
+    \field{urlyear}{2021}
   \endentry
 
   \entry{train_data}{online}{}
@@ -229,6 +262,9 @@
     \verb mples/datasets/stsbenchmark
     \endverb
     \field{year}{2021}
+    \field{urlday}{20}
+    \field{urlmonth}{06}
+    \field{urlyear}{2021}
   \endentry
 
   \entry{FlaskAPIWeb}{online}{}
@@ -240,6 +276,9 @@
     \verb https://vimentor.com/vi/lesson/5-xay-dung-web-api-voi-flask
     \endverb
     \field{year}{2021}
+    \field{urlday}{06}
+    \field{urlmonth}{06}
+    \field{urlyear}{2021}
   \endentry
 
   \entry{TransformerModel}{article}{}
@@ -270,8 +309,10 @@
     \verb{url}
     \verb https://arxiv.org/abs/2009.13658
     \endverb
-    \warn{\item Invalid format of field 'date' \item Invalid format of field
-  'date'}
+    \field{year}{2020}
+    \field{urlday}{28}
+    \field{urlmonth}{06}
+    \field{urlyear}{2021}
   \endentry
 \enddatalist
 \endinput
